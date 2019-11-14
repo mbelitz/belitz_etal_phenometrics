@@ -1,3 +1,6 @@
+library(truncnorm)
+library(ggplot2)
+
 ### Set up simulated bimodal distributions ###
 
 #10 SD
