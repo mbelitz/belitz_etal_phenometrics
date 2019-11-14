@@ -1,13 +1,11 @@
 # load libraries
-library(ggplot2)
 library(parallel)
 library(phest)
 library(dplyr)
 
-
 # load in unimodal distributions
 
-source("simulation_setup/unimodal_distribution_setup.R")
+source("simulation_setup/bimodal_distribution_setup.R")
 
 # lapply functions
 

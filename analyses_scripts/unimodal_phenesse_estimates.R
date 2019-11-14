@@ -1,9 +1,9 @@
 # load libraries
-
-library(ggplot2)
 library(parallel)
-library(phest)
 library(dplyr)
+library(devtools)
+install_github("mbelitz/phenesse")
+library(phenesse)
 
 # load in unimodal distributions
 
@@ -20,29 +20,29 @@ onsetestimator_noci <- function(x){
 #onset
 
 # 10 obs 10 sd
-onset10obs_10sd <- unlist(mclapply(list_10obs_10sd, FUN = onsetestimator_noci,mc.cores = 20)) # already run
+onset10obs_10sd <- unlist(mclapply(list_10obs_10sd, FUN = onsetestimator_noci,mc.cores = 10)) # already run
 onset10obs_10sd_df <- as.data.frame(split(onset10obs_10sd, 1:1))
 
 # 10 obs 20 sd
-onset10obs_20sd <- unlist(mclapply(list_10obs_20sd, FUN = onsetestimator_noci, mc.cores = 20))
+onset10obs_20sd <- unlist(mclapply(list_10obs_20sd, FUN = onsetestimator_noci, mc.cores = 10))
 onset10obs_20sd_df <- as.data.frame(split(onset10obs_20sd, 1:1))
 
 # 10 obs 40 sd
-onset10obs_40sd <- unlist(mclapply(list_10obs_40sd, FUN = onsetestimator_noci, mc.cores = 20))
+onset10obs_40sd <- unlist(mclapply(list_10obs_40sd, FUN = onsetestimator_noci, mc.cores = 10))
 onset10obs_40sd_df <- as.data.frame(split(onset10obs_40sd, 1:1))
 
 ###### 20 Obs ####
 
 # 20 obs 10 sd
-onset20obs_10sd <- unlist(mclapply(list_20obs_10sd, FUN = onsetestimator_noci, mc.cores = 20))
+onset20obs_10sd <- unlist(mclapply(list_20obs_10sd, FUN = onsetestimator_noci, mc.cores = 15))
 onset20obs_10sd_df <- as.data.frame(split(onset20obs_10sd, 1:1))
 
 # 20 obs 20 sd
-onset20obs_20sd <- unlist(mclapply(list_20obs_20sd, FUN = onsetestimator_noci, mc.cores = 20))
+onset20obs_20sd <- unlist(mclapply(list_20obs_20sd, FUN = onsetestimator_noci, mc.cores = 15))
 onset20obs_20sd_df <- as.data.frame(split(onset20obs_20sd, 1:1))
 
 # 20 obs 40 sd
-onset20obs_40sd <- unlist(mclapply(list_20obs_40sd, FUN = onsetestimator_noci, mc.cores = 20))
+onset20obs_40sd <- unlist(mclapply(list_20obs_40sd, FUN = onsetestimator_noci, mc.cores = 15))
 onset20obs_40sd_df <- as.data.frame(split(onset20obs_40sd, 1:1))
 
 ########## 50 obs now y'all ########
@@ -1072,22 +1072,22 @@ offset50obs_40sd_df <-  as.data.frame(split(offset50obs_40sd, 1:1))
 
 offset10obs_10sd_df <- offset10obs_10sd_df %>% 
   rename(estimate = X1) %>%  
-  mutate(true_valvue = 238.1) %>% 
-  mutate(distance = estimate - true_valvue) %>% 
+  mutate(true_value = 238.1) %>% 
+  mutate(distance = estimate - true_value) %>% 
   mutate(obs = 10, sd = 10) %>% 
   mutate(estimator = "belitz")
 
 offset20obs_10sd_df <- offset20obs_10sd_df %>% 
   rename(estimate = X1) %>% 
-  mutate(true_valvue = 238.1) %>% 
-  mutate(distance = estimate - true_valvue) %>% 
+  mutate(true_value = 238.1) %>% 
+  mutate(distance = estimate - true_value) %>% 
   mutate(obs = 20, sd = 10) %>% 
   mutate(estimator = "belitz")
 
 offset50obs_10sd_df <- offset50obs_10sd_df %>% 
   rename(estimate = X1) %>% 
-  mutate(true_valvue = 238.1) %>% 
-  mutate(distance = estimate - true_valvue) %>% 
+  mutate(true_value = 238.1) %>% 
+  mutate(distance = estimate - true_value) %>% 
   mutate(obs = 50, sd = 10) %>% 
   mutate(estimator = "belitz")
 
@@ -1095,22 +1095,22 @@ offset50obs_10sd_df <- offset50obs_10sd_df %>%
 
 offset10obs_20sd_df <- offset10obs_20sd_df %>% 
   rename(estimate = X1) %>% 
-  mutate(true_valvue = 279.34) %>% 
-  mutate(distance = estimate - true_valvue) %>% 
+  mutate(true_value = 279.34) %>% 
+  mutate(distance = estimate - true_value) %>% 
   mutate(obs = 10, sd = 20) %>% 
   mutate(estimator = "belitz")
 
 offset20obs_20sd_df <- offset20obs_20sd_df %>% 
   rename(estimate = X1) %>% 
-  mutate(true_valvue = 279.34) %>% 
-  mutate(distance = estimate - true_valvue) %>% 
+  mutate(true_value = 279.34) %>% 
+  mutate(distance = estimate - true_value) %>% 
   mutate(obs = 20, sd = 20) %>% 
   mutate(estimator = "belitz")
 
 offset50obs_20sd_df <- offset50obs_20sd_df %>% 
   rename(estimate = X1) %>% 
-  mutate(true_valvue = 279.34) %>% 
-  mutate(distance = estimate - true_valvue) %>% 
+  mutate(true_value = 279.34) %>% 
+  mutate(distance = estimate - true_value) %>% 
   mutate(obs = 50, sd = 20) %>% 
   mutate(estimator = "belitz")
 
@@ -1118,22 +1118,22 @@ offset50obs_20sd_df <- offset50obs_20sd_df %>%
 
 offset10obs_40sd_df <- offset10obs_40sd_df %>% 
   rename(estimate = X1) %>% 
-  mutate(true_valvue = 361.38) %>% 
-  mutate(distance = estimate - true_valvue) %>% 
+  mutate(true_value = 361.38) %>% 
+  mutate(distance = estimate - true_value) %>% 
   mutate(obs = 10, sd = 40) %>% 
   mutate(estimator = "belitz")
 
 offset20obs_40sd_df <- offset20obs_40sd_df %>% 
   rename(estimate = X1) %>% 
-  mutate(true_valvue = 361.38) %>% 
-  mutate(distance = estimate - true_valvue) %>% 
+  mutate(true_value = 361.38) %>% 
+  mutate(distance = estimate - true_value) %>% 
   mutate(obs = 20, sd = 40) %>% 
   mutate(estimator = "belitz")
 
 offset50obs_40sd_df <- offset50obs_40sd_df %>% 
   rename(estimate = X1) %>% 
-  mutate(true_valvue = 361.38) %>% 
-  mutate(distance = estimate - true_valvue) %>% 
+  mutate(true_value = 361.38) %>% 
+  mutate(distance = estimate - true_value) %>% 
   mutate(obs = 50, sd = 40) %>% 
   mutate(estimator = "belitz")
 
