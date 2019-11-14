@@ -1,3 +1,5 @@
+# Load Libraries
+
 library(dplyr)
 library(Metrics)
 library(ggplot2)
@@ -80,4 +82,4 @@ bm_dists <- grid.arrange(bm_dist_10sd, bm_dist_20sd, nrow = 1)
 
 total_dist <- grid.arrange(um_dists, bm_dists, nrow = 2)
 
-ggsave("Figure_outputs/Fig2.png", plot = total_dist, dpi = 300, width = 6, height = 5)
+ggsave("figures_outputs/Fig2.png", plot = total_dist, dpi = 300, width = 6, height = 5)

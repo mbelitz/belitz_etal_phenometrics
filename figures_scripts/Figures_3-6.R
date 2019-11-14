@@ -62,7 +62,7 @@ total_uni_metrics_barplot <- total_uni_metrics %>%
   mutate(obs = paste(obs, "Observations")) %>% 
   mutate(Estimator = ifelse(estimator == "belitz", "Phenesse",
                             ifelse(estimator == "naive" , "Quantile",
-                                   ifelse(estimator == "Mean", "Mean",
+                                   ifelse(estimator == "mean", "Mean",
                                           "Phest")))) %>% 
   mutate(Estimator = factor(Estimator, levels = c('Phenesse', 'Quantile', 'Mean','Phest')))
 
@@ -73,7 +73,7 @@ total_bi_metrics_barplot <- total_bi_metrics %>%
   mutate(obs = paste(obs, "Observations")) %>% 
   mutate(Estimator = ifelse(estimator == "belitz", "Phenesse",
                             ifelse(estimator == "naive" , "Quantile",
-                                   ifelse(estimator == "Mean", "Mean",
+                                   ifelse(estimator == "mean", "Mean",
                                           "Phest")))) %>% 
   mutate(Estimator = factor(Estimator, levels = c('Phenesse', 'Quantile', 'Mean','Phest')))
 
@@ -90,7 +90,7 @@ um_rmse <- ggplot(total_uni_metrics_barplot) +
   labs(x = "Percentile", y = 'RMSE') + 
   theme(plot.title = element_text(hjust = 0.5)) 
 
-ggplot2::ggsave("figure_outputs/Fig3", plot = um_rmse, width = 10, height = 8, dpi = 300)
+ggplot2::ggsave("figures_outputs/Fig3.png", plot = um_rmse, width = 10, height = 8, dpi = 300)
 
 ####### BIMODAL RMSE PLOT ############
 
@@ -105,7 +105,7 @@ bm_rmse <- ggplot(total_bi_metrics_barplot) +
   labs(x = "Percentile", y = 'RMSE') + 
   theme(plot.title = element_text(hjust = 0.5)) 
 
-ggplot2::ggsave("figure_outputs/Fig4.png", plot = bm_rmse, width = 10, height = 8, dpi = 300)
+ggplot2::ggsave("figures_outputs/Fig4.png", plot = bm_rmse, width = 10, height = 8, dpi = 300)
 
 ##### UNIMODAL BIAS PLOT #########
 
@@ -121,7 +121,7 @@ um_bias <- ggplot(total_uni_metrics_barplot) +
   labs(x = "Percentile", y = 'Bias') + 
   theme(plot.title = element_text(hjust = 0.5)) 
 
-ggplot2::ggsave("figure_outputs/Fig5.png", plot = um_bias, width = 10, height = 8, dpi = 300)
+ggplot2::ggsave("figures_outputs/Fig5.png", plot = um_bias, width = 10, height = 8, dpi = 300)
 
 ####### BIMODAL BIAS PLOT ############
 
@@ -137,4 +137,4 @@ bm_bias <- ggplot(total_bi_metrics_barplot) +
   labs(x = "Percentile", y = 'Bias') + 
   theme(plot.title = element_text(hjust = 0.5)) 
 
-ggplot2::ggsave("figure_outputs/Fig6.png", plot = bm_bias, width = 10, height = 8, dpi = 300)
+ggplot2::ggsave("figures_outputs/Fig6.png", plot = bm_bias, width = 10, height = 8, dpi = 300)
