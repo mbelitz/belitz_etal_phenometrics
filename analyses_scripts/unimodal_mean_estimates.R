@@ -1,8 +1,5 @@
 # load libraries
-
-library(ggplot2)
 library(parallel)
-library(phest)
 library(dplyr)
 
 # load in unimodal distributions

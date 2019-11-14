@@ -1,10 +1,9 @@
 # load libraries
-
-library(ggplot2)
 library(parallel)
-library(phest)
 library(dplyr)
-library(truncnorm)
+library(devtools)
+install_github("mbelitz/phenesse")
+library(phenesse)
 
 # load in bimodal distributions
 
@@ -14,7 +13,7 @@ source("simulation_setup/bimodal_distribution_setup.R")
 
 onsetestimator_noci <- function(x){
   
-  onset <- phenesse::weibull_percentile(observations = x, iterations = 500, percentile = 0)
+  onset <- phenesse::weib_percentile(observations = x, iterations = 500, percentile = 0)
   return(onset)
 }
 
@@ -106,7 +105,7 @@ belitzonset_df <- rbind(onset10obs_10sd_df, onset10obs_20sd_df,
 
 firstestimator_noci <- function(x){
   
-  first <- phenesse::weibull_percentile(observations = x, iterations = 500, percentile = 0.01)
+  first <- phenesse::weib_percentile(observations = x, iterations = 500, percentile = 0.01)
   return(first)
 }
 
@@ -198,7 +197,7 @@ belitzfirst_df <- rbind(first10obs_10sd_df, first10obs_20sd_df,
 
 fifthestimator_noci <- function(x){
   
-  fifth <- phenesse::weibull_percentile(observations = x, iterations = 500, percentile = 0.05)
+  fifth <- phenesse::weib_percentile(observations = x, iterations = 500, percentile = 0.05)
   return(fifth)
 }
 
@@ -292,7 +291,7 @@ belitzfifth_df <- rbind(fifth10obs_10sd_df, fifth10obs_20sd_df,
 
 tenthestimator_noci <- function(x){
   
-  tenth <- phenesse::weibull_percentile(observations = x, iterations = 500, percentile = 0.1)
+  tenth <- phenesse::weib_percentile(observations = x, iterations = 500, percentile = 0.1)
   return(tenth)
 }
 
@@ -383,7 +382,7 @@ belitztenth_df <- rbind(tenth10obs_10sd_df, tenth10obs_20sd_df,
 
 fiftyestimator_noci <- function(x){
   
-  fifty <- phenesse::weibull_percentile(observations = x, iterations = 500, percentile = 0.5)
+  fifty <- phenesse::weib_percentile(observations = x, iterations = 500, percentile = 0.5)
   return(fifty)
 }
 
@@ -473,7 +472,7 @@ belitzfifty_df <- rbind(fifty10obs_10sd_df, fifty10obs_20sd_df,
 
 nintyestimator_noci <- function(x){
   
-  ninty <- phenesse::weibull_percentile(observations = x, iterations = 500, percentile = 0.9)
+  ninty <- phenesse::weib_percentile(observations = x, iterations = 500, percentile = 0.9)
   return(ninty)
 }
 
@@ -564,7 +563,7 @@ belitzninty_df <- rbind(ninty10obs_10sd_df, ninty10obs_20sd_df,
 
 nintyfifthestimator_noci <- function(x){
   
-  nintyfifth <- phenesse::weibull_percentile(observations = x, iterations = 500, percentile = 0.95)
+  nintyfifth <- phenesse::weib_percentile(observations = x, iterations = 500, percentile = 0.95)
   return(nintyfifth)
 }
 
@@ -656,7 +655,7 @@ belitznintyfifth_df <- rbind(nintyfifth10obs_10sd_df, nintyfifth10obs_20sd_df,
 
 nintynineestimator_noci <- function(x){
   
-  nintynine <- phenesse::weibull_percentile(observations = x, iterations = 500, percentile = 0.99)
+  nintynine <- phenesse::weib_percentile(observations = x, iterations = 500, percentile = 0.99)
   return(nintynine)
 }
 
@@ -747,7 +746,7 @@ belitznintynine_df <- rbind(nintynine10obs_10sd_df, nintynine10obs_20sd_df,
 
 offsetestimator_noci <- function(x){
   
-  offset <- phenesse::weibull_percentile(observations = x, iterations = 500, percentile = 1)
+  offset <- phenesse::weib_percentile(observations = x, iterations = 500, percentile = 1)
   return(offset)
 }
 
@@ -846,4 +845,4 @@ bimodal_sims_all <- rbind(belitzonset_df, belitzfirst_df, belitzfifth_df, belitz
                           belitzoffset_df)
 
 
-write.csv(unimodal_sims_all, file = "results/bimodal_phenesse.csv", row.names = FALSE)
+write.csv(bimodal_sims_all, file = "results/bimodal_phenesse.csv", row.names = FALSE)

@@ -1,3 +1,6 @@
+# libraries
+library(ggplot2)
+
 ### Set up simulated unimodal distributions ###
 
 nn <- 20000

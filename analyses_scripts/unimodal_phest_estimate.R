@@ -1,5 +1,4 @@
 # load libraries
-library(ggplot2)
 library(parallel)
 library(phest)
 library(dplyr)
@@ -8,7 +7,6 @@ library(dplyr)
 # load in unimodal distributions
 
 source("simulation_setup/unimodal_distribution_setup.R")
-
 
 # lapply functions
 

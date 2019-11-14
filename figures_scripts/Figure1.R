@@ -1,8 +1,11 @@
+# load libraries
 library(cowplot)
 library(ggplot2)
 library(latex2exp)
 
 testobs <- c(150,160,162,164,168,170,172,176,178,188)
+
+# Curve Intersect Function
 
 curve_intersect <- function(curve1, curve2, empirical=TRUE, domain=NULL) {
   if (!empirical & missing(domain)) {
@@ -64,8 +67,6 @@ create_predict_df <- function(observations){
   return(cdf_df)
   
 }
-
-
 
 cdf_df <- create_predict_df(testobs)
 weib <- fitdistrplus::fitdist(testobs, distr = "weibull", method = "mle")
@@ -200,4 +201,4 @@ cp <- plot_grid(step1, step2, step5, step3, step4,
                 labels = c("Step 1", "Step 2", "Equation", "Step 3", "Step 4"
                 ), vjust = 1.5, hjust = -1.25)
 
-ggsave("Figure_outputs/Fig1.png", cp, dpi = 300, width = 9, height = 6)
+ggsave("figures_outputs/Fig1.png", cp, dpi = 300, width = 9, height = 6)
