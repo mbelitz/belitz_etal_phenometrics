@@ -7,7 +7,7 @@ library(phenesse)
 
 # load in unimodal distributions
 
-source("simulation_setup/unimodal_distribution_setup.R")
+source("simulation_setup/unimodal_skewed_sampling_setup.R")
 
 # lapply functions
 
