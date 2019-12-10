@@ -3,6 +3,8 @@ library(ggplot2)
 
 ### Set up simulated bimodal distributions ###
 
+nn <- 20000
+
 #10 SD
 set.seed(1)
 sims_10sd <- c(rtruncnorm(nn * (1/3), a=0, b=365, mean=150, sd=10),
