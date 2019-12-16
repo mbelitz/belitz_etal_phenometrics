@@ -994,7 +994,7 @@ nintyfive50obs_40sd_df <- nintyfive50obs_40sd_df %>%
 
 # rbind these together
 
-belitznintyfifth_df <- plyr::rbind.fill(nintyfive10obs_10sd_df, nintyfive10obs_20sd_df, nintyfive10obs_40sd_df,
+belitznintyfive_df <- plyr::rbind.fill(nintyfive10obs_10sd_df, nintyfive10obs_20sd_df, nintyfive10obs_40sd_df,
                                        nintyfive20obs_10sd_df, nintyfive20obs_20sd_df, nintyfive20obs_40sd_df,
                                        nintyfive50obs_10sd_df, nintyfive50obs_20sd_df, nintyfive50obs_40sd_df)%>% 
   mutate(perc = "ninetyfifth", Q = 95)
@@ -1252,7 +1252,7 @@ belitzoffset_df <- plyr::rbind.fill(offset10obs_10sd_df, offset10obs_20sd_df, of
   mutate(perc = "offset", Q = 100)
 
 unimodal_sims_all <- plyr::rbind.fill(belitzonset_df, belitzfirst_df, belitzfifth_df, belitztenth_df,
-                                      belitzfifty_df, belitzninty_df, belitznintyfifth_df, belitznintynine_df,
+                                      belitzfifty_df, belitzninty_df, belitznintyfive_df, belitznintynine_df,
                                       belitzoffset_df)
 
 

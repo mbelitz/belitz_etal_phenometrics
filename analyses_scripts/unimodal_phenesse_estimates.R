@@ -2,8 +2,8 @@
 library(parallel)
 library(dplyr)
 library(devtools)
-install_github("mbelitz/phenesse")
-library(phenesse)
+# install_github("mbelitz/phenesse")
+# library(phenesse)
 
 # load in unimodal distributions
 
@@ -13,36 +13,36 @@ source("simulation_setup/unimodal_distribution_setup.R")
 
 onsetestimator_noci <- function(x){
   
-  onset <- phenesse::weib_percentile(observations = x, iterations = 500, percentile = 0)
+  onset <- weib_percentile(observations = x, iterations = 500, percentile = 0)
   return(onset)
 }
 
 #onset
 
 # 10 obs 10 sd
-onset10obs_10sd <- unlist(mclapply(list_10obs_10sd, FUN = onsetestimator_noci,mc.cores = 10)) # already run
+onset10obs_10sd <- unlist(mclapply(list_10obs_10sd, FUN = onsetestimator_noci,mc.cores = 20))
 onset10obs_10sd_df <- as.data.frame(split(onset10obs_10sd, 1:1))
 
 # 10 obs 20 sd
-onset10obs_20sd <- unlist(mclapply(list_10obs_20sd, FUN = onsetestimator_noci, mc.cores = 10))
+onset10obs_20sd <- unlist(mclapply(list_10obs_20sd, FUN = onsetestimator_noci, mc.cores = 20))
 onset10obs_20sd_df <- as.data.frame(split(onset10obs_20sd, 1:1))
 
 # 10 obs 40 sd
-onset10obs_40sd <- unlist(mclapply(list_10obs_40sd, FUN = onsetestimator_noci, mc.cores = 10))
+onset10obs_40sd <- unlist(mclapply(list_10obs_40sd, FUN = onsetestimator_noci, mc.cores = 20))
 onset10obs_40sd_df <- as.data.frame(split(onset10obs_40sd, 1:1))
 
 ###### 20 Obs ####
 
 # 20 obs 10 sd
-onset20obs_10sd <- unlist(mclapply(list_20obs_10sd, FUN = onsetestimator_noci, mc.cores = 15))
+onset20obs_10sd <- unlist(mclapply(list_20obs_10sd, FUN = onsetestimator_noci, mc.cores = 25))
 onset20obs_10sd_df <- as.data.frame(split(onset20obs_10sd, 1:1))
 
 # 20 obs 20 sd
-onset20obs_20sd <- unlist(mclapply(list_20obs_20sd, FUN = onsetestimator_noci, mc.cores = 15))
+onset20obs_20sd <- unlist(mclapply(list_20obs_20sd, FUN = onsetestimator_noci, mc.cores = 25))
 onset20obs_20sd_df <- as.data.frame(split(onset20obs_20sd, 1:1))
 
 # 20 obs 40 sd
-onset20obs_40sd <- unlist(mclapply(list_20obs_40sd, FUN = onsetestimator_noci, mc.cores = 15))
+onset20obs_40sd <- unlist(mclapply(list_20obs_40sd, FUN = onsetestimator_noci, mc.cores = 25))
 onset20obs_40sd_df <- as.data.frame(split(onset20obs_40sd, 1:1))
 
 ########## 50 obs now y'all ########
@@ -139,7 +139,7 @@ belitzonset_df <- plyr::rbind.fill(onset10obs_10sd_df, onset10obs_20sd_df, onset
 
 firstestimator_noci <- function(x){
   
-  first <- phenesse::weib_percentile(observations = x, iterations = 500, percentile = 0.01)
+  first <- weib_percentile(observations = x, iterations = 500, percentile = 0.01)
   return(first)
 }
 
@@ -265,7 +265,7 @@ belitzfirst_df <- plyr::rbind.fill(first10obs_10sd_df, first10obs_20sd_df, first
 
 fifthestimator_noci <- function(x){
   
-  fifth <- phenesse::weib_percentile(observations = x, iterations = 500, percentile = 0.05)
+  fifth <- weib_percentile(observations = x, iterations = 500, percentile = 0.05)
   return(fifth)
 }
 
@@ -391,7 +391,7 @@ belitzfifth_df <- plyr::rbind.fill(fifth10obs_10sd_df, fifth10obs_20sd_df, fifth
 
 tenthestimator_noci <- function(x){
   
-  tenth <- phenesse::weib_percentile(observations = x, iterations = 500, percentile = 0.1)
+  tenth <- weib_percentile(observations = x, iterations = 500, percentile = 0.1)
   return(tenth)
 }
 
@@ -517,7 +517,7 @@ belitztenth_df <- plyr::rbind.fill(tenth10obs_10sd_df, tenth10obs_20sd_df, tenth
 
 fiftyestimator_noci <- function(x){
   
-  fifty <- phenesse::weib_percentile(observations = x, iterations = 500, percentile = 0.5)
+  fifty <- weib_percentile(observations = x, iterations = 500, percentile = 0.5)
   return(fifty)
 }
 
@@ -643,7 +643,7 @@ belitzfifty_df <- plyr::rbind.fill(fifty10obs_10sd_df, fifty10obs_20sd_df, fifty
 
 nintyestimator_noci <- function(x){
   
-  ninty <- phenesse::weib_percentile(observations = x, iterations = 500, percentile = 0.9)
+  ninty <- weib_percentile(observations = x, iterations = 500, percentile = 0.9)
   return(ninty)
 }
 
@@ -770,7 +770,7 @@ belitzninty_df <- plyr::rbind.fill(ninty10obs_10sd_df, ninty10obs_20sd_df, ninty
 
 nintyfiveestimator_noci <- function(x){
   
-  nintyfive <- phenesse::weib_percentile(observations = x, iterations = 500, percentile = 0.95)
+  nintyfive <- weib_percentile(observations = x, iterations = 500, percentile = 0.95)
   return(nintyfive)
 }
 
@@ -896,7 +896,7 @@ belitznintyfive_df <- plyr::rbind.fill(nintyfive10obs_10sd_df, nintyfive10obs_20
 
 nintynineestimator_noci <- function(x){
   
-  nintynine <- phenesse::weib_percentile(observations = x, iterations = 500, percentile = 0.99)
+  nintynine <- weib_percentile(observations = x, iterations = 500, percentile = 0.99)
   return(nintynine)
 }
 
@@ -1022,7 +1022,7 @@ belitznintynine_df <- plyr::rbind.fill(nintynine10obs_10sd_df, nintynine10obs_20
 
 offsetestimator_noci <- function(x){
   
-  offset <- phenesse::weib_percentile(observations = x, iterations = 500, percentile = 1)
+  offset <- weib_percentile(observations = x, iterations = 500, percentile = 1)
   return(offset)
 }
 
@@ -1145,7 +1145,7 @@ belitzoffset_df <- plyr::rbind.fill(offset10obs_10sd_df, offset10obs_20sd_df, of
   mutate(perc = "offset", Q = 100)
 
 unimodal_sims_all <- plyr::rbind.fill(belitzonset_df, belitzfirst_df, belitzfifth_df, belitztenth_df,
-                                      belitzfifty_df, belitzninty_df, belitznintyfifth_df, belitznintynine_df,
+                                      belitzfifty_df, belitzninty_df, belitznintyfive_df, belitznintynine_df,
                                       belitzoffset_df)
 
 
