@@ -952,4 +952,4 @@ bimodal_sims_all <- rbind(belitzonset_df, belitzfirst_df, belitzfifth_df, belitz
                           belitzoffset_df)
 
 
-write.csv(bimodal_sims_all, file = "results/bimodal_phenesse.csv", row.names = FALSE)
+write.csv(bimodal_sims_all, file = "results/bimodal_skewed_phenesse.csv", row.names = FALSE)
