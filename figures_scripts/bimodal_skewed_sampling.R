@@ -12,7 +12,7 @@ bi_quantile_sims <- read.csv("results/bimodal_quantile.csv",
   dplyr::mutate(Skewed = "No")
 bi_skewed_quantile_sims <- read.csv("results/bimodal_skewed_quantile.csv",
                                      stringsAsFactors = FALSE) %>% 
-  dplyr::mutate(Estimator = 'Quantile - Skewed')%>% 
+  dplyr::mutate(Estimator = 'Quantile')%>% 
   dplyr::mutate(Skewed = "Yes")
 
 bi_phest_sims <- read.csv("results/bimodal_phest.csv", 
@@ -23,21 +23,21 @@ bi_phest_sims <- read.csv("results/bimodal_phest.csv",
 bi_skewed_phest_sims <- read.csv("results/bimodal_skewed_phest.csv",
                                   stringsAsFactors = FALSE)%>% 
   dplyr::select(-lowCI, -highCI) %>% 
-  dplyr::mutate(Estimator = 'Phest - Skewed')%>% 
+  dplyr::mutate(Estimator = 'Phest')%>% 
   dplyr::mutate(Skewed = "Yes")
 
 bi_mean_sims <- read.csv("results/bimodal_mean.csv", stringsAsFactors = FALSE) %>% 
   dplyr::mutate(Estimator = 'Mean')%>% 
   dplyr::mutate(Skewed = "No")
 bi_skewed_mean_sims <- read.csv("results/bimodal_skewed_mean.csv", stringsAsFactors = FALSE) %>% 
-  dplyr::mutate(Estimator = 'Mean - Skewed')%>% 
+  dplyr::mutate(Estimator = 'Mean')%>% 
   dplyr::mutate(Skewed = "Yes")
 
 bi_phenesse_sims <- read.csv("results/bimodal_phenesse.csv", stringsAsFactors = FALSE) %>% 
   dplyr::mutate(Estimator = "Phenesse")%>% 
   dplyr::mutate(Skewed = "No")
 bi_skewed_phenesse_sims <- read.csv("results/bimodal_skewed_phenesse.csv", stringsAsFactors = FALSE) %>% 
-  dplyr::mutate(Estimator = "Phenesse - Skewed")%>% 
+  dplyr::mutate(Estimator = "Phenesse")%>% 
   dplyr::mutate(Skewed = "Yes")
 
 
@@ -83,10 +83,12 @@ bi_skewed_rmse
 ### Now only do skewed
 
 bi_skewed_rmse_data <- total_skewed_bi_metrics_barplot %>% 
-  dplyr::filter(Skewed == "Yes")
+  dplyr::filter(Skewed == "Yes") %>% 
+  mutate(Estimator = factor(Estimator, levels = c('Phenesse', 
+                                                  'Quantile', 
+                                                  'Mean',
+                                                  'Phest')))
 
-bi_rmse_data <- total_skewed_bi_metrics_barplot %>% 
-  dplyr::filter(Skewed == "No")
 
 ggplot() + 
   geom_bar(data = bi_skewed_rmse_data, aes(x = fac_Q, y = RMSE, fill = Estimator), 
@@ -96,5 +98,26 @@ ggplot() +
   theme_bw() +
   facet_grid(sd~obs, labeller = labeller()) +
   labs(x = "Percentile", y = 'RMSE') + 
-  scale_fill_viridis_d() +
-  theme(plot.title = element_text(hjust = 0.5)) 
+  scale_fill_manual(values = c("#440154FF", "#287D8EFF","#FDE725FF", "#73D055FF")) +
+  theme(plot.title = element_text(hjust = 0.5),
+        panel.spacing = unit(0.75, "lines")) 
+
+
+um_skewed_rmse_data <- total_skewed_uni_metrics_barplot %>% 
+  dplyr::filter(Skewed == "Yes") %>% 
+  mutate(Estimator = factor(Estimator, levels = c('Phenesse', 
+                                                  'Quantile', 
+                                                  'Mean',
+                                                  'Phest')))
+
+um_rmse_skewed <- ggplot() + 
+  geom_bar(data = um_skewed_rmse_data, aes(x = fac_Q, y = RMSE, fill = Estimator), 
+           stat = "identity", size = 1, alpha = 0.8, position = "dodge") +
+  ggtitle("Unimodal Distribution") + 
+  scale_y_continuous(expand = c(0,0)) +
+  theme_bw() +
+  facet_grid(sd~obs) +
+  labs(x = "Percentile", y = 'RMSE') + 
+  scale_fill_manual(values = c("#440154FF", "#287D8EFF","#FDE725FF", "#73D055FF")) +
+  theme(plot.title = element_text(hjust = 0.5),
+        panel.spacing = unit(0.75, "lines")) 
