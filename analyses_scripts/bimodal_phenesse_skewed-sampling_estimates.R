@@ -2,7 +2,6 @@
 library(parallel)
 library(dplyr)
 library(devtools)
-# install_github("mbelitz/phenesse")
 # library(phenesse)
 
 # load in bimodal distributions
