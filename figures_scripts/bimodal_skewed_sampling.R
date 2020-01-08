@@ -90,10 +90,10 @@ bi_skewed_rmse_data <- total_skewed_bi_metrics_barplot %>%
                                                   'Phest')))
 
 
-ggplot() + 
+bm_skewed <- ggplot() + 
   geom_bar(data = bi_skewed_rmse_data, aes(x = fac_Q, y = RMSE, fill = Estimator), 
            stat = "identity", size = 1, alpha = 0.8, position = "dodge") +
-  ggtitle("Unimodal Distribution") + 
+  ggtitle("Bimodal Distribution") + 
   scale_y_continuous(expand = c(0,0)) +
   theme_bw() +
   facet_grid(sd~obs, labeller = labeller()) +
@@ -101,23 +101,27 @@ ggplot() +
   scale_fill_manual(values = c("#440154FF", "#287D8EFF","#FDE725FF", "#73D055FF")) +
   theme(plot.title = element_text(hjust = 0.5),
         panel.spacing = unit(0.75, "lines")) 
+bm_skewed
 
+ggplot2::ggsave("figures_outputs/skewed_bm_rmse.png", plot = um_rmse_skewed, width = 10, height = 8, dpi = 300)
 
-um_skewed_rmse_data <- total_skewed_uni_metrics_barplot %>% 
-  dplyr::filter(Skewed == "Yes") %>% 
-  mutate(Estimator = factor(Estimator, levels = c('Phenesse', 
-                                                  'Quantile', 
-                                                  'Mean',
-                                                  'Phest')))
+##### Skewed BIMODAL BIAS PLOT #########
 
-um_rmse_skewed <- ggplot() + 
-  geom_bar(data = um_skewed_rmse_data, aes(x = fac_Q, y = RMSE, fill = Estimator), 
+bm_bias_skewed <- ggplot(bi_skewed_rmse_data) + 
+  geom_bar(aes(x = fac_Q, y = Bias, fill = Estimator), 
            stat = "identity", size = 1, alpha = 0.8, position = "dodge") +
-  ggtitle("Unimodal Distribution") + 
+  geom_hline(yintercept = 0, alpha = 0.5) +
+  ggtitle("Bimodal Distribution") + 
   scale_y_continuous(expand = c(0,0)) +
   theme_bw() +
-  facet_grid(sd~obs) +
-  labs(x = "Percentile", y = 'RMSE') + 
   scale_fill_manual(values = c("#440154FF", "#287D8EFF","#FDE725FF", "#73D055FF")) +
+  facet_grid(sd~obs, labeller = labeller()) +
+  labs(x = "Percentile", y = 'Bias') + 
   theme(plot.title = element_text(hjust = 0.5),
         panel.spacing = unit(0.75, "lines")) 
+
+bm_bias_skewed
+
+ggplot2::ggsave("figures_outputs/skewed_bimodal_bias.png", plot = um_bias_skewed, width = 10, height = 8, dpi = 300)
+
+
