@@ -103,7 +103,7 @@ bm_skewed <- ggplot() +
         panel.spacing = unit(0.75, "lines")) 
 bm_skewed
 
-ggplot2::ggsave("figures_outputs/skewed_bm_rmse.png", plot = um_rmse_skewed, width = 10, height = 8, dpi = 300)
+ggplot2::ggsave("figures_outputs/skewed_bm_rmse.png", plot = bm_skewed, width = 10, height = 8, dpi = 300)
 
 ##### Skewed BIMODAL BIAS PLOT #########
 
@@ -122,6 +122,6 @@ bm_bias_skewed <- ggplot(bi_skewed_rmse_data) +
 
 bm_bias_skewed
 
-ggplot2::ggsave("figures_outputs/skewed_bimodal_bias.png", plot = um_bias_skewed, width = 10, height = 8, dpi = 300)
+ggplot2::ggsave("figures_outputs/skewed_bimodal_bias.png", plot = bm_bias_skewed, width = 10, height = 8, dpi = 300)
 
 
