@@ -63,23 +63,6 @@ total_skewed_bi_metrics_barplot <- total_skewed_bi_metrics %>%
   mutate(sd = paste(sd, "sd")) %>% 
   mutate(obs = paste(obs, "Observations")) 
 
-
-
-##### bimodal RMSE PLOT #########
-
-bi_skewed_rmse <- ggplot(total_skewed_bi_metrics_barplot) + 
-  geom_bar(aes(x = fac_Q, y = RMSE, fill = Estimator), 
-           stat = "identity", size = 1, alpha = 0.8, position = "dodge") +
-  ggtitle("bimodal Distribution") + 
-  scale_y_continuous(expand = c(0,0)) +
-  theme_bw() +
-  facet_grid(sd~obs, labeller = labeller()) +
-  labs(x = "Percentile", y = 'RMSE') + 
-  scale_fill_viridis_d() +
-  theme(plot.title = element_text(hjust = 0.5)) 
-
-bi_skewed_rmse
-
 ### Now only do skewed
 
 bi_skewed_rmse_data <- total_skewed_bi_metrics_barplot %>% 
@@ -90,20 +73,21 @@ bi_skewed_rmse_data <- total_skewed_bi_metrics_barplot %>%
                                                   'Phest')))
 
 
-bm_skewed <- ggplot() + 
+bm_rmse_skewed <- ggplot() + 
   geom_bar(data = bi_skewed_rmse_data, aes(x = fac_Q, y = RMSE, fill = Estimator), 
            stat = "identity", size = 1, alpha = 0.8, position = "dodge") +
-  ggtitle("Bimodal Distribution") + 
+  ggtitle("Skewed Sampling") + 
   scale_y_continuous(expand = c(0,0)) +
   theme_bw() +
   facet_grid(sd~obs, labeller = labeller()) +
   labs(x = "Percentile", y = 'RMSE') + 
   scale_fill_manual(values = c("#440154FF", "#287D8EFF","#FDE725FF", "#73D055FF")) +
   theme(plot.title = element_text(hjust = 0.5),
-        panel.spacing = unit(0.75, "lines")) 
-bm_skewed
+        panel.spacing = unit(0.75, "lines"),
+        axis.text.x = element_text(angle = 45, hjust = 1))  
+bm_rmse_skewed
 
-ggplot2::ggsave("figures_outputs/skewed_bm_rmse.png", plot = bm_skewed, width = 10, height = 8, dpi = 300)
+ggplot2::ggsave("figures_outputs/skewed_bm_rmse.png", plot = bm_rmse_skewed, width = 10, height = 8, dpi = 300)
 
 ##### Skewed BIMODAL BIAS PLOT #########
 
@@ -111,14 +95,15 @@ bm_bias_skewed <- ggplot(bi_skewed_rmse_data) +
   geom_bar(aes(x = fac_Q, y = Bias, fill = Estimator), 
            stat = "identity", size = 1, alpha = 0.8, position = "dodge") +
   geom_hline(yintercept = 0, alpha = 0.5) +
-  ggtitle("Bimodal Distribution") + 
+  ggtitle("Skewed Sampling") + 
   scale_y_continuous(expand = c(0,0)) +
   theme_bw() +
   scale_fill_manual(values = c("#440154FF", "#287D8EFF","#FDE725FF", "#73D055FF")) +
   facet_grid(sd~obs, labeller = labeller()) +
   labs(x = "Percentile", y = 'Bias') + 
   theme(plot.title = element_text(hjust = 0.5),
-        panel.spacing = unit(0.75, "lines")) 
+        panel.spacing = unit(0.75, "lines"),
+        axis.text.x = element_text(angle = 45, hjust = 1))  
 
 bm_bias_skewed
 

@@ -67,22 +67,6 @@ total_skewed_uni_metrics_barplot <- total_skewed_uni_metrics %>%
 
 
 
-##### UNIMODAL RMSE PLOT #########
-
-um_skewed_rmse <- ggplot(total_skewed_uni_metrics_barplot) + 
-  geom_bar(aes(x = fac_Q, y = RMSE, fill = Estimator), 
-           stat = "identity", size = 1, alpha = 0.8, position = "dodge") +
-  ggtitle("Unimodal Distribution") + 
-  scale_y_continuous(expand = c(0,0)) +
-  theme_bw() +
-  facet_grid(sd~obs, labeller = labeller()) +
-  labs(x = "Percentile", y = 'RMSE') + 
-  scale_fill_viridis_d() +
-  theme(plot.title = element_text(hjust = 0.5)) 
-
-um_skewed_rmse
-
-
 ### Now only do skewed
 
 um_skewed_rmse_data <- total_skewed_uni_metrics_barplot %>% 
@@ -95,14 +79,15 @@ um_skewed_rmse_data <- total_skewed_uni_metrics_barplot %>%
 um_rmse_skewed <- ggplot() + 
   geom_bar(data = um_skewed_rmse_data, aes(x = fac_Q, y = RMSE, fill = Estimator), 
            stat = "identity", size = 1, alpha = 0.8, position = "dodge") +
-  ggtitle("Unimodal Distribution") + 
+  ggtitle("Skewed Sampling") + 
   scale_y_continuous(expand = c(0,0)) +
   theme_bw() +
   facet_grid(sd~obs) +
   labs(x = "Percentile", y = 'RMSE') + 
   scale_fill_manual(values = c("#440154FF", "#287D8EFF","#FDE725FF", "#73D055FF")) +
   theme(plot.title = element_text(hjust = 0.5),
-        panel.spacing = unit(0.75, "lines")) 
+        panel.spacing = unit(0.75, "lines"),
+        axis.text.x = element_text(angle = 45, hjust = 1)) 
 
 um_rmse_skewed
 
@@ -114,14 +99,15 @@ um_bias_skewed <- ggplot(um_skewed_rmse_data) +
   geom_bar(aes(x = fac_Q, y = Bias, fill = Estimator), 
            stat = "identity", size = 1, alpha = 0.8, position = "dodge") +
   geom_hline(yintercept = 0, alpha = 0.5) +
-  ggtitle("Unimodal Distribution") + 
+  ggtitle("Skewed Sampling") + 
   scale_y_continuous(expand = c(0,0)) +
   theme_bw() +
   scale_fill_manual(values = c("#440154FF", "#287D8EFF","#FDE725FF", "#73D055FF")) +
   facet_grid(sd~obs, labeller = labeller()) +
   labs(x = "Percentile", y = 'Bias') + 
   theme(plot.title = element_text(hjust = 0.5),
-        panel.spacing = unit(0.75, "lines")) 
+        panel.spacing = unit(0.75, "lines"),
+        axis.text.x = element_text(angle = 45, hjust = 1)) 
 
 um_bias_skewed
 
