@@ -63,6 +63,7 @@ rando_bm_bias_20obs <- ggplot(bm_random_rmse_data_20obs) +
   geom_bar(aes(x = fac_Q, y = Bias, fill = Estimator), 
            stat = "identity", size = 1, alpha = 0.8, position = "dodge") +
   geom_hline(yintercept = 0, alpha = 0.5) +
+  scale_y_continuous(breaks = c(-40,-20,0,20,40,60), limits = c(-50,50)) +
   ggtitle("Random Sampling") + 
   theme_bw() +
   facet_wrap(~sd) +
