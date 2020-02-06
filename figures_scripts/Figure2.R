@@ -1,5 +1,4 @@
 # Load Libraries
-
 library(dplyr)
 library(Metrics)
 library(ggplot2)
@@ -23,26 +22,29 @@ to_40sd <- as.data.frame(obs_40sd)
 # plot unimodal distributions
 
 tensd <- ggplot(data= to_10sd, aes(x = obs_10sd)) + 
-  geom_histogram(bins = 150) +
+  geom_histogram(bins = 250) + 
   labs(x = "Day of Year", y = "Number of Individuals") +
   ggtitle("10 SD") +
-  scale_y_continuous(expand = c(0,0))+
-  theme_classic()
+  scale_y_continuous(expand = c(0,0))+ 
+  scale_x_continuous(limits = c(0,365))+
+  theme_classic() +
+  theme(plot.title = element_text(hjust = 0.5))
 twentysd <- ggplot(data= to_20sd, aes(x = obs_20sd)) + 
-  geom_histogram(bins = 150) +
+  geom_histogram(bins = 250) + 
   labs(x = "Day of Year", y = "Number of Individuals") +
   ggtitle("20 SD") +
   scale_y_continuous(expand = c(0,0)) +
-  theme_classic()
+  scale_x_continuous(limits = c(0,365))+
+  theme_classic() +
+  theme(plot.title = element_text(hjust = 0.5))
 fortysd <- ggplot(data= to_40sd, aes(x = obs_40sd)) + 
-  geom_histogram(bins = 150) +
+  geom_histogram(bins = 250) + 
   labs(x = "Day of Year", y = "Number of Individuals") +
   ggtitle("40 SD") +
   scale_y_continuous(expand = c(0,0)) +
-  theme_classic()
-# grid arrange unimodal distributions
-
-um_dists <- grid.arrange(tensd, twentysd, fortysd, nrow = 1)
+  scale_x_continuous(limits = c(0,365))+
+  theme_classic() +
+  theme(plot.title = element_text(hjust = 0.5))
 
 ######## Bimodal distributions now ############
 
@@ -65,21 +67,27 @@ sim_20sd_df <- as.data.frame(sims_20sd)
 # plot bimodal distributions
 
 bm_dist_10sd <- ggplot(data= sim_10sd_df, aes(x = sims_10sd)) + 
-  geom_histogram(bins = 150) + 
+  geom_histogram(bins = 250) + 
   scale_y_continuous(expand = c(0,0))+
+  scale_x_continuous(limits = c(0,365))+
   labs(x = "Day of Year", y = "Number of Individuals") +
   ggtitle("10 SD") +
-  theme_classic()
+  theme_classic() +
+  theme(plot.title = element_text(hjust = 0.5))
 
 bm_dist_20sd <- ggplot(data= sim_20sd_df, aes(x = sims_20sd)) + 
-  geom_histogram(bins = 150) + 
+  geom_histogram(bins = 250) + 
   scale_y_continuous(expand = c(0,0))+
+  scale_x_continuous(limits = c(0,365))+
   labs(x = "Day of Year", y = "Number of Individuals") +
   ggtitle("20 SD") + 
-  theme_classic()
+  theme_classic() +
+  theme(plot.title = element_text(hjust = 0.5)) 
 
-bm_dists <- grid.arrange(bm_dist_10sd, bm_dist_20sd, nrow = 1)
+layout <- rbind(c(1,2,3),
+                c(4,5,NA))
 
-total_dist <- grid.arrange(um_dists, bm_dists, nrow = 2)
+total_dist <- grid.arrange(tensd, twentysd, fortysd,
+                           bm_dist_10sd, bm_dist_20sd, layout_matrix = layout)
 
-ggsave("figures_outputs/Fig2.png", plot = total_dist, dpi = 300, width = 6, height = 5)
+ggsave("figures_outputs/Fig2.png", plot = total_dist, dpi = 300, width = 6, height = 4)
