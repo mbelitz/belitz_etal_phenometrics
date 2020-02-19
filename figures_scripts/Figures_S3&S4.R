@@ -140,14 +140,18 @@ bm_bias_skewed <- ggplot(bi_skewed_rmse_data) +
 
 # join Bimodal RMSE plots
 
-comb_bm_rmse <- cowplot::plot_grid(bm_rmse, bm_rmse_skewed, nrow = 2)
+comb_bm_rmse <- cowplot::plot_grid(bm_rmse, bm_rmse_skewed, nrow = 2) +
+  cowplot::draw_plot_label(label = "A") + 
+  cowplot::draw_plot_label(label = "B", vjust = 38)
 
 ggsave(filename = "figures_outputs/S3.png", dpi = 300, width = 10,
        height = 12)
 
 # Bimodal bias
 
-comb_bm_bias <- cowplot::plot_grid(bm_bias, bm_bias_skewed, nrow = 2)
+comb_bm_bias <- cowplot::plot_grid(bm_bias, bm_bias_skewed, nrow = 2) +
+  cowplot::draw_plot_label(label = "A") + 
+  cowplot::draw_plot_label(label = "B", vjust = 38)
 
 ggsave(filename = "figures_outputs/S4.png", dpi = 300, width = 10,
        height = 12)

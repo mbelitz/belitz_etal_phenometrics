@@ -154,9 +154,13 @@ rando_bm_bias_20obs <- ggplot(bm_random_rmse_data_20obs) +
 
 ########### Combine Bimodal RMSE and Bias Figures for 20 observation scenario ##########
 
-bm_rmse_combo <- cowplot::plot_grid(rando_bm_rmse_20obs, sk_bm_rmse_20obs, nrow = 2)
+bm_rmse_combo <- cowplot::plot_grid(rando_bm_rmse_20obs, sk_bm_rmse_20obs, nrow = 2) +
+  cowplot::draw_plot_label(label = "A") + 
+  cowplot::draw_plot_label(label = "B", vjust = 19.5)
 
-bm_bias_combo <- cowplot::plot_grid(rando_bm_bias_20obs, sk_bm_bias_20obs, nrow = 2)
+bm_bias_combo <- cowplot::plot_grid(rando_bm_bias_20obs, sk_bm_bias_20obs, nrow = 2) +
+  cowplot::draw_plot_label(label = "A") + 
+  cowplot::draw_plot_label(label = "B", vjust = 19.5)
 
 # save the plot
 

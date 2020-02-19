@@ -138,14 +138,18 @@ um_bias_skewed <- ggplot(um_skewed_rmse_data) +
 
 # join Unimodal RMSE plots
 
-comb_um_rmse <- cowplot::plot_grid(um_rmse, um_rmse_skewed, nrow = 2)
+comb_um_rmse <- cowplot::plot_grid(um_rmse, um_rmse_skewed, nrow = 2) +
+  cowplot::draw_plot_label(label = "A") + 
+  cowplot::draw_plot_label(label = "B", vjust = 38)
 
 ggsave(filename = "figures_outputs/S1.png", dpi = 300, width = 10,
        height = 12)
 
 # Unimodal bias
 
-comb_um_bias <- cowplot::plot_grid(um_bias, um_bias_skewed, nrow = 2)
+comb_um_bias <- cowplot::plot_grid(um_bias, um_bias_skewed, nrow = 2) +
+  cowplot::draw_plot_label(label = "A") + 
+  cowplot::draw_plot_label(label = "B", vjust = 38)
 
 ggsave(filename = "figures_outputs/S2.png", dpi = 300, width = 10,
        height = 12)
