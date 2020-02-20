@@ -3,6 +3,7 @@ library(ggplot2)
 
 ### Set up simulated unimodal distributions ###
 
+# set total number of individuals to be in our simulated "population"
 nn <- 20000
 
 #10 SD
@@ -12,11 +13,10 @@ to_10sd <- as.data.frame(obs_10sd)
 ggplot(data= to_10sd, aes(x = obs_10sd)) + geom_histogram(bins = 150)
 min(to_10sd) ## 199.8918
 max(to_10sd) # 199.89258
-quantile(obs_10sd, probs = c(0,0.01,0.05,0.1,0.5,0.9,0.95,0.99,1)) #10% -186.99 50% - 199.89
-mean(obs_10sd)
-# 199.89
+quantile(obs_10sd, probs = c(0,0.01,0.05,0.1,0.5,0.9,0.95,0.99,1))
+mean(obs_10sd) # 199.89
 
-# now create 100 lists per observation and standard deviation combination
+# now create a list of 100 different vectors of 10, 20, and 50 observations
 set.seed(1)
 rep_10obs_10sd <- replicate(n = 100, expr = sample(obs_10sd, size = 10, replace = FALSE))
 list_10obs_10sd <- split(rep_10obs_10sd, rep(1:ncol(rep_10obs_10sd), each = nrow(rep_10obs_10sd)))
@@ -37,10 +37,11 @@ to_20sd <- as.data.frame(obs_20sd)
 ggplot(data= to_20sd, aes(x = obs_20sd)) + geom_histogram(bins = 150)
 min(to_20sd) # 119.9182
 max(to_20sd) # 279.3462
-quantile(obs_20sd, probs = c(0,0.01,0.05,0.1,0.5,0.9,0.95,0.99,1)) #10% -174.82 50% - 200.18
+quantile(obs_20sd, probs = c(0,0.01,0.05,0.1,0.5,0.9,0.95,0.99,1))
 mean(obs_20sd)
-# 200.16
 
+
+# now create a list of 100 different vectors of 10, 20, and 50 observations
 set.seed(1)
 rep_10obs_20sd <- replicate(n = 100, expr = sample(obs_20sd, size = 10, replace = FALSE))
 list_10obs_20sd <- split(rep_10obs_20sd, rep(1:ncol(rep_10obs_20sd), each = nrow(rep_10obs_20sd)))
@@ -65,6 +66,7 @@ quantile(obs_40sd, probs = c(0,0.01,0.05,0.1,0.5,0.9,0.95,0.99,1)) #10% -149.304
 mean(obs_40sd)
 #200.19
 
+# now create a list of 100 different vectors of 10, 20, and 50 observations
 set.seed(1)
 rep_10obs_40sd <- replicate(n = 100, expr = sample(obs_40sd, size = 10, replace = FALSE))
 list_10obs_40sd <- split(rep_10obs_40sd, rep(1:ncol(rep_10obs_40sd), each = nrow(rep_10obs_40sd)))

@@ -1,8 +1,10 @@
 library(truncnorm)
 library(ggplot2)
+library(dplyr)
 
 ### Set up simulated bimodal distributions ###
 
+# set total number of individuals to be in our simulated "population"
 nn <- 20000
 
 #10 SD
@@ -12,11 +14,9 @@ sims_10sd <- c(rtruncnorm(nn * (1/3), a=0, b=365, mean=150, sd=10),
 sim_10sd_df <- as.data.frame(sims_10sd)
 ggplot(data= sim_10sd_df, aes(x = sims_10sd)) + geom_histogram(bins = 150)
 quantile(sims_10sd, probs = c(0,0.01,0.05,0.1,0.5,0.9,0.95,0.99,1)) 
-#min = 113.29, 10% - 144.65, 50% - 213.21, #90% - 230.27, 100% - 257.28
 mean(sims_10sd)
-# 196.6 
 
-# function to make weighted probs
+# function to make weighted probs - this is used to skew the sampling earlier
 make_weigted_probs <- function(x){
   df <- data.frame(x = x, y = NA)
   q1 <- quantile(x, probs = 0.1)
@@ -52,10 +52,11 @@ sims_20sd <- c(rtruncnorm(nn * (1/3), a=0, b=365, mean=150, sd=20),
 sim_20sd_df <- as.data.frame(sims_20sd)
 ggplot(data= sim_20sd_df, aes(x = sims_20sd)) + geom_histogram(bins = 150)
 quantile(sims_20sd, probs = c(0,0.01,0.05,0.1,0.5,0.9,0.95,0.99,1)) 
-#min = 76.58, 10% - 139.29, 50% - 206.48, #90% - 240.55, 100% - 294.56
 mean(sims_20sd)
-#196.56
 
+# now create a list of 100 different vectors of 10, 20, and 50 observations
+# these vectors are weighted to skew the sampling early as directed in the 
+# make weighted probs function
 set.seed(1)
 sims_20sd_wp <- make_weigted_probs(sims_20sd)
 rep_10obs_20sd <- replicate(n = 100, expr = sample(sims_20sd_wp$x, size = 10,
