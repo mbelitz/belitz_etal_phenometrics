@@ -3,6 +3,7 @@ library(ggplot2)
 
 ### Set up simulated bimodal distributions ###
 
+# set total number of individuals to be in our simulated "population"
 nn <- 20000
 
 #10 SD
@@ -16,7 +17,7 @@ quantile(sims_10sd, probs = c(0,0.01,0.05,0.1,0.5,0.9,0.95,0.99,1))
 mean(sims_10sd)
 # 196.6 
 
-# now create 100 lists per observation and standard deviation combination
+# now create a list of 100 different vectors of 10, 20, and 50 observations
 set.seed(1)
 rep_10obs_10sd <- replicate(n = 100, expr = sample(sims_10sd, size = 10, replace = FALSE))
 list_10obs_10sd <- split(rep_10obs_10sd, rep(1:ncol(rep_10obs_10sd), each = nrow(rep_10obs_10sd)))
@@ -36,10 +37,9 @@ sims_20sd <- c(rtruncnorm(nn * (1/3), a=0, b=365, mean=150, sd=20),
 sim_20sd_df <- as.data.frame(sims_20sd)
 ggplot(data= sim_20sd_df, aes(x = sims_20sd)) + geom_histogram(bins = 150)
 quantile(sims_20sd, probs = c(0,0.01,0.05,0.1,0.5,0.9,0.95,0.99,1)) 
-#min = 76.58, 10% - 139.29, 50% - 206.48, #90% - 240.55, 100% - 294.56
 mean(sims_20sd)
-#196.56
 
+# now create a list of 100 different vectors of 10, 20, and 50 observations
 set.seed(1)
 rep_10obs_20sd <- replicate(n = 100, expr = sample(sims_20sd, size = 10, replace = FALSE))
 list_10obs_20sd <- split(rep_10obs_20sd, rep(1:ncol(rep_10obs_20sd), each = nrow(rep_10obs_20sd)))
