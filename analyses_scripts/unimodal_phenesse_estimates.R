@@ -1,9 +1,15 @@
+### NOTE TO USERS ###
+
+#' The following code uses parellel computation with up to 30 cores being used at once.
+#' Parallelization was completed using the mclapply function. To run this script locally,
+#' replace mclapply with lapply and remove the mc.cores parameter. WARNING! 
+#' This script without parallelization would take a long time to run. 
+
 # load libraries
 library(parallel)
 library(dplyr)
 library(devtools)
-# install_github("mbelitz/phenesse")
-# library(phenesse)
+library(phenesse)
 
 # load in unimodal distributions
 
@@ -1148,5 +1154,5 @@ unimodal_sims_all <- plyr::rbind.fill(belitzonset_df, belitzfirst_df, belitzfift
                                       belitzfifty_df, belitzninty_df, belitznintyfive_df, belitznintynine_df,
                                       belitzoffset_df)
 
-
+# save results
 write.csv(unimodal_sims_all, file = "results/unimodal_phenesse.csv", row.names = FALSE)

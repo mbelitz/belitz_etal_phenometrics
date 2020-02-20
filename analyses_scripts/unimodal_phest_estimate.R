@@ -1,8 +1,15 @@
+### NOTE TO USERS ###
+
+#' The following code uses parellel computation with up to 30 cores being used at once.
+#' Parallelization was completed using the mclapply function. To run this script locally,
+#' replace mclapply with lapply and remove the mc.cores parameter. This phest
+#' estimator should be able to run locally without too much computational pain, as 
+#' its slick analytical solution makes it so speedy :)
+
 # load libraries
 library(parallel)
 library(phest)
 library(dplyr)
-
 
 # load in unimodal distributions
 
@@ -264,5 +271,5 @@ pearseoffset_df <- plyr::rbind.fill(offset10obs_10sd_df, offset10obs_20sd_df, of
 unimodal_sims_all <- plyr::rbind.fill(pearseonset_df, 
                                       pearseoffset_df)
 
-
+#write results
 write.csv(unimodal_sims_all, file = "results/unimodal_phest.csv", row.names = FALSE)

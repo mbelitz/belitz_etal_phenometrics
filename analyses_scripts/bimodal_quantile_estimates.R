@@ -1,3 +1,10 @@
+### NOTE TO USERS ###
+
+#' The following code uses parellel computation with up to 30 cores being used at once.
+#' Parallelization was completed using the mclapply function. To run this script locally,
+#' replace mclapply with lapply and remove the mc.cores parameter. This quantile 
+#' estimator should be able to run locally without too much computational pain.
+
 #load libraries
 library(parallel)
 library(dplyr)
@@ -841,5 +848,5 @@ bimodal_sims_all <- rbind(naiveonset_df, naivefirst_df, naivefifth_df, naivetent
                           naivefifty_df, naiveninty_df, naivenintyfifth_df, naivenintynine_df,
                           naiveoffset_df)
 
-
+# Save Results
 write.csv(bimodal_sims_all, file = "results/bimodal_quantile.csv", row.names = FALSE)

@@ -1,23 +1,29 @@
+### NOTE TO USERS ###
+
+#' The following code uses parellel computation with up to 30 cores being used at once.
+#' Parallelization was completed using the mclapply function. To run this script locally,
+#' replace mclapply with lapply and remove the mc.cores parameter. This quantile 
+#' estimator should be able to run locally without too much computational pain.
+
 # load libraries
 library(parallel)
 library(dplyr)
 
 # load in unimodal distributions
-
 source("simulation_setup/unimodal_distribution_setup.R")
 
-# lapply functions
+### ONSET ###
 
+# lapply functions
 onsetestimator_noci <- function(x){
   
   onset <- quantile(x = x, probs = 0)
   return(onset)
 }
 
-#onset
 
 # 10 obs 10 sd
-onset10obs_10sd <- unlist(mclapply(list_10obs_10sd, FUN = onsetestimator_noci,mc.cores = 20)) # already run
+onset10obs_10sd <- unlist(mclapply(list_10obs_10sd, FUN = onsetestimator_noci,mc.cores = 20)) 
 onset10obs_10sd_df <- as.data.frame(split(onset10obs_10sd, 1:1))
 
 # 10 obs 20 sd
@@ -132,6 +138,8 @@ naiveonset_df <- plyr::rbind.fill(onset10obs_10sd_df, onset10obs_20sd_df, onset1
                                   onset50obs_10sd_df, onset50obs_20sd_df, onset50obs_40sd_df) %>% 
   mutate(perc = "onset", Q = 0)
 
+### FIRST PERCENTILE ###
+
 # lapply functions
 
 firstestimator_noci <- function(x){
@@ -139,8 +147,6 @@ firstestimator_noci <- function(x){
   first <- quantile(x = x, probs = 0.01)
   return(first)
 }
-
-#first
 
 # 10 obs 10 sd
 first10obs_10sd <- unlist(mclapply(list_10obs_10sd, FUN = firstestimator_noci,mc.cores = 20)) # already run
@@ -258,15 +264,14 @@ naivefirst_df <- plyr::rbind.fill(first10obs_10sd_df, first10obs_20sd_df, first1
                                   first50obs_10sd_df, first50obs_20sd_df, first50obs_40sd_df) %>% 
   mutate(perc = "first", Q = 1)
 
-# lapply functions
+### FIFTH PERCENTILE ###
 
+# lapply functions
 fifthestimator_noci <- function(x){
   
   fifth <- quantile(x = x, probs = 0.05)
   return(fifth)
 }
-
-#fifth
 
 # 10 obs 10 sd
 fifth10obs_10sd <- unlist(mclapply(list_10obs_10sd, FUN = fifthestimator_noci,mc.cores = 20)) # already run
@@ -384,6 +389,9 @@ naivefifth_df <- plyr::rbind.fill(fifth10obs_10sd_df, fifth10obs_20sd_df, fifth1
                                   fifth50obs_10sd_df, fifth50obs_20sd_df, fifth50obs_40sd_df) %>% 
   mutate(perc = "fifth", Q = 5)
 
+
+### TENTH PERCENTILE ###
+
 # lapply functions
 
 tenthestimator_noci <- function(x){
@@ -391,8 +399,6 @@ tenthestimator_noci <- function(x){
   tenth <-quantile(x = x, probs = 0.1)
   return(tenth)
 }
-
-#tenth
 
 # 10 obs 10 sd
 tenth10obs_10sd <- unlist(mclapply(list_10obs_10sd, FUN = tenthestimator_noci,mc.cores = 20)) # already run
@@ -510,6 +516,8 @@ naivetenth_df <- plyr::rbind.fill(tenth10obs_10sd_df, tenth10obs_20sd_df, tenth1
                                   tenth50obs_10sd_df, tenth50obs_20sd_df, tenth50obs_40sd_df)%>% 
   mutate(perc = "tenth", Q = 10)
 
+### FIFTIETH PERCENTILE ###
+
 # lapply functions
 
 fiftyestimator_noci <- function(x){
@@ -517,8 +525,6 @@ fiftyestimator_noci <- function(x){
   fifty <- quantile(x = x, probs = 0.5)
   return(fifty)
 }
-
-#fifty
 
 # 10 obs 10 sd
 fifty10obs_10sd <- unlist(mclapply(list_10obs_10sd, FUN = fiftyestimator_noci,mc.cores = 20)) # already run
@@ -636,6 +642,9 @@ naivefifty_df <- plyr::rbind.fill(fifty10obs_10sd_df, fifty10obs_20sd_df, fifty1
                                   fifty50obs_10sd_df, fifty50obs_20sd_df, fifty50obs_40sd_df)%>% 
   mutate(perc = "fiftieth", Q = 50)
 
+
+### NINETIETH PERCENTILE ###
+
 # lapply functions
 
 nintyestimator_noci <- function(x){
@@ -643,8 +652,6 @@ nintyestimator_noci <- function(x){
   ninty <-quantile(x = x, probs = 0.9)
   return(ninty)
 }
-
-#ninty
 
 # 10 obs 10 sd
 ninty10obs_10sd <- unlist(mclapply(list_10obs_10sd, FUN = nintyestimator_noci,mc.cores = 20)) # already run
@@ -762,6 +769,7 @@ naiveninty_df <- plyr::rbind.fill(ninty10obs_10sd_df, ninty10obs_20sd_df, ninty1
                                   ninty50obs_10sd_df, ninty50obs_20sd_df, ninty50obs_40sd_df)%>% 
   mutate(perc = "ninetieth", Q = 90)
 
+### NINTYFIFTH PERCENTILE ###
 
 # lapply functions
 
@@ -770,8 +778,6 @@ nintyfiveestimator_noci <- function(x){
   nintyfive <- quantile(x = x, probs = 0.95)
   return(nintyfive)
 }
-
-#nintyfive
 
 # 10 obs 10 sd
 nintyfive10obs_10sd <- unlist(mclapply(list_10obs_10sd, FUN = nintyfiveestimator_noci,mc.cores = 20)) # already run
@@ -889,6 +895,8 @@ naivenintyfive_df <- plyr::rbind.fill(nintyfive10obs_10sd_df, nintyfive10obs_20s
                                       nintyfive50obs_10sd_df, nintyfive50obs_20sd_df, nintyfive50obs_40sd_df)%>% 
   mutate(perc = "ninetyfifth", Q = 95)
 
+### NINTY NINETH PERCENTILE ###
+
 # lapply functions
 
 nintynineestimator_noci <- function(x){
@@ -896,8 +904,6 @@ nintynineestimator_noci <- function(x){
   nintynine <- quantile(x = x, probs = 0.99)
   return(nintynine)
 }
-
-#nintynine
 
 # 10 obs 10 sd
 nintynine10obs_10sd <- unlist(mclapply(list_10obs_10sd, FUN = nintynineestimator_noci,mc.cores = 20)) # already run
@@ -1015,6 +1021,8 @@ naivenintynine_df <- plyr::rbind.fill(nintynine10obs_10sd_df, nintynine10obs_20s
                                       nintynine50obs_10sd_df, nintynine50obs_20sd_df, nintynine50obs_40sd_df) %>% 
   mutate(perc = "ninetynineth", Q = 99)
 
+### OFFSET ###
+
 # lapply functions
 
 offsetestimator_noci <- function(x){
@@ -1022,8 +1030,6 @@ offsetestimator_noci <- function(x){
   offset <- quantile(x = x, probs = 1)
   return(offset)
 }
-
-#offset
 
 # 10 obs 10 sd
 offset10obs_10sd <- unlist(mclapply(list_10obs_10sd, FUN = offsetestimator_noci,mc.cores = 20)) # already run
@@ -1145,5 +1151,5 @@ unimodal_sims_all <- plyr::rbind.fill(naiveonset_df, naivefirst_df, naivefifth_d
                                       naivefifty_df, naiveninty_df, naivenintyfive_df, naivenintynine_df,
                                       naiveoffset_df)
 
-
+# write results
 write.csv(unimodal_sims_all, file = "results/unimodal_quantile.csv", row.names = FALSE)

@@ -1,3 +1,11 @@
+### NOTE TO USERS ###
+
+#' The following code uses parellel computation with up to 30 cores being used at once.
+#' Parallelization was completed using the mclapply function. To run this script locally,
+#' replace mclapply with lapply and remove the mc.cores parameter. This phest
+#' estimator should be able to run locally without too much computational pain, as 
+#' its slick analytical solution makes it so speedy :)
+
 # load libraries
 library(parallel)
 library(phest)
@@ -194,4 +202,5 @@ pearseoffset_df <- dplyr::rename(pearseoffset_df, true_value = true_offset)
 bimodal_sims_all <- rbind(pearseonset_df,
                           pearseoffset_df)
 
+# Save Results
 write.csv(bimodal_sims_all, file = "results/bimodal_skewed_phest.csv", row.names = FALSE)

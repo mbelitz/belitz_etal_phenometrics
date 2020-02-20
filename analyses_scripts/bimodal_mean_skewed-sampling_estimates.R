@@ -1,3 +1,10 @@
+### NOTE TO USERS ###
+
+#' The following code uses parellel computation with up to 30 cores being used at once.
+#' Parallelization was completed using the mclapply function. To run this script locally,
+#' replace mclapply with lapply and remove the mc.cores parameter. This script,
+#' using the estimating the mean, should be tractable to run on a single core. 
+
 # load libraries
 library(parallel)
 library(dplyr)
@@ -97,4 +104,5 @@ bimodal_mean_df <- rbind(mean10obs_10sd_df, mean10obs_20sd_df,
                          mean50obs_10sd_df, mean50obs_20sd_df) %>% 
   mutate(perc = "Mean", Q = 50.50)
 
+# Save Results
 write.csv(bimodal_mean_df, file = "results/bimodal_skewed_mean.csv", row.names = FALSE)

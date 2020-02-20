@@ -1,8 +1,14 @@
+### NOTE TO USERS ###
+
+#' The following code uses parellel computation with up to 30 cores being used at once.
+#' Parallelization was completed using the mclapply function. To run this script locally,
+#' replace mclapply with lapply and remove the mc.cores parameter. WARNING! 
+#' This script without parallelization would take a long time to run. 
+
 # load libraries
 library(parallel)
 library(dplyr)
 library(devtools)
-install_github("mbelitz/phenesse")
 library(phenesse)
 
 # load in bimodal distributions
@@ -823,7 +829,7 @@ offset50obs_20sd_df <- offset50obs_20sd_df %>%
   mutate(obs = 50, sd = 20) %>% 
   mutate(estimator = "belitz")
 
-# # rbind these togethe
+# # rbind these together
 
 belitzoffset_df <- rbind(offset10obs_10sd_df, offset10obs_20sd_df,
                          offset20obs_10sd_df, offset20obs_20sd_df,
@@ -844,5 +850,5 @@ bimodal_sims_all <- rbind(belitzonset_df, belitzfirst_df, belitzfifth_df, belitz
                           belitzfifty_df, belitzninty_df, belitznintyfifth_df, belitznintynine_df,
                           belitzoffset_df)
 
-
+# Save Results
 write.csv(bimodal_sims_all, file = "results/bimodal_phenesse.csv", row.names = FALSE)

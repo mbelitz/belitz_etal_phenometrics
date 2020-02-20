@@ -1,8 +1,15 @@
+### NOTE TO USERS ###
+
+#' The following code uses parellel computation with up to 30 cores being used at once.
+#' Parallelization was completed using the mclapply function. To run this script locally,
+#' replace mclapply with lapply and remove the mc.cores parameter. This quantile 
+#' estimator should be able to run locally without too much computational pain.
+
 # load libraries
 library(parallel)
 library(dplyr)
 
-# load in unimodal distributions
+# load in Skewed unimodal distributions
 
 source("simulation_setup/unimodal_skewed_sampling_setup.R")
 
@@ -17,7 +24,7 @@ onsetestimator_noci <- function(x){
 #onset
 
 # 10 obs 10 sd
-onset10obs_10sd <- unlist(mclapply(list_10obs_10sd, FUN = onsetestimator_noci,mc.cores = 20)) # already run
+onset10obs_10sd <- unlist(mclapply(list_10obs_10sd, FUN = onsetestimator_noci,mc.cores = 20)) 
 onset10obs_10sd_df <- as.data.frame(split(onset10obs_10sd, 1:1))
 
 # 10 obs 20 sd
@@ -1145,5 +1152,5 @@ unimodal_sims_all <- plyr::rbind.fill(naiveonset_df, naivefirst_df, naivefifth_d
                                       naivefifty_df, naiveninty_df, naivenintyfive_df, naivenintynine_df,
                                       naiveoffset_df)
 
-
+# write results
 write.csv(unimodal_sims_all, file = "results/unimodal_skewed_quantile.csv", row.names = FALSE)
