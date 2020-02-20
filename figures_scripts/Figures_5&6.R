@@ -43,27 +43,31 @@ bi_skewed_phenesse_sims <- read.csv("results/bimodal_skewed_phenesse.csv", strin
 
 # group by and summarize to get bias and rmse
 
+# join all the results together, both skewed and normal sampling results
 total_bi <- rbind(bi_mean_sims, bi_skewed_mean_sims, bi_phest_sims, bi_skewed_phest_sims,
                   bi_quantile_sims, bi_skewed_quantile_sims, bi_phenesse_sims, bi_skewed_phenesse_sims)
 
+# calculate RMSE & BIAS values
 total_skewed_bi_metrics <- total_bi %>%  
   group_by(Estimator, perc, obs, Q, sd, Skewed) %>% 
   summarize(RMSE = rmse(actual = true_value, predicted = estimate), 
             Bias = bias(actual = true_value, predicted = estimate)) 
 
+# make variables structured as character for graphing purposes
 total_skewed_bi_metrics$sd <- as.character(total_skewed_bi_metrics$sd)
 total_skewed_bi_metrics$obs <- as.character(total_skewed_bi_metrics$obs)
 total_skewed_bi_metrics$Q <- as.character(total_skewed_bi_metrics$Q)
 total_skewed_bi_metrics <- total_skewed_bi_metrics %>% 
   mutate(fac_Q = ifelse(Q == 50.50, "Mean", Q))
 
+# add levels to fac_Q column and add different wording to sd and observations
 total_skewed_bi_metrics_barplot <- total_skewed_bi_metrics %>% 
   ungroup(fac_Q) %>% 
   mutate(fac_Q = factor(fac_Q, levels = c('0','1','5','10','50',"Mean",'90','95','99','100'))) %>% 
   mutate(sd = paste(sd, "sd")) %>% 
   mutate(obs = paste(obs, "Observations")) 
 
-### only random
+### Get Random sampling data ready to plot
 
 bm_random_rmse_data <- total_skewed_bi_metrics_barplot %>% 
   dplyr::filter(Skewed == "No") %>% 

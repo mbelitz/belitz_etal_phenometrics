@@ -3,9 +3,12 @@ library(cowplot)
 library(ggplot2)
 library(latex2exp)
 
+# Create a vector of observations taht will be used as example observations
 testobs <- c(150,160,162,164,168,170,172,176,178,188)
 
-# Curve Intersect Function
+#' Curve Intersect Function
+#' This function takes two dataframes with x and y values that can be plotted
+#' and calculates where the two lines intersect
 
 curve_intersect <- function(curve1, curve2, empirical=TRUE, domain=NULL) {
   if (!empirical & missing(domain)) {
@@ -39,16 +42,21 @@ curve_intersect <- function(curve1, curve2, empirical=TRUE, domain=NULL) {
   return(list(x = point_x, y = point_y))
 }
 
+#' Function to to solve for the CDF values of 0.01 and 0.99,
+#'given our original observations
+
 create_cdf_ends <- function(observations){
   weib <- fitdistrplus::fitdist(observations, distr = "weibull", method = "mle")
   cdf0 <- as.numeric(weib$estimate['scale']*(-log(1-0.01))^(1/weib$estimate['shape']))
   cdf100 <- as.numeric(weib$estimate['scale']*(-log(1-0.99))^(1/weib$estimate['shape']))
-  
+  # Here we add the calculated cdf values o our original observation vector
   added_vec <- sort(append(observations, values = c(cdf0, cdf100)), decreasing = FALSE)
   cdfadded <- 1 - exp(-(added_vec/weib$estimate['scale'])^weib$estimate['shape'])
   return(added_vec)
 }
 
+#' This function makes a data frame that will be used to plot a smooth
+#' CDF from -0.001 to 1.001 given our original observations
 create_predict_df <- function(observations){
   
   added_vec <- create_cdf_ends(observations)
@@ -68,6 +76,7 @@ create_predict_df <- function(observations){
   
 }
 
+# Now gather data needed to make plots given our test observations defined on line 7
 cdf_df <- create_predict_df(testobs)
 weib <- fitdistrplus::fitdist(testobs, distr = "weibull", method = "mle")
 cdf_origpts <- 1 - exp(-(testobs/weib$estimate['scale'])^weib$estimate['shape'])
