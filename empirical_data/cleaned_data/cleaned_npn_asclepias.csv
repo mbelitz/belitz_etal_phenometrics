@@ -1,0 +1,800 @@
+Observation_ID,Update_Datetime,Site_ID,Elevation_in_Meters,State,Species_ID,Genus,Species,Common_Name,Kingdom,Individual_ID,Phenophase_ID,Phenophase_Description,Observation_Date,Day_of_Year,Phenophase_Status,Intensity_Category_ID,Intensity_Value,Abundance_Value,hex_ids
+20874312,10/31/2019 17:46,11605,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,52989,501,Open flowers,3/29/2019,88,0,50,-9999,-9999,8896
+20875483,-9999,11605,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,52989,501,Open flowers,5/14/2019,134,0,50,-9999,-9999,8896
+20876461,11/1/2019 17:27,11605,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,52989,501,Open flowers,6/13/2019,164,0,50,-9999,-9999,8896
+20874264,10/31/2019 17:46,11605,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,52989,501,Open flowers,3/22/2019,81,0,50,-9999,-9999,8896
+20875360,-9999,11605,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,52989,501,Open flowers,5/10/2019,130,0,50,-9999,-9999,8896
+20876408,11/1/2019 17:27,11605,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,52989,501,Open flowers,6/8/2019,159,0,50,-9999,-9999,8896
+20875237,-9999,11605,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,52989,501,Open flowers,5/6/2019,126,0,50,-9999,-9999,8896
+20876115,10/31/2019 20:00,11605,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,52989,501,Open flowers,6/4/2019,155,0,50,-9999,-9999,8896
+20875114,-9999,11605,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,52989,501,Open flowers,5/4/2019,124,0,50,-9999,-9999,8896
+20876070,10/31/2019 20:00,11605,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,52989,501,Open flowers,5/31/2019,151,0,50,-9999,-9999,8896
+20874996,-9999,11605,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,52989,501,Open flowers,4/29/2019,119,0,50,-9999,-9999,8896
+20876017,10/31/2019 20:00,11605,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,52989,501,Open flowers,5/26/2019,146,0,50,-9999,-9999,8896
+20874873,-9999,11605,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,52989,501,Open flowers,4/26/2019,116,0,50,-9999,-9999,8896
+20875868,10/31/2019 19:46,11605,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,52989,501,Open flowers,5/23/2019,143,0,50,-9999,-9999,8896
+20909615,11/4/2019 19:08,11605,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,52989,501,Open flowers,11/3/2019,307,0,50,-9999,-9999,8896
+20874750,-9999,11605,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,52989,501,Open flowers,4/9/2019,99,0,50,-9999,-9999,8896
+20875745,10/31/2019 19:46,11605,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,52989,501,Open flowers,5/20/2019,140,0,50,-9999,-9999,8896
+20909556,11/4/2019 19:08,11605,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,52989,501,Open flowers,10/27/2019,300,0,50,-9999,-9999,8896
+20874349,10/31/2019 17:46,11605,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,52989,501,Open flowers,4/3/2019,93,0,50,-9999,-9999,8896
+20875622,10/31/2019 19:46,11605,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,52989,501,Open flowers,5/17/2019,137,0,50,-9999,-9999,8896
+20876509,11/1/2019 17:27,11605,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,52989,501,Open flowers,6/19/2019,170,0,50,-9999,-9999,8896
+16507948,4/16/2019 14:01,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116306,501,Open flowers,4/16/2019,106,0,-9999,-9999,-9999,8896
+17089565,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116306,501,Open flowers,6/6/2019,157,0,-9999,-9999,-9999,8896
+17676373,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116306,501,Open flowers,8/15/2019,227,0,50,-9999,-9999,8896
+20870869,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116306,501,Open flowers,10/31/2019,304,0,50,-9999,-9999,8896
+16444940,4/22/2019 7:45,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,4/12/2019,102,0,50,-9999,-9999,8896
+16797849,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,5/10/2019,130,0,-9999,-9999,-9999,8896
+17224852,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,6/20/2019,171,0,50,-9999,-9999,8896
+17605399,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,8/5/2019,217,0,50,-9999,-9999,8896
+18202777,10/17/2019 10:19,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,10/17/2019,290,0,50,-9999,-9999,8896
+16444931,4/22/2019 7:45,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116306,501,Open flowers,4/12/2019,102,0,50,-9999,-9999,8896
+16945365,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116306,501,Open flowers,5/23/2019,143,0,-9999,-9999,-9999,8896
+17634544,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116306,501,Open flowers,8/8/2019,220,0,50,-9999,-9999,8896
+20819918,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116306,501,Open flowers,10/24/2019,297,0,50,-9999,-9999,8896
+16347505,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,4/4/2019,94,0,-9999,-9999,-9999,8896
+16741593,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,5/5/2019,125,0,-9999,-9999,-9999,8896
+17205677,6/18/2019 13:59,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,6/18/2019,169,0,-9999,-9999,-9999,8896
+17579846,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,8/1/2019,213,0,50,-9999,-9999,8896
+18141918,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,10/9/2019,282,0,50,-9999,-9999,8896
+16402297,4/9/2019 6:47,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116306,501,Open flowers,4/9/2019,99,0,-9999,-9999,-9999,8896
+16741321,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116306,501,Open flowers,5/5/2019,125,0,-9999,-9999,-9999,8896
+17579874,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116306,501,Open flowers,8/1/2019,213,0,50,-9999,-9999,8896
+18202807,10/17/2019 10:19,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116306,501,Open flowers,10/17/2019,290,0,50,-9999,-9999,8896
+16331852,4/22/2019 7:45,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,4/3/2019,93,0,50,-9999,-9999,8896
+16698080,5/1/2019 11:20,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,5/1/2019,121,0,-9999,-9999,-9999,8896
+17089559,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,6/6/2019,157,0,-9999,-9999,-9999,8896
+17560844,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,7/29/2019,210,0,50,-9999,-9999,8896
+17940113,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,9/17/2019,260,0,50,-9999,-9999,8896
+16392394,4/12/2019 5:41,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116306,501,Open flowers,4/8/2019,98,0,50,-9999,-9999,8896
+16698109,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116306,501,Open flowers,5/1/2019,121,0,-9999,-9999,-9999,8896
+17340104,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116306,501,Open flowers,7/3/2019,184,0,50,-9999,-9999,8896
+18141931,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116306,501,Open flowers,10/9/2019,282,0,50,-9999,-9999,8896
+16644168,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,4/28/2019,118,0,-9999,-9999,-9999,8896
+17037495,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,6/2/2019,153,0,-9999,-9999,-9999,8896
+17532213,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,7/25/2019,206,1,50,5-24%,-9999,8896
+17836980,9/5/2019 11:37,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,9/5/2019,248,0,50,-9999,-9999,8896
+16331927,4/22/2019 7:45,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116306,501,Open flowers,4/3/2019,93,0,50,-9999,-9999,8896
+16643633,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116306,501,Open flowers,4/28/2019,118,0,-9999,-9999,-9999,8896
+17377389,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116306,501,Open flowers,7/1/2019,182,0,50,-9999,-9999,8896
+17940127,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116306,501,Open flowers,9/17/2019,260,0,50,-9999,-9999,8896
+16618729,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,4/25/2019,115,0,-9999,-9999,-9999,8896
+17009075,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,5/29/2019,149,0,-9999,-9999,-9999,8896
+17377453,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,7/8/2019,189,1,50,50-74%,-9999,8896
+17772147,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,8/29/2019,241,0,50,-9999,-9999,8896
+16444952,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116313,501,Open flowers,4/12/2019,102,0,-9999,-9999,-9999,8896
+16618688,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116306,501,Open flowers,4/25/2019,115,0,-9999,-9999,-9999,8896
+17287053,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116306,501,Open flowers,6/27/2019,178,0,50,-9999,-9999,8896
+17837877,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116306,501,Open flowers,9/5/2019,248,0,50,-9999,-9999,8896
+16529864,4/22/2019 7:45,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,4/18/2019,108,0,50,-9999,-9999,8896
+16945373,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,5/23/2019,143,0,-9999,-9999,-9999,8896
+17340074,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,7/3/2019,184,1,50,Less than 5%,-9999,8896
+17727043,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,8/23/2019,235,0,50,-9999,-9999,8896
+16548244,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116306,501,Open flowers,4/19/2019,109,0,-9999,-9999,-9999,8896
+17224858,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116306,501,Open flowers,6/20/2019,171,0,50,-9999,-9999,8896
+17772154,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116306,501,Open flowers,8/29/2019,241,0,50,-9999,-9999,8896
+16511937,4/18/2019 12:09,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,4/17/2019,107,0,-9999,-9999,-9999,8896
+16923607,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,5/21/2019,141,0,-9999,-9999,-9999,8896
+17377268,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,7/1/2019,182,1,50,Less than 5%,-9999,8896
+17676380,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,8/15/2019,227,0,50,-9999,-9999,8896
+20870855,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,10/31/2019,304,0,50,-9999,-9999,8896
+16529834,4/22/2019 7:45,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116306,501,Open flowers,4/18/2019,108,0,50,-9999,-9999,8896
+17204210,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116306,501,Open flowers,6/18/2019,169,0,-9999,-9999,-9999,8896
+17727056,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116306,501,Open flowers,8/23/2019,235,0,50,-9999,-9999,8896
+16463997,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,4/14/2019,104,0,-9999,-9999,-9999,8896
+16916436,6/7/2019 10:23,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,5/20/2019,140,0,50,-9999,-9999,8896
+17286936,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,6/27/2019,178,0,50,-9999,-9999,8896
+17634537,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,8/8/2019,220,0,50,-9999,-9999,8896
+20819911,-9999,24566,251,MN,199,Asclepias,syriaca,common milkweed,Plantae,116312,501,Open flowers,10/24/2019,297,0,50,-9999,-9999,8896
+16760435,6/3/2019 15:18,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117000,501,Open flowers,5/6/2019,126,0,50,-9999,-9999,8896
+17203583,6/18/2019 10:57,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117000,501,Open flowers,6/17/2019,168,0,50,-9999,-9999,8896
+17673524,8/19/2019 18:25,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117000,501,Open flowers,8/13/2019,225,0,50,-9999,-9999,8896
+16326011,4/2/2019 16:49,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117001,501,Open flowers,4/2/2019,92,0,50,-9999,-9999,8896
+16842012,6/3/2019 15:18,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117001,501,Open flowers,5/13/2019,133,0,50,-9999,-9999,8896
+17396481,7/24/2019 12:42,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117001,501,Open flowers,7/9/2019,190,1,50,50-74%,-9999,8896
+17892093,9/11/2019 13:31,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117001,501,Open flowers,9/10/2019,253,0,50,-9999,-9999,8896
+16749908,-9999,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117000,501,Open flowers,5/5/2019,125,0,-9999,-9999,-9999,8896
+17135570,-9999,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117000,501,Open flowers,6/11/2019,162,0,-9999,-9999,-9999,8896
+17626773,8/14/2019 14:20,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117000,501,Open flowers,8/7/2019,219,0,50,-9999,-9999,8896
+16303492,-9999,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117001,501,Open flowers,3/31/2019,90,0,-9999,-9999,-9999,8896
+16760448,6/3/2019 15:18,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117001,501,Open flowers,5/6/2019,126,0,50,-9999,-9999,8896
+17372404,7/24/2019 12:42,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117001,501,Open flowers,7/1/2019,182,1,50,5-24%,-9999,8896
+17840300,9/11/2019 13:27,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117001,501,Open flowers,9/5/2019,248,0,50,-9999,-9999,8896
+16713787,-9999,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117000,501,Open flowers,5/2/2019,122,0,-9999,-9999,-9999,8896
+17124177,6/18/2019 10:52,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117000,501,Open flowers,6/10/2019,161,0,50,-9999,-9999,8896
+17558089,8/7/2019 10:27,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117000,501,Open flowers,7/29/2019,210,0,50,-9999,-9999,8896
+16751796,-9999,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117001,501,Open flowers,5/5/2019,125,0,-9999,-9999,-9999,8896
+17256189,7/9/2019 13:24,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117001,501,Open flowers,6/24/2019,175,0,50,-9999,-9999,8896
+17840039,9/5/2019 14:54,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117001,501,Open flowers,8/27/2019,239,0,50,-9999,-9999,8896
+16664641,6/3/2019 15:19,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117000,501,Open flowers,4/29/2019,119,0,50,-9999,-9999,8896
+17120439,6/18/2019 10:52,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117000,501,Open flowers,6/4/2019,155,0,50,-9999,-9999,8896
+17524319,7/24/2019 12:42,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117000,501,Open flowers,7/18/2019,199,0,50,-9999,-9999,8896
+16671194,6/3/2019 15:19,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117001,501,Open flowers,4/29/2019,119,0,50,-9999,-9999,8896
+17203554,6/18/2019 10:57,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117001,501,Open flowers,6/17/2019,168,0,50,-9999,-9999,8896
+17707552,9/5/2019 14:41,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117001,501,Open flowers,8/19/2019,231,0,50,-9999,-9999,8896
+16651912,-9999,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117000,501,Open flowers,4/28/2019,118,0,-9999,-9999,-9999,8896
+16993700,6/9/2019 18:12,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117000,501,Open flowers,5/29/2019,149,0,50,-9999,-9999,8896
+17396474,7/24/2019 12:42,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117000,501,Open flowers,7/9/2019,190,0,50,-9999,-9999,8896
+17892086,9/11/2019 13:31,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117000,501,Open flowers,9/10/2019,253,0,50,-9999,-9999,8896
+16651721,-9999,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117001,501,Open flowers,4/28/2019,118,0,-9999,-9999,-9999,8896
+17124361,6/18/2019 10:52,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117001,501,Open flowers,6/10/2019,161,0,50,-9999,-9999,8896
+17673531,8/19/2019 18:25,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117001,501,Open flowers,8/13/2019,225,0,50,-9999,-9999,8896
+16642114,-9999,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117000,501,Open flowers,4/27/2019,117,0,-9999,-9999,-9999,8896
+16989949,-9999,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117000,501,Open flowers,5/28/2019,148,0,-9999,-9999,-9999,8896
+17372397,7/24/2019 12:42,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117000,501,Open flowers,7/1/2019,182,0,50,-9999,-9999,8896
+17840293,9/11/2019 13:27,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117000,501,Open flowers,9/5/2019,248,0,50,-9999,-9999,8896
+16561935,-9999,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117001,501,Open flowers,4/20/2019,110,0,-9999,-9999,-9999,8896
+17120422,6/18/2019 10:52,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117001,501,Open flowers,6/4/2019,155,0,50,-9999,-9999,8896
+17626780,8/14/2019 14:20,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117001,501,Open flowers,8/7/2019,219,0,50,-9999,-9999,8896
+16561623,-9999,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117000,501,Open flowers,4/20/2019,110,0,-9999,-9999,-9999,8896
+16923901,6/3/2019 15:18,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117000,501,Open flowers,5/21/2019,141,0,50,-9999,-9999,8896
+17292319,-9999,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117000,501,Open flowers,6/28/2019,179,0,-9999,-9999,-9999,8896
+17840032,9/5/2019 14:54,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117000,501,Open flowers,8/27/2019,239,0,50,-9999,-9999,8896
+16460585,-9999,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117001,501,Open flowers,4/13/2019,103,0,-9999,-9999,-9999,8896
+16994052,6/9/2019 18:12,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117001,501,Open flowers,5/29/2019,149,0,50,-9999,-9999,8896
+17558096,8/7/2019 10:27,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117001,501,Open flowers,7/29/2019,210,1,50,Less than 5%,-9999,8896
+16303499,-9999,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117002,501,Open flowers,3/31/2019,90,0,-9999,-9999,-9999,8896
+16303485,-9999,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117000,501,Open flowers,3/31/2019,90,0,-9999,-9999,-9999,8896
+16841977,6/3/2019 15:18,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117000,501,Open flowers,5/13/2019,133,0,50,-9999,-9999,8896
+17256182,7/9/2019 13:24,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117000,501,Open flowers,6/24/2019,175,0,50,-9999,-9999,8896
+17707545,9/5/2019 14:41,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117000,501,Open flowers,8/19/2019,231,0,50,-9999,-9999,8896
+16409918,-9999,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117001,501,Open flowers,4/6/2019,96,0,-9999,-9999,-9999,8896
+16923744,6/3/2019 15:18,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117001,501,Open flowers,5/21/2019,141,0,50,-9999,-9999,8896
+17524326,7/24/2019 12:42,24692,220,MN,199,Asclepias,syriaca,common milkweed,Plantae,117001,501,Open flowers,7/18/2019,199,1,50,75-94%,-9999,8896
+17110474,-9999,26000,284,MN,199,Asclepias,syriaca,common milkweed,Plantae,129335,501,Open flowers,5/7/2019,127,0,-9999,-9999,-9999,8896
+16849295,-9999,26000,284,MN,199,Asclepias,syriaca,common milkweed,Plantae,129335,501,Open flowers,4/26/2019,116,0,-9999,-9999,-9999,8896
+16849181,-9999,26000,284,MN,199,Asclepias,syriaca,common milkweed,Plantae,129335,501,Open flowers,4/23/2019,113,0,-9999,-9999,-9999,8896
+17584322,-9999,26000,284,MN,199,Asclepias,syriaca,common milkweed,Plantae,129335,501,Open flowers,8/1/2019,213,1,50,95% or more,-9999,8896
+17356199,-9999,26000,284,MN,199,Asclepias,syriaca,common milkweed,Plantae,129335,501,Open flowers,7/6/2019,187,0,-9999,-9999,-9999,8896
+17258490,-9999,26000,284,MN,199,Asclepias,syriaca,common milkweed,Plantae,129335,501,Open flowers,6/22/2019,173,0,-9999,-9999,-9999,8896
+17258753,-9999,26000,284,MN,199,Asclepias,syriaca,common milkweed,Plantae,129335,501,Open flowers,6/8/2019,159,0,-9999,-9999,-9999,8896
+17110606,-9999,26000,284,MN,199,Asclepias,syriaca,common milkweed,Plantae,129335,501,Open flowers,5/24/2019,144,0,-9999,-9999,-9999,8896
+17110539,-9999,26000,284,MN,199,Asclepias,syriaca,common milkweed,Plantae,129335,501,Open flowers,5/14/2019,134,0,-9999,-9999,-9999,8896
+16489981,-9999,27458,296,MN,199,Asclepias,syriaca,common milkweed,Plantae,141727,501,Open flowers,4/1/2019,91,0,-9999,-9999,-9999,8896
+18149253,-9999,27458,296,MN,199,Asclepias,syriaca,common milkweed,Plantae,141728,501,Open flowers,10/10/2019,283,0,50,-9999,-9999,8896
+17021647,-9999,27458,296,MN,199,Asclepias,syriaca,common milkweed,Plantae,141728,501,Open flowers,5/31/2019,151,0,50,-9999,-9999,8896
+18149246,-9999,27458,296,MN,199,Asclepias,syriaca,common milkweed,Plantae,141727,501,Open flowers,10/10/2019,283,0,50,-9999,-9999,8896
+16821099,-9999,27458,296,MN,199,Asclepias,syriaca,common milkweed,Plantae,141728,501,Open flowers,5/12/2019,132,0,-9999,-9999,-9999,8896
+17021640,-9999,27458,296,MN,199,Asclepias,syriaca,common milkweed,Plantae,141727,501,Open flowers,5/31/2019,151,0,50,-9999,-9999,8896
+16588649,-9999,27458,296,MN,199,Asclepias,syriaca,common milkweed,Plantae,141728,501,Open flowers,4/20/2019,110,0,-9999,-9999,-9999,8896
+16821092,-9999,27458,296,MN,199,Asclepias,syriaca,common milkweed,Plantae,141727,501,Open flowers,5/12/2019,132,0,-9999,-9999,-9999,8896
+16489988,-9999,27458,296,MN,199,Asclepias,syriaca,common milkweed,Plantae,141728,501,Open flowers,4/1/2019,91,0,-9999,-9999,-9999,8896
+16588642,-9999,27458,296,MN,199,Asclepias,syriaca,common milkweed,Plantae,141727,501,Open flowers,4/20/2019,110,0,-9999,-9999,-9999,8896
+15914299,3/20/2019 8:52,31820,252,MN,199,Asclepias,syriaca,common milkweed,Plantae,177249,501,Open flowers,2/15/2019,46,0,50,-9999,-9999,8896
+15971917,2/26/2019 8:32,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,2/26/2019,57,0,-9999,-9999,-9999,12533
+16010626,3/3/2019 11:15,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,3/3/2019,62,0,-9999,-9999,-9999,12533
+16997629,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,3/25/2019,84,0,-9999,-9999,-9999,12533
+16491421,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,4/16/2019,106,0,-9999,-9999,-9999,12533
+16926347,5/23/2019 20:17,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,5/21/2019,141,0,-9999,-9999,-9999,12533
+17513334,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,7/16/2019,197,0,50,-9999,-9999,12533
+16302575,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,3/14/2019,73,0,-9999,-9999,-9999,12533
+16347428,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,4/4/2019,94,0,-9999,-9999,-9999,12533
+16641873,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,4/27/2019,117,0,-9999,-9999,-9999,12533
+17217585,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,6/19/2019,170,0,-9999,-9999,-9999,12533
+17671599,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,8/14/2019,226,0,50,-9999,-9999,12533
+16223747,4/2/2019 8:03,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,3/26/2019,85,0,-9999,-9999,-9999,12533
+18162263,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,10/12/2019,285,0,50,-9999,-9999,12533
+16559881,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,4/20/2019,110,0,-9999,-9999,-9999,12533
+16999395,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,5/29/2019,149,0,-9999,-9999,-9999,12533
+17513241,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,7/16/2019,197,0,50,-9999,-9999,12533
+17927423,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,9/16/2019,259,0,50,-9999,-9999,12533
+20914548,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,11/2/2019,306,0,50,-9999,-9999,12533
+15928767,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,2/19/2019,50,0,-9999,-9999,-9999,12533
+16120668,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,3/15/2019,74,0,-9999,-9999,-9999,12533
+16010524,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,3/3/2019,62,0,-9999,-9999,-9999,12533
+16567198,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,4/21/2019,111,0,-9999,-9999,-9999,12533
+16224268,4/2/2019 8:03,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,3/26/2019,85,0,-9999,-9999,-9999,12533
+16997664,5/29/2019 12:43,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,5/29/2019,149,0,-9999,-9999,-9999,12533
+16559744,4/20/2019 14:45,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,4/20/2019,110,0,-9999,-9999,-9999,12533
+17451474,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,7/16/2019,197,0,50,-9999,-9999,12533
+16999046,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,5/29/2019,149,0,-9999,-9999,-9999,12533
+17869838,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,9/9/2019,252,0,50,-9999,-9999,12533
+17558659,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,7/29/2019,210,0,50,-9999,-9999,12533
+20857202,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,10/30/2019,303,0,50,-9999,-9999,12533
+15971963,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,2/26/2019,57,0,-9999,-9999,-9999,12533
+15971613,2/26/2019 8:25,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,2/26/2019,57,0,-9999,-9999,-9999,12533
+16163725,3/20/2019 13:01,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,3/20/2019,79,0,-9999,-9999,-9999,12533
+16567175,4/21/2019 14:35,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,4/12/2019,102,0,-9999,-9999,-9999,12533
+16874374,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,5/16/2019,136,0,-9999,-9999,-9999,12533
+17443793,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,7/9/2019,190,0,50,-9999,-9999,12533
+16052193,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,3/8/2019,67,0,-9999,-9999,-9999,12533
+16319182,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,4/2/2019,92,0,-9999,-9999,-9999,12533
+16592453,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,4/23/2019,113,0,-9999,-9999,-9999,12533
+17163994,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,6/13/2019,164,0,-9999,-9999,-9999,12533
+17671564,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,8/6/2019,218,0,50,-9999,-9999,12533
+16997425,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,3/25/2019,84,0,-9999,-9999,-9999,12533
+18134328,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,10/8/2019,281,0,50,-9999,-9999,12533
+16491284,4/16/2019 8:16,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,4/16/2019,106,0,-9999,-9999,-9999,12533
+16925177,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,5/21/2019,141,0,-9999,-9999,-9999,12533
+17443705,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,7/9/2019,190,0,50,-9999,-9999,12533
+17871723,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,9/9/2019,252,0,50,-9999,-9999,12533
+20857831,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,10/30/2019,303,0,50,-9999,-9999,12533
+15928763,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,2/19/2019,50,0,-9999,-9999,-9999,12533
+16110895,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,3/14/2019,73,1,50,5-24%,-9999,12533
+15971918,2/26/2019 8:30,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,2/26/2019,57,0,-9999,-9999,-9999,12533
+16490560,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,4/16/2019,106,0,-9999,-9999,-9999,12533
+16997622,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,3/25/2019,84,0,-9999,-9999,-9999,12533
+16998079,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,5/29/2019,149,0,-9999,-9999,-9999,12533
+16491404,4/16/2019 8:26,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,4/16/2019,106,0,-9999,-9999,-9999,12533
+17392628,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,7/9/2019,190,1,50,Less than 5%,-9999,12533
+16926215,5/23/2019 20:17,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,5/21/2019,141,0,-9999,-9999,-9999,12533
+17869806,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,9/9/2019,252,0,50,-9999,-9999,12533
+17513327,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,7/16/2019,197,0,50,-9999,-9999,12533
+18181860,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,10/15/2019,288,0,50,-9999,-9999,12533
+16120644,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,2/19/2019,50,0,-9999,-9999,-9999,12533
+15971614,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,2/26/2019,57,0,-9999,-9999,-9999,12533
+16213314,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,3/15/2019,74,0,-9999,-9999,-9999,12533
+16434742,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,4/11/2019,101,0,-9999,-9999,-9999,12533
+16747191,5/7/2019 11:22,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,5/5/2019,125,0,-9999,-9999,-9999,12533
+17392589,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,7/3/2019,184,0,50,-9999,-9999,12533
+17746470,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,8/26/2019,238,0,50,-9999,-9999,12533
+16019986,3/26/2019 7:44,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,3/5/2019,64,0,-9999,-9999,-9999,12533
+16449954,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,3/31/2019,90,0,-9999,-9999,-9999,12533
+16569199,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,4/21/2019,111,0,-9999,-9999,-9999,12533
+17079691,6/13/2019 11:55,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,6/5/2019,156,0,-9999,-9999,-9999,12533
+17558666,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,7/29/2019,210,0,50,-9999,-9999,12533
+16164380,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,3/20/2019,79,0,-9999,-9999,-9999,12533
+18062804,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,9/30/2019,273,0,50,-9999,-9999,12533
+16450971,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,4/12/2019,102,0,-9999,-9999,-9999,12533
+16874726,5/16/2019 12:33,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,5/16/2019,136,0,-9999,-9999,-9999,12533
+17392539,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,7/3/2019,184,1,50,5-24%,-9999,12533
+17746549,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,8/26/2019,238,0,50,-9999,-9999,12533
+18183710,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,10/15/2019,288,0,-9999,-9999,-9999,12533
+15928773,2/19/2019 8:44,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,2/19/2019,50,0,-9999,-9999,-9999,12533
+16051762,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,3/8/2019,67,1,50,5-24%,-9999,12533
+15971967,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,2/26/2019,57,0,-9999,-9999,-9999,12533
+16450015,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,4/12/2019,102,0,-9999,-9999,-9999,12533
+16163741,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,3/20/2019,79,0,-9999,-9999,-9999,12533
+16923581,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,5/21/2019,141,0,-9999,-9999,-9999,12533
+16451155,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,4/12/2019,102,0,-9999,-9999,-9999,12533
+17339849,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,7/3/2019,184,1,50,50-74%,-9999,12533
+16874387,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,5/16/2019,136,0,-9999,-9999,-9999,12533
+17746882,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,8/26/2019,238,0,50,-9999,-9999,12533
+17443786,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,7/9/2019,190,0,50,-9999,-9999,12533
+18161504,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,10/12/2019,285,0,50,-9999,-9999,12533
+21132660,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,12/3/2019,337,0,50,-9999,-9999,12533
+15929951,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,2/19/2019,50,0,-9999,-9999,-9999,12533
+16115117,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,3/14/2019,73,0,-9999,-9999,-9999,12533
+16213166,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,3/15/2019,74,0,-9999,-9999,-9999,12533
+16404699,4/16/2019 7:45,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,4/9/2019,99,0,-9999,-9999,-9999,12533
+16676279,5/29/2019 12:09,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,4/30/2019,120,0,-9999,-9999,-9999,12533
+17339819,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,6/24/2019,175,1,50,75-94%,-9999,12533
+17771111,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,8/21/2019,233,0,-9999,-9999,-9999,12533
+16010534,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,3/3/2019,62,0,-9999,-9999,-9999,12533
+16318437,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,3/26/2019,85,0,-9999,-9999,-9999,12533
+16559755,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,4/20/2019,110,0,-9999,-9999,-9999,12533
+16999149,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,5/29/2019,149,0,-9999,-9999,-9999,12533
+17558631,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,7/23/2019,204,0,50,-9999,-9999,12533
+18061988,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,9/23/2019,266,0,50,-9999,-9999,12533
+16435622,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,4/11/2019,101,0,-9999,-9999,-9999,12533
+20915922,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,11/5/2019,309,0,50,-9999,-9999,12533
+16747074,5/5/2019 14:05,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,5/5/2019,125,0,-9999,-9999,-9999,12533
+17339742,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,6/24/2019,175,0,50,-9999,-9999,12533
+17715674,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,8/21/2019,233,0,-9999,-9999,-9999,12533
+18183292,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,10/15/2019,288,0,50,-9999,-9999,12533
+21133025,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,12/3/2019,337,0,50,-9999,-9999,12533
+16019602,3/5/2019 8:08,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,3/5/2019,64,0,-9999,-9999,-9999,12533
+16120637,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,2/19/2019,50,0,-9999,-9999,-9999,12533
+16403328,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,4/9/2019,99,0,-9999,-9999,-9999,12533
+16213307,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,3/15/2019,74,0,-9999,-9999,-9999,12533
+16916615,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,5/20/2019,140,0,-9999,-9999,-9999,12533
+16434884,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,4/11/2019,101,0,-9999,-9999,-9999,12533
+17257082,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,6/24/2019,175,0,50,-9999,-9999,12533
+16747182,5/5/2019 14:14,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,5/5/2019,125,0,-9999,-9999,-9999,12533
+17714870,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,8/21/2019,233,0,-9999,-9999,-9999,12533
+17392585,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,7/3/2019,184,0,50,-9999,-9999,12533
+18133400,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,10/8/2019,281,0,50,-9999,-9999,12533
+21070448,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,11/26/2019,330,0,50,-9999,-9999,12533
+16136669,3/31/2019 16:40,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,3/14/2019,73,0,-9999,-9999,-9999,12533
+16115014,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,3/14/2019,73,0,-9999,-9999,-9999,12533
+16347352,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,4/4/2019,94,0,-9999,-9999,-9999,12533
+16744658,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,4/27/2019,117,0,-9999,-9999,-9999,12533
+17217563,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,6/19/2019,170,1,-9999,-9999,-9999,12533
+17671585,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,8/14/2019,226,0,50,-9999,-9999,12533
+16997608,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,3/25/2019,84,0,-9999,-9999,-9999,12533
+16491384,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,4/16/2019,106,0,-9999,-9999,-9999,12533
+16925806,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,5/21/2019,141,0,-9999,-9999,-9999,12533
+17513313,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,7/16/2019,197,0,50,-9999,-9999,12533
+17927586,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,9/16/2019,259,0,50,-9999,-9999,12533
+16404548,4/9/2019 8:39,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,4/9/2019,99,0,-9999,-9999,-9999,12533
+20914624,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,11/2/2019,306,0,50,-9999,-9999,12533
+16675195,4/30/2019 8:31,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,4/30/2019,120,0,-9999,-9999,-9999,12533
+17217701,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,6/19/2019,170,0,-9999,-9999,-9999,12533
+17671671,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,8/14/2019,226,0,50,-9999,-9999,12533
+18162180,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,10/12/2019,285,0,50,-9999,-9999,12533
+21070897,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,11/26/2019,330,0,50,-9999,-9999,12533
+16011006,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,3/3/2019,62,0,-9999,-9999,-9999,12533
+16318458,4/2/2019 8:06,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,4/2/2019,92,0,-9999,-9999,-9999,12533
+16115116,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,3/14/2019,73,0,-9999,-9999,-9999,12533
+16745389,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,5/5/2019,125,0,-9999,-9999,-9999,12533
+16404657,4/16/2019 7:45,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,4/9/2019,99,0,-9999,-9999,-9999,12533
+17163234,6/13/2019 11:12,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,6/13/2019,164,0,-9999,-9999,-9999,12533
+16676240,5/29/2019 12:09,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,4/30/2019,120,0,-9999,-9999,-9999,12533
+17672083,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,8/14/2019,226,0,50,-9999,-9999,12533
+17339812,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,6/24/2019,175,1,50,50-74%,-9999,12533
+18062006,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,9/30/2019,273,0,50,-9999,-9999,12533
+17746953,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,8/26/2019,238,0,50,-9999,-9999,12533
+21029300,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,11/19/2019,323,0,50,-9999,-9999,12533
+15971893,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,2/26/2019,57,0,-9999,-9999,-9999,12533
+16110773,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,3/8/2019,67,0,-9999,-9999,-9999,12533
+16111879,3/14/2019 13:36,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,3/14/2019,73,0,-9999,-9999,-9999,12533
+16319472,4/9/2019 8:10,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,4/2/2019,92,0,-9999,-9999,-9999,12533
+16592573,4/30/2019 7:53,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,4/23/2019,113,0,-9999,-9999,-9999,12533
+17163814,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,6/13/2019,164,0,-9999,-9999,-9999,12533
+17671571,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,8/6/2019,218,0,50,-9999,-9999,12533
+16163752,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,3/20/2019,79,0,-9999,-9999,-9999,12533
+16451154,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,4/12/2019,102,0,-9999,-9999,-9999,12533
+16874416,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,5/16/2019,136,0,-9999,-9999,-9999,12533
+17443779,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,7/9/2019,190,0,50,-9999,-9999,12533
+17872795,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,9/9/2019,252,0,50,-9999,-9999,12533
+16347655,4/4/2019 12:44,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,4/4/2019,94,0,-9999,-9999,-9999,12533
+20857914,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,10/30/2019,303,0,50,-9999,-9999,12533
+16641789,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,4/27/2019,117,0,-9999,-9999,-9999,12533
+17163725,6/13/2019 13:16,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,6/13/2019,164,0,-9999,-9999,-9999,12533
+17671481,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,8/6/2019,218,0,50,-9999,-9999,12533
+18134012,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,10/8/2019,281,0,50,-9999,-9999,12533
+21029946,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,11/19/2019,323,0,50,-9999,-9999,12533
+15970758,2/26/2019 7:54,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,2/26/2019,57,1,50,Less than 5%,-9999,12533
+16302746,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,3/31/2019,90,0,-9999,-9999,-9999,12533
+16136694,3/31/2019 16:40,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,3/14/2019,73,0,-9999,-9999,-9999,12533
+16673050,4/30/2019 8:00,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,4/30/2019,120,0,-9999,-9999,-9999,12533
+16347366,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,4/4/2019,94,0,-9999,-9999,-9999,12533
+17078604,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,6/5/2019,156,0,-9999,-9999,-9999,12533
+16744650,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,4/27/2019,117,0,-9999,-9999,-9999,12533
+17615236,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,8/6/2019,218,0,50,-9999,-9999,12533
+17217568,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,6/19/2019,170,1,-9999,-9999,-9999,12533
+17987829,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,9/23/2019,266,0,50,-9999,-9999,12533
+17771104,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,8/21/2019,233,0,-9999,-9999,-9999,12533
+20969650,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,11/12/2019,316,0,50,-9999,-9999,12533
+15971902,2/26/2019 8:32,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,2/26/2019,57,0,-9999,-9999,-9999,12533
+16020056,3/26/2019 7:44,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,3/5/2019,64,0,-9999,-9999,-9999,12533
+16052107,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,3/8/2019,67,0,-9999,-9999,-9999,12533
+16449953,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,3/31/2019,90,0,-9999,-9999,-9999,12533
+16640679,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,4/21/2019,111,0,-9999,-9999,-9999,12533
+17079714,6/13/2019 11:55,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,6/5/2019,156,0,-9999,-9999,-9999,12533
+17558652,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,7/29/2019,210,0,50,-9999,-9999,12533
+16213293,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,3/15/2019,74,0,-9999,-9999,-9999,12533
+16434968,4/11/2019 12:34,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,4/11/2019,101,0,-9999,-9999,-9999,12533
+16747164,5/5/2019 14:14,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,5/5/2019,125,0,-9999,-9999,-9999,12533
+17392581,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,7/3/2019,184,1,50,25-49%,-9999,12533
+17746477,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,8/26/2019,238,0,50,-9999,-9999,12533
+16318894,4/2/2019 8:38,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,4/2/2019,92,0,-9999,-9999,-9999,12533
+18183619,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,10/15/2019,288,0,-9999,-9999,-9999,12533
+16592189,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,4/23/2019,113,0,-9999,-9999,-9999,12533
+17078999,6/5/2019 13:24,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,6/5/2019,156,0,-9999,-9999,-9999,12533
+17558759,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,7/29/2019,210,0,50,-9999,-9999,12533
+18062703,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,9/30/2019,273,0,50,-9999,-9999,12533
+20970051,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,11/12/2019,316,0,50,-9999,-9999,12533
+15970765,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,2/26/2019,57,1,50,95% or more,-9999,12533
+16223281,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,3/26/2019,85,0,-9999,-9999,-9999,12533
+16110772,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,3/8/2019,67,0,-9999,-9999,-9999,12533
+16640710,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,4/27/2019,117,0,-9999,-9999,-9999,12533
+16319451,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,4/2/2019,92,0,-9999,-9999,-9999,12533
+16997668,5/29/2019 12:42,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,5/29/2019,149,0,-9999,-9999,-9999,12533
+16592492,4/30/2019 7:53,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,4/23/2019,113,0,-9999,-9999,-9999,12533
+17559254,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,7/29/2019,210,0,50,-9999,-9999,12533
+17163806,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,6/13/2019,164,1,50,5-24%,-9999,12533
+17976053,9/21/2019 13:54,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,9/21/2019,264,0,-9999,-9999,-9999,12533
+17671592,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,8/14/2019,226,0,50,-9999,-9999,12533
+20914642,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,11/5/2019,309,0,50,-9999,-9999,12533
+16120623,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,2/19/2019,50,0,-9999,-9999,-9999,12533
+16010515,3/3/2019 10:57,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,3/3/2019,62,0,-9999,-9999,-9999,12533
+16019901,3/5/2019 8:30,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,3/5/2019,64,0,-9999,-9999,-9999,12533
+16224272,4/2/2019 8:03,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,3/26/2019,85,0,-9999,-9999,-9999,12533
+16559736,4/20/2019 14:45,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,4/20/2019,110,0,-9999,-9999,-9999,12533
+16998976,5/29/2019 13:28,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,5/29/2019,149,0,-9999,-9999,-9999,12533
+17558645,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62084,501,Open flowers,7/23/2019,204,0,50,-9999,-9999,12533
+16115110,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,3/14/2019,73,0,-9999,-9999,-9999,12533
+16404642,4/16/2019 7:45,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,4/9/2019,99,0,-9999,-9999,-9999,12533
+16676214,5/29/2019 12:09,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,4/30/2019,120,0,-9999,-9999,-9999,12533
+17339805,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,6/24/2019,175,1,50,50-74%,-9999,12533
+17771097,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,8/21/2019,233,0,-9999,-9999,-9999,12533
+16303071,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,3/31/2019,90,0,-9999,-9999,-9999,12533
+18183610,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62082,501,Open flowers,10/15/2019,288,0,50,-9999,-9999,12533
+16568776,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,4/21/2019,111,0,-9999,-9999,-9999,12533
+17000226,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,5/29/2019,149,0,-9999,-9999,-9999,12533
+17558555,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,7/23/2019,204,0,50,-9999,-9999,12533
+18061905,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,9/23/2019,266,0,50,-9999,-9999,12533
+20915846,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62077,501,Open flowers,11/5/2019,309,0,50,-9999,-9999,12533
+15928848,2/19/2019 9:20,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,2/19/2019,50,0,-9999,-9999,-9999,12533
+16213338,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,3/25/2019,84,0,-9999,-9999,-9999,12533
+16019998,3/26/2019 7:44,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,3/5/2019,64,0,-9999,-9999,-9999,12533
+16590528,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,4/23/2019,113,0,-9999,-9999,-9999,12533
+16449966,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,3/31/2019,90,0,-9999,-9999,-9999,12533
+16997683,5/29/2019 12:42,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,5/29/2019,149,0,-9999,-9999,-9999,12533
+16640680,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,4/21/2019,111,0,-9999,-9999,-9999,12533
+17513412,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,7/23/2019,204,0,50,-9999,-9999,12533
+17079706,6/13/2019 11:56,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,6/5/2019,156,0,-9999,-9999,-9999,12533
+17926313,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,9/16/2019,259,0,50,-9999,-9999,12533
+17671578,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,62083,501,Open flowers,8/6/2019,218,0,50,-9999,-9999,12533
+20891472,-9999,16454,41,NY,199,Asclepias,syriaca,common milkweed,Plantae,106172,501,Open flowers,11/2/2019,306,0,50,-9999,-9999,12533
+20812119,11/20/2019 13:12,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,10/23/2019,296,0,50,-9999,-9999,12533
+21152576,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,11/16/2019,320,0,50,-9999,-9999,12533
+15748807,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,1/9/2019,9,0,50,-9999,-9999,12533
+15969300,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,2/23/2019,54,0,50,-9999,-9999,12533
+15994761,3/7/2019 13:37,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,2/28/2019,59,0,50,-9999,-9999,12533
+16040859,3/14/2019 10:22,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,3/7/2019,66,0,50,-9999,-9999,12533
+16107189,3/26/2019 14:21,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,3/14/2019,73,0,50,-9999,-9999,12533
+16158403,4/10/2019 4:35,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,3/19/2019,78,0,50,-9999,-9999,12533
+15953584,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,2/23/2019,54,0,-9999,-9999,-9999,12533
+16317840,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,3/26/2019,85,0,-9999,-9999,-9999,12533
+16319858,4/9/2019 10:25,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,4/2/2019,92,0,50,-9999,-9999,12533
+16079531,3/20/2019 7:30,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,3/12/2019,71,0,50,-9999,-9999,12533
+16348121,4/15/2019 14:39,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,4/4/2019,94,0,50,-9999,-9999,12533
+16414577,4/14/2019 15:47,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,4/9/2019,99,0,50,-9999,-9999,12533
+16160619,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,3/20/2019,79,0,-9999,-9999,-9999,12533
+16496660,4/16/2019 11:39,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,4/16/2019,106,0,-9999,-9999,-9999,12533
+16490314,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,4/16/2019,106,0,-9999,-9999,-9999,12533
+16317992,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,4/2/2019,92,0,-9999,-9999,-9999,12533
+16683338,5/16/2019 19:40,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,4/29/2019,119,0,50,-9999,-9999,12533
+16406003,4/9/2019 9:47,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,4/9/2019,99,0,-9999,-9999,-9999,12533
+16906124,6/5/2019 9:25,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,5/18/2019,138,0,50,-9999,-9999,12533
+16490328,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,4/16/2019,106,0,-9999,-9999,-9999,12533
+17110913,6/8/2019 9:23,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,6/4/2019,155,0,50,-9999,-9999,12533
+16590038,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,4/23/2019,113,0,-9999,-9999,-9999,12533
+17215518,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,6/19/2019,170,0,50,-9999,-9999,12533
+16747362,6/4/2019 10:49,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,5/3/2019,123,0,50,-9999,-9999,12533
+17338012,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,7/3/2019,184,1,50,50-74%,-9999,12533
+16952896,5/24/2019 9:50,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,5/24/2019,144,0,-9999,-9999,-9999,12533
+17503861,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,7/22/2019,203,0,50,-9999,-9999,12533
+17061808,6/4/2019 7:42,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,6/4/2019,155,0,-9999,-9999,-9999,12533
+17614208,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,8/6/2019,218,0,-9999,-9999,-9999,12533
+17291007,7/9/2019 13:05,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,6/28/2019,179,0,50,-9999,-9999,12533
+17753121,9/3/2019 18:42,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,8/27/2019,239,0,50,-9999,-9999,12533
+17415718,7/30/2019 12:41,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,7/9/2019,190,1,50,50-74%,-9999,12533
+18080117,11/4/2019 12:03,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,9/30/2019,273,0,50,-9999,-9999,12533
+18080055,11/4/2019 12:03,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,9/30/2019,273,0,50,-9999,-9999,12533
+17540705,8/20/2019 18:57,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,7/25/2019,206,0,50,-9999,-9999,12533
+20858332,10/30/2019 12:41,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,10/29/2019,302,0,50,-9999,-9999,12533
+17708071,8/20/2019 8:12,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,8/20/2019,232,0,-9999,-9999,-9999,12533
+21066187,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,11/26/2019,330,0,-9999,-9999,-9999,12533
+16596112,4/27/2019 10:56,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,4/23/2019,113,0,50,-9999,-9999,12533
+16809367,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,5/11/2019,131,0,-9999,-9999,-9999,12533
+17066186,7/4/2019 19:17,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,6/4/2019,155,0,50,-9999,-9999,12533
+17150643,6/19/2019 14:10,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,6/11/2019,162,0,50,-9999,-9999,12533
+17322801,7/2/2019 7:28,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,7/2/2019,183,0,-9999,-9999,-9999,12533
+17479362,8/6/2019 13:21,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,7/16/2019,197,1,50,-9999,-9999,12533
+17614200,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,8/6/2019,218,0,-9999,-9999,-9999,12533
+17823042,9/10/2019 13:28,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,9/3/2019,246,0,50,-9999,-9999,12533
+17503669,7/22/2019 8:03,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,7/22/2019,203,0,50,-9999,-9999,12533
+18205777,10/23/2019 13:12,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,10/17/2019,290,0,50,-9999,-9999,12533
+20995125,11/20/2019 13:18,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,11/14/2019,318,0,50,-9999,-9999,12533
+15952944,3/12/2019 8:42,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,2/23/2019,54,0,50,-9999,-9999,12533
+16146535,3/19/2019 5:43,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,2/23/2019,54,0,-9999,-9999,-9999,12533
+16022997,3/14/2019 7:33,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,3/5/2019,64,0,50,-9999,-9999,12533
+16097965,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,3/13/2019,72,0,-9999,-9999,-9999,12533
+16146750,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,3/19/2019,78,0,-9999,-9999,-9999,12533
+15963725,3/14/2019 7:33,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,2/23/2019,54,0,50,-9999,-9999,12533
+16235751,3/30/2019 9:00,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,3/26/2019,85,0,50,-9999,-9999,12533
+16241690,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,3/27/2019,86,0,-9999,-9999,-9999,12533
+16079747,4/2/2019 8:14,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,3/12/2019,71,0,50,-9999,-9999,12533
+16356435,4/10/2019 14:47,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,4/4/2019,94,0,50,-9999,-9999,12533
+16630465,5/5/2019 13:18,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,4/9/2019,99,-1,50,-9999,-9999,12533
+16158396,4/10/2019 4:35,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,3/19/2019,78,0,50,-9999,-9999,12533
+16490321,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,4/16/2019,106,0,-9999,-9999,-9999,12533
+16490187,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,4/16/2019,106,0,-9999,-9999,-9999,12533
+16319851,4/9/2019 10:25,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,4/2/2019,92,0,50,-9999,-9999,12533
+16619489,5/5/2019 18:07,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,4/24/2019,114,0,50,-9999,-9999,12533
+16590121,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,4/23/2019,113,0,-9999,-9999,-9999,12533
+16414570,4/14/2019 15:47,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,4/9/2019,99,0,50,-9999,-9999,12533
+21149528,12/5/2019 9:58,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,5/18/2019,138,0,50,-9999,-9999,12533
+16490310,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,4/16/2019,106,0,-9999,-9999,-9999,12533
+17076707,6/11/2019 19:07,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,6/4/2019,155,0,50,-9999,-9999,12533
+16600500,5/19/2019 4:43,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,4/23/2019,113,0,50,-9999,-9999,12533
+17219918,6/26/2019 13:39,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,6/19/2019,170,0,50,-9999,-9999,12533
+16696785,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,5/1/2019,121,0,-9999,-9999,-9999,12533
+17322813,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,7/2/2019,183,1,50,50-74%,-9999,12533
+16888855,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,5/18/2019,138,0,-9999,-9999,-9999,12533
+17461959,7/30/2019 12:41,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,7/16/2019,197,1,50,25-49%,-9999,12533
+17061773,6/4/2019 7:30,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,6/4/2019,155,0,-9999,-9999,-9999,12533
+17619319,8/20/2019 19:02,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,8/6/2019,218,0,50,-9999,-9999,12533
+17274473,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,6/26/2019,177,1,50,50-74%,-9999,12533
+17766381,10/1/2019 19:18,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,8/25/2019,237,0,50,-9999,-9999,12533
+17396129,9/6/2019 7:46,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,7/9/2019,190,1,50,-9999,-9999,12533
+17936926,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,9/17/2019,260,0,-9999,-9999,-9999,12533
+17936909,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,9/17/2019,260,0,-9999,-9999,-9999,12533
+20812086,11/20/2019 13:12,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,10/23/2019,296,0,50,-9999,-9999,12533
+17615515,8/6/2019 9:55,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,8/6/2019,218,0,50,-9999,-9999,12533
+21036761,12/13/2019 9:47,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,11/20/2019,324,0,50,-9999,-9999,12533
+21066222,11/26/2019 7:18,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,11/26/2019,330,0,-9999,-9999,-9999,12533
+16778834,5/16/2019 19:40,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,5/6/2019,126,0,50,-9999,-9999,12533
+16980892,5/27/2019 16:25,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,5/27/2019,147,0,-9999,-9999,-9999,12533
+17074949,6/5/2019 8:58,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,6/5/2019,156,0,-9999,-9999,-9999,12533
+17322790,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,7/2/2019,183,0,-9999,-9999,-9999,12533
+17447757,7/15/2019 16:04,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,7/15/2019,196,0,-9999,-9999,-9999,12533
+17619271,8/20/2019 19:02,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,8/6/2019,218,0,50,-9999,-9999,12533
+17753094,9/3/2019 18:42,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,8/27/2019,239,0,50,-9999,-9999,12533
+17461924,7/30/2019 12:41,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,7/16/2019,197,0,50,-9999,-9999,12533
+20840723,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,10/15/2019,288,0,50,-9999,-9999,12533
+20921726,11/20/2019 13:12,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,11/6/2019,310,0,50,-9999,-9999,12533
+21206892,3/5/2020 14:39,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,12/13/2019,347,0,50,-9999,-9999,12533
+15893359,3/7/2019 13:37,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,2/11/2019,42,0,50,-9999,-9999,12533
+15953629,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,2/23/2019,54,0,-9999,-9999,-9999,12533
+16027828,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,3/5/2019,64,0,50,-9999,-9999,12533
+16093116,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,3/13/2019,72,0,-9999,-9999,-9999,12533
+16146105,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,3/19/2019,78,0,-9999,-9999,-9999,12533
+15952937,3/12/2019 8:42,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,2/23/2019,54,0,50,-9999,-9999,12533
+16197797,3/24/2019 12:51,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,3/24/2019,83,0,50,-9999,-9999,12533
+16224220,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,3/26/2019,85,0,-9999,-9999,-9999,12533
+16040852,3/14/2019 10:22,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,3/7/2019,66,0,50,-9999,-9999,12533
+16332257,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,4/3/2019,93,0,-9999,-9999,-9999,12533
+16348059,4/15/2019 14:39,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,4/4/2019,94,0,50,-9999,-9999,12533
+16146765,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,3/19/2019,78,0,-9999,-9999,-9999,12533
+16485905,4/17/2019 16:20,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,4/15/2019,105,0,50,-9999,-9999,12533
+16485843,4/17/2019 16:20,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,4/15/2019,105,0,50,-9999,-9999,12533
+16241667,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,3/27/2019,86,0,-9999,-9999,-9999,12533
+16596110,4/27/2019 10:56,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,4/23/2019,113,0,50,-9999,-9999,12533
+16590125,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,4/23/2019,113,0,-9999,-9999,-9999,12533
+16407533,4/26/2019 11:02,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,4/9/2019,99,0,50,-9999,-9999,12533
+16880930,5/19/2019 20:34,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,5/15/2019,135,0,50,-9999,-9999,12533
+16485836,4/17/2019 16:20,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,4/15/2019,105,0,50,-9999,-9999,12533
+17066248,7/4/2019 19:17,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,6/4/2019,155,0,50,-9999,-9999,12533
+16590114,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,4/23/2019,113,0,-9999,-9999,-9999,12533
+17150676,6/19/2019 14:10,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,6/11/2019,162,0,50,-9999,-9999,12533
+16752240,5/5/2019 18:07,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,5/1/2019,121,0,50,-9999,-9999,12533
+17322822,7/2/2019 8:16,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,7/2/2019,183,1,50,25-49%,-9999,12533
+16896455,6/6/2019 3:47,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,5/18/2019,138,0,50,-9999,-9999,12533
+17479424,8/6/2019 13:21,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,7/16/2019,197,1,50,-9999,-9999,12533
+17061786,6/4/2019 8:34,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,6/4/2019,155,0,-9999,-9999,-9999,12533
+17617386,8/28/2019 10:39,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,8/6/2019,218,0,50,-9999,-9999,12533
+17278965,7/30/2019 12:41,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,6/26/2019,177,1,50,50-74%,-9999,12533
+17714335,9/8/2019 13:58,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,8/21/2019,233,0,50,-9999,-9999,12533
+17338025,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,7/3/2019,184,1,50,25-49%,-9999,12533
+17911291,10/30/2019 12:41,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,9/14/2019,257,0,50,-9999,-9999,12533
+17947163,11/16/2019 15:26,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,9/17/2019,260,0,50,-9999,-9999,12533
+18205750,10/23/2019 13:12,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,10/17/2019,290,0,50,-9999,-9999,12533
+17617325,8/28/2019 10:39,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,8/6/2019,218,0,50,-9999,-9999,12533
+21152514,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,11/16/2019,320,0,50,-9999,-9999,12533
+20858325,10/30/2019 12:41,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,10/29/2019,302,0,50,-9999,-9999,12533
+16696840,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,5/1/2019,121,0,-9999,-9999,-9999,12533
+16952835,5/24/2019 9:50,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,5/24/2019,144,0,-9999,-9999,-9999,12533
+17061578,6/4/2019 7:30,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,6/4/2019,155,0,-9999,-9999,-9999,12533
+17328145,7/31/2019 13:13,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,7/2/2019,183,0,50,-9999,-9999,12533
+17411229,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,7/11/2019,192,1,50,50-74%,-9999,12533
+17617332,8/28/2019 10:39,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,8/6/2019,218,0,50,-9999,-9999,12533
+17766319,10/1/2019 19:18,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,8/25/2019,237,0,50,-9999,-9999,12533
+17479355,8/6/2019 13:21,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,7/16/2019,197,0,50,-9999,-9999,12533
+18149591,10/17/2019 13:04,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,10/10/2019,283,0,50,-9999,-9999,12533
+20906441,12/14/2019 10:45,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,11/1/2019,305,0,50,-9999,-9999,12533
+21209036,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,12/13/2019,347,0,50,-9999,-9999,12533
+15781426,2/23/2019 14:15,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,1/16/2019,16,0,-9999,-9999,-9999,12533
+15963759,3/14/2019 7:33,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,2/23/2019,54,0,50,-9999,-9999,12533
+15994734,3/7/2019 13:37,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,2/28/2019,59,0,50,-9999,-9999,12533
+16079565,3/20/2019 7:30,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,3/12/2019,71,0,50,-9999,-9999,12533
+16160667,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,3/14/2019,73,0,-9999,-9999,-9999,12533
+15893352,3/7/2019 13:37,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,2/11/2019,42,0,50,-9999,-9999,12533
+16193390,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,3/23/2019,82,0,-9999,-9999,-9999,12533
+16317800,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,3/26/2019,85,0,-9999,-9999,-9999,12533
+16022990,3/14/2019 7:33,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,3/5/2019,64,0,50,-9999,-9999,12533
+16327110,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,4/2/2019,92,0,-9999,-9999,-9999,12533
+16356388,4/10/2019 14:47,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,4/4/2019,94,0,50,-9999,-9999,12533
+16146092,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,3/19/2019,78,0,-9999,-9999,-9999,12533
+16471139,4/23/2019 14:51,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,4/13/2019,103,0,50,-9999,-9999,12533
+16471096,4/23/2019 14:51,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,4/13/2019,103,0,50,-9999,-9999,12533
+16224213,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,3/26/2019,85,0,-9999,-9999,-9999,12533
+16696686,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,4/23/2019,113,0,-9999,-9999,-9999,12533
+16600507,5/19/2019 4:43,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,4/23/2019,113,0,50,-9999,-9999,12533
+16348052,4/15/2019 14:39,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,4/4/2019,94,0,50,-9999,-9999,12533
+16809424,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,5/11/2019,131,0,-9999,-9999,-9999,12533
+16471089,4/23/2019 14:51,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,4/13/2019,103,0,50,-9999,-9999,12533
+17014977,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,5/30/2019,150,0,-9999,-9999,-9999,12533
+16603845,5/9/2019 10:42,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,4/23/2019,113,0,50,-9999,-9999,12533
+17074939,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,6/5/2019,156,0,-9999,-9999,-9999,12533
+16660758,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,4/29/2019,119,0,-9999,-9999,-9999,12533
+17322809,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,7/2/2019,183,1,50,50-74%,-9999,12533
+16906090,6/5/2019 9:25,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,5/18/2019,138,0,50,-9999,-9999,12533
+17447754,7/15/2019 15:48,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,7/15/2019,196,1,50,5-24%,-9999,12533
+17084293,7/2/2019 11:39,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,6/4/2019,155,0,50,-9999,-9999,12533
+17565888,7/30/2019 9:48,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,7/30/2019,211,0,-9999,-9999,-9999,12533
+17215384,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,6/19/2019,170,0,50,-9999,-9999,12533
+17707956,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,8/20/2019,232,0,-9999,-9999,-9999,12533
+17322901,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,7/2/2019,183,1,50,75-94%,-9999,12533
+21152338,12/5/2019 11:50,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,9/14/2019,257,0,50,-9999,-9999,12533
+20840703,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,10/15/2019,288,0,50,-9999,-9999,12533
+17566726,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,7/30/2019,211,0,-9999,-9999,-9999,12533
+20995098,11/20/2019 13:18,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,11/14/2019,318,0,50,-9999,-9999,12533
+18070688,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,10/1/2019,274,0,-9999,-9999,-9999,12533
+16752247,5/5/2019 18:07,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,5/1/2019,121,0,50,-9999,-9999,12533
+16888872,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,5/18/2019,138,0,-9999,-9999,-9999,12533
+17061586,6/4/2019 8:34,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,6/4/2019,155,0,-9999,-9999,-9999,12533
+17291010,7/9/2019 13:05,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,6/28/2019,179,0,50,-9999,-9999,12533
+17411567,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,7/9/2019,190,1,50,95% or more,-9999,12533
+17565845,8/20/2019 7:08,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,7/30/2019,211,0,-9999,-9999,-9999,12533
+17714315,9/8/2019 13:58,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,8/21/2019,233,0,50,-9999,-9999,12533
+17911264,10/30/2019 12:41,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,9/14/2019,257,0,50,-9999,-9999,12533
+17447784,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,7/15/2019,196,0,-9999,-9999,-9999,12533
+18106987,10/10/2019 9:52,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,10/4/2019,277,0,50,-9999,-9999,12533
+20855202,11/20/2019 13:12,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,10/30/2019,303,0,50,-9999,-9999,12533
+21066199,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,11/26/2019,330,0,-9999,-9999,-9999,12533
+15748780,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,1/9/2019,9,0,50,-9999,-9999,12533
+15969321,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,2/23/2019,54,0,50,-9999,-9999,12533
+16146323,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,2/23/2019,54,0,-9999,-9999,-9999,12533
+16079816,4/2/2019 8:14,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,3/12/2019,71,0,50,-9999,-9999,12533
+16107162,3/26/2019 14:21,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,3/14/2019,73,0,50,-9999,-9999,12533
+15781420,2/23/2019 14:15,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,1/16/2019,16,0,-9999,-9999,-9999,12533
+16160643,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,3/20/2019,79,0,-9999,-9999,-9999,12533
+16235723,3/30/2019 9:00,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,3/26/2019,85,0,50,-9999,-9999,12533
+16027821,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,3/5/2019,64,0,50,-9999,-9999,12533
+16317964,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,4/2/2019,92,0,-9999,-9999,-9999,12533
+16332514,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,4/3/2019,93,0,-9999,-9999,-9999,12533
+16160549,3/20/2019 10:28,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,3/14/2019,73,0,-9999,-9999,-9999,12533
+16483645,4/17/2019 13:01,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,4/13/2019,103,0,50,-9999,-9999,12533
+16483611,4/17/2019 13:01,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,4/13/2019,103,0,50,-9999,-9999,12533
+16317804,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,3/26/2019,85,0,-9999,-9999,-9999,12533
+16600534,5/19/2019 4:43,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,4/23/2019,113,0,50,-9999,-9999,12533
+16603852,5/9/2019 10:42,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,4/23/2019,113,0,50,-9999,-9999,12533
+16356381,4/10/2019 14:47,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,4/4/2019,94,0,50,-9999,-9999,12533
+16778867,5/16/2019 19:40,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,5/6/2019,126,0,50,-9999,-9999,12533
+16483604,4/17/2019 13:01,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,4/13/2019,103,0,50,-9999,-9999,12533
+16980883,5/27/2019 16:41,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,5/27/2019,147,0,-9999,-9999,-9999,12533
+16630630,5/5/2019 13:18,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,4/23/2019,113,0,50,-9999,-9999,12533
+17061795,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,6/4/2019,155,0,-9999,-9999,-9999,12533
+16752000,5/5/2019 18:07,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,4/29/2019,119,0,50,-9999,-9999,12533
+17328187,7/31/2019 13:13,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,7/2/2019,183,1,50,50-74%,-9999,12533
+21149459,12/5/2019 9:58,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,5/18/2019,138,0,50,-9999,-9999,12533
+17411256,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,7/11/2019,192,1,50,50-74%,-9999,12533
+17110844,6/8/2019 9:23,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,6/4/2019,155,0,50,-9999,-9999,12533
+17565849,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,7/30/2019,211,0,-9999,-9999,-9999,12533
+17219884,6/26/2019 13:39,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,6/19/2019,170,0,50,-9999,-9999,12533
+17707952,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,8/20/2019,232,0,-9999,-9999,-9999,12533
+17322880,7/2/2019 8:21,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,7/2/2019,183,1,50,75-94%,-9999,12533
+17885948,10/5/2019 7:26,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,9/10/2019,253,0,50,-9999,-9999,12533
+18149564,10/17/2019 13:04,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,10/10/2019,283,0,50,-9999,-9999,12533
+17566766,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,7/30/2019,211,0,-9999,-9999,-9999,12533
+20921699,11/20/2019 13:12,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,11/6/2019,310,0,50,-9999,-9999,12533
+17936917,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,9/17/2019,260,0,-9999,-9999,-9999,12533
+21206865,3/5/2020 14:39,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,12/13/2019,347,0,50,-9999,-9999,12533
+16661646,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,4/29/2019,119,0,-9999,-9999,-9999,12533
+16896462,6/6/2019 3:47,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,5/18/2019,138,0,50,-9999,-9999,12533
+17061607,6/4/2019 7:41,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,6/4/2019,155,0,-9999,-9999,-9999,12533
+17273755,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,6/26/2019,177,0,50,-9999,-9999,12533
+17415725,7/30/2019 12:41,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,7/9/2019,190,1,50,95% or more,-9999,12533
+17575482,9/4/2019 8:23,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,7/30/2019,211,0,50,-9999,-9999,12533
+17707947,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,8/20/2019,232,0,-9999,-9999,-9999,12533
+21152276,12/5/2019 11:50,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,9/14/2019,257,0,50,-9999,-9999,12533
+17411222,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,7/11/2019,192,1,50,50-74%,-9999,12533
+18070663,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,10/1/2019,274,0,-9999,-9999,-9999,12533
+20846204,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,10/29/2019,302,0,-9999,-9999,-9999,12533
+21066184,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,11/26/2019,330,0,-9999,-9999,-9999,12533
+15953006,3/12/2019 8:42,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,2/23/2019,54,0,50,-9999,-9999,12533
+16146524,3/19/2019 5:41,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,2/23/2019,54,0,-9999,-9999,-9999,12533
+16040886,3/14/2019 10:22,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,3/7/2019,66,0,50,-9999,-9999,12533
+16097957,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,3/13/2019,72,0,-9999,-9999,-9999,12533
+15748773,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,1/9/2019,9,0,50,-9999,-9999,12533
+16158430,4/10/2019 4:35,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,3/19/2019,78,0,50,-9999,-9999,12533
+16197796,3/24/2019 12:51,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,3/24/2019,83,0,50,-9999,-9999,12533
+15994727,3/7/2019 13:37,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,2/28/2019,59,0,50,-9999,-9999,12533
+16319920,4/9/2019 10:25,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,4/2/2019,92,0,50,-9999,-9999,12533
+16327084,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,4/2/2019,92,0,-9999,-9999,-9999,12533
+16107155,3/26/2019 14:21,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,3/14/2019,73,0,50,-9999,-9999,12533
+16417825,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,4/10/2019,100,0,-9999,-9999,-9999,12533
+16417920,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,4/10/2019,100,0,-9999,-9999,-9999,12533
+16235716,3/30/2019 9:00,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,3/26/2019,85,0,50,-9999,-9999,12533
+16603885,5/9/2019 10:42,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,4/23/2019,113,0,50,-9999,-9999,12533
+16524141,4/25/2019 10:08,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,4/17/2019,107,0,50,-9999,-9999,12533
+16332490,4/3/2019 9:47,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,4/3/2019,93,0,-9999,-9999,-9999,12533
+16752309,5/5/2019 18:07,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,5/1/2019,121,0,50,-9999,-9999,12533
+16602764,12/5/2019 8:37,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,4/13/2019,103,0,50,-9999,-9999,12533
+16952848,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,5/24/2019,144,0,-9999,-9999,-9999,12533
+16524134,4/25/2019 10:08,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,4/17/2019,107,0,50,-9999,-9999,12533
+17061592,6/4/2019 7:13,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,6/4/2019,155,0,-9999,-9999,-9999,12533
+16683269,5/16/2019 19:40,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,4/29/2019,119,0,50,-9999,-9999,12533
+17291019,7/9/2019 13:05,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,6/28/2019,179,0,50,-9999,-9999,12533
+16880890,5/19/2019 20:34,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,5/15/2019,135,0,50,-9999,-9999,12533
+17411594,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,7/9/2019,190,1,50,95% or more,-9999,12533
+17076673,6/11/2019 19:07,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,6/4/2019,155,0,50,-9999,-9999,12533
+17575503,9/4/2019 8:23,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,7/30/2019,211,0,50,-9999,-9999,12533
+17156503,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,6/12/2019,163,0,-9999,-9999,-9999,12533
+17714541,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,8/20/2019,232,0,50,-9999,-9999,12533
+17322874,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,7/2/2019,183,1,50,75-94%,-9999,12533
+17826359,9/14/2019 9:55,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,9/3/2019,246,0,50,-9999,-9999,12533
+18106961,10/10/2019 9:52,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,10/4/2019,277,0,50,-9999,-9999,12533
+17575475,9/4/2019 8:23,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,7/30/2019,211,0,50,-9999,-9999,12533
+20906379,12/14/2019 10:45,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,11/1/2019,305,0,50,-9999,-9999,12533
+17911257,10/30/2019 12:41,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,9/14/2019,257,0,50,-9999,-9999,12533
+21208974,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,12/13/2019,347,0,50,-9999,-9999,12533
+16752007,5/5/2019 18:07,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,4/29/2019,119,0,50,-9999,-9999,12533
+16906097,6/5/2019 9:25,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,5/18/2019,138,0,50,-9999,-9999,12533
+17084300,7/2/2019 11:39,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,6/4/2019,155,0,50,-9999,-9999,12533
+17278972,7/30/2019 12:41,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,6/26/2019,177,0,50,-9999,-9999,12533
+17396135,9/6/2019 7:46,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,7/9/2019,190,1,50,-9999,-9999,12533
+17568655,8/20/2019 19:00,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,7/30/2019,211,0,50,-9999,-9999,12533
+17714521,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,8/20/2019,232,0,50,-9999,-9999,12533
+17885921,10/5/2019 7:26,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,9/10/2019,253,0,50,-9999,-9999,12533
+18070652,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,10/1/2019,274,0,-9999,-9999,-9999,12533
+20846210,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,10/29/2019,302,0,-9999,-9999,-9999,12533
+21066207,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,11/26/2019,330,0,-9999,-9999,-9999,12533
+15893386,3/7/2019 13:37,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,2/11/2019,42,0,50,-9999,-9999,12533
+15953613,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,2/23/2019,54,0,-9999,-9999,-9999,12533
+16023024,3/14/2019 7:33,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,3/5/2019,64,0,50,-9999,-9999,12533
+16079538,3/20/2019 7:30,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,3/12/2019,71,0,50,-9999,-9999,12533
+16146755,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,3/19/2019,78,0,-9999,-9999,-9999,12533
+16193397,3/23/2019 13:33,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,3/23/2019,82,0,-9999,-9999,-9999,12533
+16146318,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,2/23/2019,54,0,-9999,-9999,-9999,12533
+16241702,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,3/27/2019,86,0,-9999,-9999,-9999,12533
+16317972,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,4/2/2019,92,0,-9999,-9999,-9999,12533
+16097972,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,3/13/2019,72,0,-9999,-9999,-9999,12533
+16425836,4/17/2019 13:01,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,4/10/2019,100,0,50,-9999,-9999,12533
+16425796,4/17/2019 13:01,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,4/10/2019,100,0,50,-9999,-9999,12533
+16197421,3/24/2019 12:51,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,3/24/2019,83,0,50,-9999,-9999,12533
+16524203,4/25/2019 10:08,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,4/17/2019,107,0,50,-9999,-9999,12533
+16521809,4/24/2019 7:22,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,4/17/2019,107,0,50,-9999,-9999,12533
+16327078,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,4/2/2019,92,0,-9999,-9999,-9999,12533
+16660754,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,4/29/2019,119,0,-9999,-9999,-9999,12533
+16417833,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,4/10/2019,100,0,-9999,-9999,-9999,12533
+16888866,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,5/18/2019,138,0,-9999,-9999,-9999,12533
+16521802,4/24/2019 7:22,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,4/17/2019,107,0,50,-9999,-9999,12533
+17061617,6/4/2019 8:59,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,6/4/2019,155,0,-9999,-9999,-9999,12533
+16619420,5/5/2019 18:07,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,4/24/2019,114,0,50,-9999,-9999,12533
+17274455,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,6/26/2019,177,1,50,5-24%,-9999,12533
+16809365,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,5/11/2019,131,0,-9999,-9999,-9999,12533
+17415753,7/30/2019 12:41,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,7/9/2019,190,1,50,25-49%,-9999,12533
+17066179,7/4/2019 19:17,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,6/4/2019,155,0,50,-9999,-9999,12533
+17568697,8/20/2019 19:00,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,7/30/2019,211,0,50,-9999,-9999,12533
+17150636,6/19/2019 14:10,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,6/11/2019,162,0,50,-9999,-9999,12533
+17711446,8/27/2019 13:23,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,8/20/2019,232,0,50,-9999,-9999,12533
+17328138,7/31/2019 13:13,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,7/2/2019,183,1,50,5-24%,-9999,12533
+17865184,10/28/2019 9:17,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,9/3/2019,246,0,50,-9999,-9999,12533
+17411560,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,7/9/2019,190,1,50,95% or more,-9999,12533
+18070633,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,10/1/2019,274,0,-9999,-9999,-9999,12533
+17568648,8/20/2019 19:00,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,7/30/2019,211,0,50,-9999,-9999,12533
+20855175,11/20/2019 13:12,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,10/30/2019,303,0,50,-9999,-9999,12533
+17826325,9/14/2019 9:55,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,9/3/2019,246,0,50,-9999,-9999,12533
+21066203,11/26/2019 7:16,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,11/26/2019,330,0,-9999,-9999,-9999,12533
+16683276,5/16/2019 19:40,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,4/29/2019,119,0,50,-9999,-9999,12533
+21149466,12/5/2019 9:58,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,5/18/2019,138,0,50,-9999,-9999,12533
+17110851,6/8/2019 9:23,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,6/4/2019,155,0,50,-9999,-9999,12533
+17215391,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,6/19/2019,170,0,50,-9999,-9999,12533
+17337770,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,7/3/2019,184,1,50,25-49%,-9999,12533
+17540712,8/20/2019 18:57,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,7/25/2019,206,0,50,-9999,-9999,12533
+17711404,8/27/2019 13:23,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,8/20/2019,232,0,50,-9999,-9999,12533
+17826332,9/14/2019 9:55,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,9/3/2019,246,0,50,-9999,-9999,12533
+20858359,10/30/2019 12:41,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,10/29/2019,302,0,50,-9999,-9999,12533
+21036788,12/13/2019 9:47,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,11/20/2019,324,0,50,-9999,-9999,12533
+15781361,2/23/2019 14:15,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,1/16/2019,16,0,-9999,-9999,-9999,12533
+15963732,3/14/2019 7:33,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,2/23/2019,54,0,50,-9999,-9999,12533
+16027890,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,3/5/2019,64,0,50,-9999,-9999,12533
+16079754,4/2/2019 8:14,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,3/12/2019,71,0,50,-9999,-9999,12533
+16160275,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,3/14/2019,73,0,-9999,-9999,-9999,12533
+16160589,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,3/20/2019,79,0,-9999,-9999,-9999,12533
+16146514,3/19/2019 5:41,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,2/23/2019,54,0,-9999,-9999,-9999,12533
+16224226,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,3/26/2019,85,0,-9999,-9999,-9999,12533
+16317984,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,4/2/2019,92,0,-9999,-9999,-9999,12533
+16093108,3/13/2019 9:33,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,3/13/2019,72,0,-9999,-9999,-9999,12533
+16414617,4/14/2019 15:47,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,4/9/2019,99,0,50,-9999,-9999,12533
+16406014,4/9/2019 9:47,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,4/9/2019,99,0,-9999,-9999,-9999,12533
+16193594,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,3/23/2019,82,0,-9999,-9999,-9999,12533
+16521836,4/24/2019 7:22,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,4/17/2019,107,0,50,-9999,-9999,12533
+16497190,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,4/16/2019,106,0,-9999,-9999,-9999,12533
+16317990,4/2/2019 7:21,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,4/2/2019,92,0,-9999,-9999,-9999,12533
+16752069,5/5/2019 18:07,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,4/29/2019,119,0,50,-9999,-9999,12533
+16425789,4/17/2019 13:01,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,4/10/2019,100,0,50,-9999,-9999,12533
+16896489,6/6/2019 3:47,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,5/18/2019,138,0,50,-9999,-9999,12533
+16497184,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,4/16/2019,106,0,-9999,-9999,-9999,12533
+17084321,7/2/2019 11:39,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,6/4/2019,155,0,50,-9999,-9999,12533
+16596085,4/27/2019 10:56,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,4/23/2019,113,0,50,-9999,-9999,12533
+17278999,7/30/2019 12:41,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,6/26/2019,177,1,50,25-49%,-9999,12533
+16778827,5/16/2019 19:40,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,5/6/2019,126,0,50,-9999,-9999,12533
+17396164,9/6/2019 7:46,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,7/9/2019,190,1,50,-9999,-9999,12533
+16980929,5/27/2019 16:28,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,5/27/2019,147,0,-9999,-9999,-9999,12533
+17540760,8/20/2019 18:57,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,7/25/2019,206,0,50,-9999,-9999,12533
+17075175,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,6/5/2019,156,0,-9999,-9999,-9999,12533
+17669001,8/20/2019 19:02,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,8/14/2019,226,0,50,-9999,-9999,12533
+17346605,7/18/2019 14:53,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,7/2/2019,183,1,50,5-24%,-9999,12533
+17823069,9/10/2019 13:28,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,9/3/2019,246,0,50,-9999,-9999,12533
+17394739,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,7/9/2019,190,1,50,-9999,-9999,12533
+18070659,10/1/2019 7:26,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,139933,501,Open flowers,10/1/2019,274,0,-9999,-9999,-9999,12533
+18070524,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,10/1/2019,274,0,-9999,-9999,-9999,12533
+17557304,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,7/29/2019,210,0,50,-9999,-9999,12533
+20846194,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,10/29/2019,302,0,-9999,-9999,-9999,12533
+17766312,10/1/2019 19:18,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,64206,501,Open flowers,8/25/2019,237,0,50,-9999,-9999,12533
+21066176,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,11/26/2019,330,0,-9999,-9999,-9999,12533
+16619427,5/5/2019 18:07,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,4/24/2019,114,0,50,-9999,-9999,12533
+16880897,5/19/2019 20:34,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,5/15/2019,135,0,50,-9999,-9999,12533
+17076680,6/11/2019 19:07,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,6/4/2019,155,0,50,-9999,-9999,12533
+17219891,6/26/2019 13:39,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,6/19/2019,170,0,50,-9999,-9999,12533
+17322792,-9999,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,7/2/2019,183,0,-9999,-9999,-9999,12533
+17461931,7/30/2019 12:41,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,7/16/2019,197,0,50,-9999,-9999,12533
+17668973,8/20/2019 19:02,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,8/14/2019,226,0,50,-9999,-9999,12533
+17865164,10/28/2019 9:17,16876,89,NY,199,Asclepias,syriaca,common milkweed,Plantae,103453,501,Open flowers,9/3/2019,246,0,50,-9999,-9999,12533

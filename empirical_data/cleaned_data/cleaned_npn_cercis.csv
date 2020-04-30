@@ -1,0 +1,466 @@
+Observation_ID,Update_Datetime,Site_ID,Elevation_in_Meters,State,Species_ID,Genus,Species,Common_Name,Kingdom,Individual_ID,Phenophase_ID,Phenophase_Description,Observation_Date,Day_of_Year,Phenophase_Status,Intensity_Category_ID,Intensity_Value,Abundance_Value,hex_ids
+16397391,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,4/4/2019,94,0,-9999,-9999,-9999,7955
+16508158,4/17/2019 17:56,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,4/2/2019,92,1,50,50-74%,-9999,7955
+18015039,10/2/2019 13:32,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,9/25/2019,268,0,50,-9999,-9999,7955
+20927154,11/6/2019 19:15,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,9/30/2019,273,0,50,-9999,-9999,7955
+18198012,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,10/9/2019,282,0,50,-9999,-9999,7955
+20980951,11/13/2019 13:42,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,10/11/2019,284,0,50,-9999,-9999,7955
+20815445,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,10/23/2019,296,0,50,-9999,-9999,7955
+20973306,11/13/2019 10:53,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,10/24/2019,297,0,50,-9999,-9999,7955
+20930884,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,11/7/2019,311,0,50,-9999,-9999,7955
+20980960,11/13/2019 13:42,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,11/8/2019,312,0,50,-9999,-9999,7955
+16484741,4/15/2019 14:22,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,2/15/2019,46,0,50,-9999,-9999,7955
+16248758,3/27/2019 11:44,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177014,501,Open flowers,2/20/2019,51,0,50,-9999,-9999,7955
+18130566,10/15/2019 5:38,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,210252,501,Open flowers,10/8/2019,281,0,50,-9999,-9999,7955
+16485118,4/15/2019 14:32,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,3/1/2019,60,0,50,-9999,-9999,7955
+16492649,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177014,501,Open flowers,3/21/2019,80,1,50,25-49%,-9999,7955
+20966410,11/12/2019 8:55,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,210252,501,Open flowers,10/24/2019,297,1,50,Less than 5%,-9999,7955
+16183131,3/25/2019 9:48,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,3/21/2019,80,1,50,-9999,-9999,7955
+20949388,11/10/2019 23:26,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,210252,501,Open flowers,11/9/2019,313,0,50,-9999,-9999,7955
+16486758,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,4/12/2019,102,0,50,-9999,-9999,7955
+20974668,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,11/4/2019,308,0,50,-9999,-9999,7955
+18174536,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,10/14/2019,287,0,50,-9999,-9999,7955
+16029496,3/6/2019 13:57,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,2/27/2019,58,0,-9999,-9999,-9999,7955
+16397604,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,3/13/2019,72,1,50,95% or more,-9999,7955
+16508699,4/16/2019 14:17,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,3/1/2019,60,0,50,-9999,-9999,7955
+16404672,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,4/1/2019,91,0,-9999,-9999,-9999,7955
+16509125,4/16/2019 14:36,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,3/29/2019,88,1,50,75-94%,-9999,7955
+18005871,10/9/2019 21:03,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,9/24/2019,267,0,50,-9999,-9999,7955
+20981036,11/13/2019 13:42,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,9/28/2019,271,0,50,-9999,-9999,7955
+18146315,10/17/2019 7:43,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,10/8/2019,281,0,50,-9999,-9999,7955
+20973275,11/12/2019 23:17,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,10/10/2019,283,0,50,-9999,-9999,7955
+20814540,11/3/2019 13:38,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,10/22/2019,295,0,50,-9999,-9999,7955
+20973782,11/13/2019 6:14,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,10/22/2019,295,0,50,-9999,-9999,7955
+20943431,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,11/6/2019,310,0,50,-9999,-9999,7955
+20977398,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,11/7/2019,311,0,50,-9999,-9999,7955
+16488126,4/16/2019 9:04,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,2/13/2019,44,0,50,-9999,-9999,7955
+20848151,11/10/2019 10:31,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,210252,501,Open flowers,10/5/2019,278,0,50,-9999,-9999,7955
+16148033,3/19/2019 7:41,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,2/28/2019,59,0,50,-9999,-9999,7955
+16533878,4/18/2019 10:48,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177014,501,Open flowers,3/20/2019,79,1,50,25-49%,-9999,7955
+20795424,10/29/2019 5:46,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,210252,501,Open flowers,10/22/2019,295,0,50,-9999,-9999,7955
+16488198,4/16/2019 9:17,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,3/20/2019,79,1,50,75-94%,-9999,7955
+20940463,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,210252,501,Open flowers,11/8/2019,312,0,50,-9999,-9999,7955
+16446233,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,4/12/2019,102,1,50,-9999,-9999,7955
+20934870,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,10/30/2019,303,0,50,-9999,-9999,7955
+18165464,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,10/10/2019,283,0,50,-9999,-9999,7955
+15944112,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,2/21/2019,52,0,-9999,-9999,-9999,7955
+16050342,3/8/2019 8:54,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,3/8/2019,67,0,-9999,-9999,-9999,7955
+16521531,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,2/28/2019,59,0,-9999,-9999,-9999,7955
+17992620,9/23/2019 14:01,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,9/23/2019,266,0,50,-9999,-9999,7955
+20973742,11/13/2019 6:11,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,9/24/2019,267,0,50,-9999,-9999,7955
+18128627,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,10/7/2019,280,0,50,-9999,-9999,7955
+20973762,11/13/2019 6:11,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,10/8/2019,281,0,50,-9999,-9999,7955
+20844161,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,10/21/2019,294,0,50,-9999,-9999,7955
+20927184,11/6/2019 19:16,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,10/21/2019,294,0,50,-9999,-9999,7955
+20943958,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,11/5/2019,309,0,50,-9999,-9999,7955
+20973844,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,11/5/2019,309,0,50,-9999,-9999,7955
+20830029,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,210252,501,Open flowers,10/4/2019,277,0,50,-9999,-9999,7955
+16488146,4/16/2019 9:04,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,2/27/2019,58,0,50,-9999,-9999,7955
+16492660,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177014,501,Open flowers,3/7/2019,66,1,50,5-24%,-9999,7955
+20848161,11/10/2019 10:31,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,210252,501,Open flowers,10/19/2019,292,0,50,-9999,-9999,7955
+16163187,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,3/19/2019,78,0,-9999,-9999,-9999,7955
+20966494,11/12/2019 8:55,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,210252,501,Open flowers,11/7/2019,311,1,50,5-24%,-9999,7955
+16486748,4/15/2019 14:55,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,4/5/2019,95,0,50,-9999,-9999,7955
+20925535,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,10/29/2019,302,0,50,-9999,-9999,7955
+18195633,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,10/9/2019,282,0,50,-9999,-9999,7955
+15927240,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,2/18/2019,49,0,-9999,-9999,-9999,7955
+16133660,3/17/2019 15:39,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,3/7/2019,66,0,50,-9999,-9999,7955
+16507709,4/16/2019 13:02,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,2/26/2019,57,0,50,-9999,-9999,7955
+16479347,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,4/1/2019,91,0,-9999,-9999,-9999,7955
+16508021,4/17/2019 17:56,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,3/26/2019,85,1,50,95% or more,-9999,7955
+16482292,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,4/11/2019,101,0,-9999,-9999,-9999,7955
+16527136,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,4/17/2019,107,0,50,-9999,-9999,7955
+20907604,11/4/2019 14:00,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,10/3/2019,276,0,50,-9999,-9999,7955
+20927164,11/6/2019 19:15,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,10/7/2019,280,0,50,-9999,-9999,7955
+20907638,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,10/17/2019,290,0,50,-9999,-9999,7955
+20980921,11/13/2019 13:42,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,10/18/2019,291,0,50,-9999,-9999,7955
+20907648,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,11/4/2019,308,0,50,-9999,-9999,7955
+20927204,11/12/2019 21:38,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,11/4/2019,308,0,50,-9999,-9999,7955
+20966211,11/12/2019 8:42,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,210252,501,Open flowers,10/3/2019,276,1,50,25-49%,-9999,7955
+15973730,3/20/2019 12:40,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,2/26/2019,57,0,-9999,-9999,-9999,7955
+16248530,4/18/2019 10:45,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177014,501,Open flowers,3/6/2019,65,1,50,5-24%,-9999,7955
+20830166,11/1/2019 22:24,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,210252,501,Open flowers,10/18/2019,291,0,50,-9999,-9999,7955
+16148055,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,3/19/2019,78,1,50,50-74%,-9999,7955
+16492640,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177014,501,Open flowers,4/16/2019,106,1,-9999,-9999,-9999,7955
+20910842,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,210252,501,Open flowers,11/5/2019,309,0,50,-9999,-9999,7955
+16346270,4/12/2019 8:47,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,4/2/2019,92,1,50,-9999,-9999,7955
+20858829,11/6/2019 14:06,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,10/29/2019,302,0,50,-9999,-9999,7955
+18184563,11/6/2019 14:10,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,10/8/2019,281,0,50,-9999,-9999,7955
+20979530,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,11/12/2019,316,0,50,-9999,-9999,7955
+15913073,2/15/2019 9:47,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,2/15/2019,46,0,-9999,-9999,-9999,7955
+16029497,3/17/2019 15:38,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,3/6/2019,65,0,50,-9999,-9999,7955
+16507699,4/16/2019 13:02,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,2/19/2019,50,0,50,-9999,-9999,7955
+16397618,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,3/29/2019,88,1,-9999,-9999,-9999,7955
+16509101,4/16/2019 14:31,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,3/23/2019,82,1,50,75-94%,-9999,7955
+16404682,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,4/9/2019,99,0,-9999,-9999,-9999,7955
+16511299,4/17/2019 17:51,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,4/16/2019,106,0,50,-9999,-9999,7955
+18085484,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,10/2/2019,275,0,50,-9999,-9999,7955
+20980931,11/13/2019 13:42,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,10/4/2019,277,0,50,-9999,-9999,7955
+20815356,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,10/16/2019,289,0,50,-9999,-9999,7955
+20973297,11/13/2019 10:53,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,10/17/2019,290,0,50,-9999,-9999,7955
+20907658,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,10/31/2019,304,0,50,-9999,-9999,7955
+20977388,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,10/31/2019,304,0,50,-9999,-9999,7955
+18070378,10/8/2019 5:54,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,210252,501,Open flowers,10/1/2019,274,0,50,-9999,-9999,7955
+16485042,4/15/2019 14:22,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,2/22/2019,53,0,50,-9999,-9999,7955
+16248768,3/27/2019 11:44,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177014,501,Open flowers,2/27/2019,58,0,50,-9999,-9999,7955
+18178880,10/22/2019 6:01,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,210252,501,Open flowers,10/15/2019,288,0,50,-9999,-9999,7955
+16485654,4/15/2019 14:53,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,3/8/2019,67,0,50,-9999,-9999,7955
+16492699,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177014,501,Open flowers,4/4/2019,94,1,-9999,-9999,-9999,7955
+20953883,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,210252,501,Open flowers,11/2/2019,306,0,50,-9999,-9999,7955
+16486738,4/15/2019 14:55,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,3/29/2019,88,0,50,-9999,-9999,7955
+20866589,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,10/23/2019,296,0,50,-9999,-9999,7955
+18097465,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,10/3/2019,276,0,50,-9999,-9999,7955
+20974678,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,11/11/2019,315,0,50,-9999,-9999,7955
+16405109,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,2/5/2019,36,0,-9999,-9999,-9999,7955
+16017222,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,3/4/2019,63,0,-9999,-9999,-9999,7955
+16508637,4/16/2019 14:17,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,2/14/2019,45,0,50,-9999,-9999,7955
+16216141,4/8/2019 14:24,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,3/25/2019,84,1,50,50-74%,-9999,7955
+16508011,4/17/2019 17:56,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,3/19/2019,78,1,50,25-49%,-9999,7955
+16397401,4/8/2019 12:27,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,4/8/2019,98,0,-9999,-9999,-9999,7955
+16509163,4/17/2019 19:37,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,4/12/2019,102,0,50,-9999,-9999,7955
+18081508,10/9/2019 21:03,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,10/1/2019,274,0,50,-9999,-9999,7955
+20980941,11/13/2019 13:42,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,10/4/2019,277,0,50,-9999,-9999,7955
+18200279,10/23/2019 15:13,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,10/15/2019,288,0,50,-9999,-9999,7955
+20973285,11/12/2019 23:17,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,10/17/2019,290,0,50,-9999,-9999,7955
+20864599,11/9/2019 14:17,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,10/30/2019,303,0,50,-9999,-9999,7955
+20973834,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,10/29/2019,302,0,50,-9999,-9999,7955
+20848141,11/10/2019 10:31,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,210252,501,Open flowers,9/28/2019,271,0,50,-9999,-9999,7955
+15943704,3/19/2019 7:38,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,2/21/2019,52,0,50,-9999,-9999,7955
+15980577,4/16/2019 9:22,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177014,501,Open flowers,2/26/2019,57,1,50,Less than 5%,-9999,7955
+20830156,11/1/2019 22:24,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,210252,501,Open flowers,10/11/2019,284,0,50,-9999,-9999,7955
+16148043,3/19/2019 7:41,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,3/7/2019,66,0,50,-9999,-9999,7955
+16534248,4/18/2019 10:48,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177014,501,Open flowers,4/3/2019,93,0,50,-9999,-9999,7955
+20953783,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,210252,501,Open flowers,11/1/2019,305,0,50,-9999,-9999,7955
+16209916,4/4/2019 10:23,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,3/25/2019,84,1,50,-9999,-9999,7955
+20852794,11/6/2019 14:07,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,10/22/2019,295,0,50,-9999,-9999,7955
+18087986,10/9/2019 14:29,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,10/2/2019,275,0,50,-9999,-9999,7955
+20935765,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,11/7/2019,311,0,50,-9999,-9999,7955
+16405088,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,3/4/2019,63,0,-9999,-9999,-9999,7955
+16237739,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,3/21/2019,80,1,50,95% or more,-9999,7955
+16508956,4/16/2019 14:27,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,3/8/2019,67,0,50,-9999,-9999,7955
+16397382,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,4/8/2019,98,0,-9999,-9999,-9999,7955
+16508168,4/17/2019 17:56,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,4/9/2019,99,0,50,-9999,-9999,7955
+18066825,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,9/30/2019,273,0,50,-9999,-9999,7955
+20973263,11/12/2019 23:17,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,10/3/2019,276,0,50,-9999,-9999,7955
+20791253,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,10/14/2019,287,0,50,-9999,-9999,7955
+20973772,11/13/2019 6:14,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,10/15/2019,288,0,50,-9999,-9999,7955
+20896977,11/9/2019 15:30,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,10/29/2019,302,0,50,-9999,-9999,7955
+20927194,11/6/2019 19:16,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,10/28/2019,301,0,50,-9999,-9999,7955
+18024029,11/12/2019 8:32,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,210252,501,Open flowers,9/26/2019,269,1,50,25-49%,-9999,7955
+16488136,4/16/2019 9:04,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,2/20/2019,51,0,50,-9999,-9999,7955
+15997236,2/28/2019 15:34,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177014,501,Open flowers,2/22/2019,53,1,50,-9999,-9999,7955
+20830039,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,210252,501,Open flowers,10/11/2019,284,0,50,-9999,-9999,7955
+16050303,3/21/2019 17:20,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,3/7/2019,66,0,50,-9999,-9999,7955
+16492688,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177014,501,Open flowers,3/28/2019,87,1,50,25-49%,-9999,7955
+20889333,11/8/2019 19:08,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,210252,501,Open flowers,11/1/2019,305,0,50,-9999,-9999,7955
+16205735,4/15/2019 9:17,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,3/24/2019,83,0,50,-9999,-9999,7955
+18088946,11/6/2019 14:10,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,10/1/2019,274,0,50,-9999,-9999,7955
+20974790,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,11/6/2019,310,0,50,-9999,-9999,7955
+20812731,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,10/16/2019,289,0,50,-9999,-9999,7955
+16002061,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,3/1/2019,60,0,-9999,-9999,-9999,7955
+16405078,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,3/18/2019,77,0,-9999,-9999,-9999,7955
+16521541,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,3/7/2019,66,0,-9999,-9999,-9999,7955
+16397583,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,4/8/2019,98,0,-9999,-9999,-9999,7955
+16509135,4/16/2019 14:40,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,4/5/2019,95,1,50,5-24%,-9999,7955
+18021115,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,9/25/2019,268,0,50,-9999,-9999,7955
+20973752,11/13/2019 6:11,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,10/1/2019,274,0,50,-9999,-9999,7955
+20907614,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,10/10/2019,283,0,50,-9999,-9999,7955
+20927174,11/6/2019 19:15,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,10/14/2019,287,0,50,-9999,-9999,7955
+20907425,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,10/27/2019,300,0,50,-9999,-9999,7955
+20981056,11/13/2019 13:42,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,10/25/2019,298,0,50,-9999,-9999,7955
+20973240,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,11/11/2019,315,0,50,-9999,-9999,7955
+15926513,11/4/2019 14:57,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,2/15/2019,46,0,50,-9999,-9999,7955
+15943949,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177014,501,Open flowers,2/21/2019,52,0,-9999,-9999,-9999,7955
+20966220,11/12/2019 8:42,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,210252,501,Open flowers,10/10/2019,283,1,50,5-24%,-9999,7955
+16488188,4/16/2019 9:17,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,3/6/2019,65,0,50,-9999,-9999,7955
+16533888,4/18/2019 10:48,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177014,501,Open flowers,3/27/2019,86,1,50,25-49%,-9999,7955
+20846021,11/5/2019 6:40,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,210252,501,Open flowers,10/29/2019,302,0,50,-9999,-9999,7955
+16485664,4/15/2019 14:53,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,3/22/2019,81,0,50,-9999,-9999,7955
+18174504,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,9/30/2019,273,0,50,-9999,-9999,7955
+20925743,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,11/5/2019,309,0,50,-9999,-9999,7955
+20800312,11/6/2019 14:10,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177010,501,Open flowers,10/15/2019,288,0,50,-9999,-9999,7955
+16133650,3/17/2019 15:39,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,2/28/2019,59,0,50,-9999,-9999,7955
+16133670,-9999,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177015,501,Open flowers,3/14/2019,73,1,50,5-24%,-9999,7955
+16507719,4/16/2019 13:02,25330,187,TX,7,Cercis,canadensis,eastern redbud,Plantae,177011,501,Open flowers,3/5/2019,64,0,50,-9999,-9999,7955
+16579314,-9999,25972,239,IN,7,Cercis,canadensis,eastern redbud,Plantae,132385,501,Open flowers,4/4/2019,94,0,-9999,-9999,-9999,10566
+16223045,-9999,25972,239,IN,7,Cercis,canadensis,eastern redbud,Plantae,132385,501,Open flowers,3/25/2019,84,0,-9999,-9999,-9999,10566
+17282400,-9999,25972,239,IN,7,Cercis,canadensis,eastern redbud,Plantae,132385,501,Open flowers,6/22/2019,173,0,-9999,-9999,-9999,10566
+17243576,-9999,25972,239,IN,7,Cercis,canadensis,eastern redbud,Plantae,132385,501,Open flowers,5/8/2019,128,1,50,Less than 5%,-9999,10566
+16786977,-9999,25972,239,IN,7,Cercis,canadensis,eastern redbud,Plantae,132385,501,Open flowers,4/21/2019,111,1,50,50-74%,-9999,10566
+21044885,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173801,501,Open flowers,11/21/2019,325,0,50,-9999,-9999,10566
+15906230,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173802,501,Open flowers,2/14/2019,45,0,-9999,-9999,-9999,10566
+16902764,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173802,501,Open flowers,5/17/2019,137,0,-9999,-9999,-9999,10566
+17550235,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173802,501,Open flowers,7/19/2019,200,0,50,-9999,-9999,10566
+20816500,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173802,501,Open flowers,10/23/2019,296,0,50,-9999,-9999,10566
+16261635,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173801,501,Open flowers,3/28/2019,87,0,-9999,-9999,-9999,10566
+17044272,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173801,501,Open flowers,5/30/2019,150,0,50,-9999,-9999,10566
+17737319,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173801,501,Open flowers,8/2/2019,214,0,50,-9999,-9999,10566
+15939944,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173768,501,Open flowers,2/14/2019,45,0,-9999,-9999,-9999,10566
+16902795,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173768,501,Open flowers,5/17/2019,137,0,-9999,-9999,-9999,10566
+17550215,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173768,501,Open flowers,7/19/2019,200,0,50,-9999,-9999,10566
+20816480,10/23/2019 19:52,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173768,501,Open flowers,10/23/2019,296,0,50,-9999,-9999,10566
+21014525,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173801,501,Open flowers,10/28/2019,301,0,50,-9999,-9999,10566
+15751098,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173802,501,Open flowers,1/10/2019,10,0,-9999,-9999,-9999,10566
+16792173,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173802,501,Open flowers,5/9/2019,129,1,50,95% or more,-9999,10566
+17436705,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173802,501,Open flowers,7/11/2019,192,0,50,-9999,-9999,10566
+18023457,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173802,501,Open flowers,9/23/2019,266,1,50,Less than 5%,-9999,10566
+16105215,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173801,501,Open flowers,3/14/2019,73,0,-9999,-9999,-9999,10566
+16961296,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173801,501,Open flowers,5/24/2019,144,1,50,95% or more,-9999,10566
+17550479,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173801,501,Open flowers,7/24/2019,205,0,50,-9999,-9999,10566
+15751028,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173768,501,Open flowers,1/10/2019,10,0,-9999,-9999,-9999,10566
+16792153,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173768,501,Open flowers,5/9/2019,129,1,50,95% or more,-9999,10566
+17436685,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173768,501,Open flowers,7/11/2019,192,0,50,-9999,-9999,10566
+18023437,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173768,501,Open flowers,9/23/2019,266,0,50,-9999,-9999,10566
+20816520,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173801,501,Open flowers,10/23/2019,296,0,50,-9999,-9999,10566
+16695664,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173802,501,Open flowers,5/1/2019,121,1,50,95% or more,-9999,10566
+17436538,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173802,501,Open flowers,7/3/2019,184,0,50,-9999,-9999,10566
+17918464,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173802,501,Open flowers,9/14/2019,257,0,50,-9999,-9999,10566
+15906210,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173801,501,Open flowers,2/14/2019,45,0,-9999,-9999,-9999,10566
+16902744,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173801,501,Open flowers,5/17/2019,137,0,-9999,-9999,-9999,10566
+17550254,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173801,501,Open flowers,7/19/2019,200,0,50,-9999,-9999,10566
+16723983,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173768,501,Open flowers,5/1/2019,121,1,50,75-94%,-9999,10566
+17436518,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173768,501,Open flowers,7/3/2019,184,0,50,-9999,-9999,10566
+17918536,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173768,501,Open flowers,9/14/2019,257,0,50,-9999,-9999,10566
+18023477,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173801,501,Open flowers,9/23/2019,266,0,50,-9999,-9999,10566
+16618365,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173802,501,Open flowers,4/25/2019,115,1,50,95% or more,-9999,10566
+17282188,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173802,501,Open flowers,6/25/2019,176,0,50,-9999,-9999,10566
+17867173,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173802,501,Open flowers,9/7/2019,250,0,50,-9999,-9999,10566
+15751078,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173801,501,Open flowers,1/10/2019,10,0,-9999,-9999,-9999,10566
+16792620,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173801,501,Open flowers,5/9/2019,129,0,-9999,-9999,-9999,10566
+17436725,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173801,501,Open flowers,7/11/2019,192,0,50,-9999,-9999,10566
+16618325,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173768,501,Open flowers,4/25/2019,115,0,-9999,-9999,-9999,10566
+17282168,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173768,501,Open flowers,6/25/2019,176,0,50,-9999,-9999,10566
+17867154,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173768,501,Open flowers,9/7/2019,250,0,50,-9999,-9999,10566
+17918484,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173801,501,Open flowers,9/14/2019,257,0,50,-9999,-9999,10566
+16492905,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173802,501,Open flowers,4/16/2019,106,0,-9999,-9999,-9999,10566
+17168046,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173802,501,Open flowers,6/13/2019,164,0,50,-9999,-9999,10566
+17775646,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173802,501,Open flowers,8/27/2019,239,0,50,-9999,-9999,10566
+16695703,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173801,501,Open flowers,5/1/2019,121,1,50,75-94%,-9999,10566
+17436558,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173801,501,Open flowers,7/3/2019,184,0,50,-9999,-9999,10566
+16492848,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173768,501,Open flowers,4/16/2019,106,0,-9999,-9999,-9999,10566
+17167899,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173768,501,Open flowers,6/13/2019,164,0,50,-9999,-9999,10566
+17775626,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173768,501,Open flowers,8/27/2019,239,0,50,-9999,-9999,10566
+16433092,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173802,501,Open flowers,4/11/2019,101,0,-9999,-9999,-9999,10566
+17135170,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173802,501,Open flowers,6/5/2019,156,0,50,-9999,-9999,10566
+17737608,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173802,501,Open flowers,8/16/2019,228,0,50,-9999,-9999,10566
+21317721,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173802,501,Open flowers,12/12/2019,346,0,50,-9999,-9999,10566
+16618345,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173801,501,Open flowers,4/25/2019,115,1,50,75-94%,-9999,10566
+17282207,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173801,501,Open flowers,6/25/2019,176,0,50,-9999,-9999,10566
+17867194,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173801,501,Open flowers,9/7/2019,250,0,50,-9999,-9999,10566
+16433027,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173768,501,Open flowers,4/11/2019,101,0,-9999,-9999,-9999,10566
+17135151,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173768,501,Open flowers,6/5/2019,156,0,50,-9999,-9999,10566
+17737588,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173768,501,Open flowers,8/16/2019,228,0,50,-9999,-9999,10566
+21317701,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173768,501,Open flowers,12/12/2019,346,0,50,-9999,-9999,10566
+16261766,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173802,501,Open flowers,3/28/2019,87,0,-9999,-9999,-9999,10566
+17044252,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173802,501,Open flowers,5/30/2019,150,0,50,-9999,-9999,10566
+17737299,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173802,501,Open flowers,8/2/2019,214,0,50,-9999,-9999,10566
+21044739,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173802,501,Open flowers,11/21/2019,325,0,50,-9999,-9999,10566
+16492872,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173801,501,Open flowers,4/16/2019,106,0,-9999,-9999,-9999,10566
+17168026,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173801,501,Open flowers,6/13/2019,164,0,50,-9999,-9999,10566
+17775666,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173801,501,Open flowers,8/27/2019,239,0,50,-9999,-9999,10566
+16261508,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173768,501,Open flowers,3/28/2019,87,0,-9999,-9999,-9999,10566
+17044232,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173768,501,Open flowers,5/30/2019,150,0,50,-9999,-9999,10566
+17737279,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173768,501,Open flowers,8/2/2019,214,0,50,-9999,-9999,10566
+21044648,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173768,501,Open flowers,11/21/2019,325,0,50,-9999,-9999,10566
+21317741,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173801,501,Open flowers,12/12/2019,346,0,50,-9999,-9999,10566
+16105235,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173802,501,Open flowers,3/14/2019,73,0,-9999,-9999,-9999,10566
+16961277,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173802,501,Open flowers,5/24/2019,144,0,50,-9999,-9999,10566
+17550459,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173802,501,Open flowers,7/24/2019,205,0,50,-9999,-9999,10566
+21014535,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173802,501,Open flowers,10/28/2019,301,0,50,-9999,-9999,10566
+16433054,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173801,501,Open flowers,4/11/2019,101,0,-9999,-9999,-9999,10566
+17135190,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173801,501,Open flowers,6/5/2019,156,0,50,-9999,-9999,10566
+17737628,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173801,501,Open flowers,8/16/2019,228,0,50,-9999,-9999,10566
+16104714,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173768,501,Open flowers,3/14/2019,73,0,-9999,-9999,-9999,10566
+16961412,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173768,501,Open flowers,5/24/2019,144,0,50,-9999,-9999,10566
+17550605,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173768,501,Open flowers,7/24/2019,205,0,50,-9999,-9999,10566
+21014566,-9999,31699,237,IN,7,Cercis,canadensis,eastern redbud,Plantae,173768,501,Open flowers,10/28/2019,301,0,50,-9999,-9999,10566
+17037057,-9999,32443,240,IN,7,Cercis,canadensis,eastern redbud,Plantae,190177,501,Open flowers,6/2/2019,153,0,-9999,-9999,-9999,10566
+17854837,-9999,32443,240,IN,7,Cercis,canadensis,eastern redbud,Plantae,190177,501,Open flowers,9/8/2019,251,0,-9999,-9999,-9999,10566
+16974003,-9999,32443,240,IN,7,Cercis,canadensis,eastern redbud,Plantae,190177,501,Open flowers,5/26/2019,146,0,-9999,-9999,-9999,10566
+17674100,-9999,32443,240,IN,7,Cercis,canadensis,eastern redbud,Plantae,190177,501,Open flowers,8/14/2019,226,0,-9999,-9999,-9999,10566
+16881040,-9999,32443,240,IN,7,Cercis,canadensis,eastern redbud,Plantae,190177,501,Open flowers,5/17/2019,137,1,50,Less than 5%,-9999,10566
+17562815,-9999,32443,240,IN,7,Cercis,canadensis,eastern redbud,Plantae,190177,501,Open flowers,7/29/2019,210,0,-9999,-9999,-9999,10566
+16779694,-9999,32443,240,IN,7,Cercis,canadensis,eastern redbud,Plantae,190177,501,Open flowers,5/8/2019,128,1,50,95% or more,-9999,10566
+17458024,-9999,32443,240,IN,7,Cercis,canadensis,eastern redbud,Plantae,190177,501,Open flowers,7/17/2019,198,0,-9999,-9999,-9999,10566
+20954961,-9999,32443,240,IN,7,Cercis,canadensis,eastern redbud,Plantae,190177,501,Open flowers,11/11/2019,315,0,50,-9999,-9999,10566
+16707158,5/2/2019 5:23,32443,240,IN,7,Cercis,canadensis,eastern redbud,Plantae,190177,501,Open flowers,5/2/2019,122,1,50,95% or more,-9999,10566
+17409027,-9999,32443,240,IN,7,Cercis,canadensis,eastern redbud,Plantae,190177,501,Open flowers,7/11/2019,192,0,-9999,-9999,-9999,10566
+20856423,-9999,32443,240,IN,7,Cercis,canadensis,eastern redbud,Plantae,190177,501,Open flowers,10/30/2019,303,0,50,-9999,-9999,10566
+16608275,-9999,32443,240,IN,7,Cercis,canadensis,eastern redbud,Plantae,190177,501,Open flowers,4/24/2019,114,1,50,50-74%,-9999,10566
+17282519,-9999,32443,240,IN,7,Cercis,canadensis,eastern redbud,Plantae,190177,501,Open flowers,6/27/2019,178,0,-9999,-9999,-9999,10566
+20856107,-9999,32443,240,IN,7,Cercis,canadensis,eastern redbud,Plantae,190177,501,Open flowers,10/6/2019,279,0,50,-9999,-9999,10566
+16432652,-9999,32443,240,IN,7,Cercis,canadensis,eastern redbud,Plantae,190177,501,Open flowers,4/11/2019,101,0,-9999,-9999,-9999,10566
+17160679,6/23/2019 13:28,32443,240,IN,7,Cercis,canadensis,eastern redbud,Plantae,190177,501,Open flowers,6/13/2019,164,0,-9999,-9999,-9999,10566
+20855998,-9999,32443,240,IN,7,Cercis,canadensis,eastern redbud,Plantae,190177,501,Open flowers,9/26/2019,269,0,50,-9999,-9999,10566
+16396973,-9999,32443,240,IN,7,Cercis,canadensis,eastern redbud,Plantae,190177,501,Open flowers,4/8/2019,98,0,-9999,-9999,-9999,10566
+17099463,-9999,32443,240,IN,7,Cercis,canadensis,eastern redbud,Plantae,190177,501,Open flowers,6/7/2019,158,0,-9999,-9999,-9999,10566
+17909857,-9999,32443,240,IN,7,Cercis,canadensis,eastern redbud,Plantae,190177,501,Open flowers,9/14/2019,257,0,50,-9999,-9999,10566
+16845333,-9999,32607,235,IN,7,Cercis,canadensis,eastern redbud,Plantae,153103,501,Open flowers,5/12/2019,132,0,-9999,-9999,-9999,10566
+17737833,-9999,32607,235,IN,7,Cercis,canadensis,eastern redbud,Plantae,153103,501,Open flowers,8/25/2019,237,0,50,-9999,-9999,10566
+16724458,-9999,32607,235,IN,7,Cercis,canadensis,eastern redbud,Plantae,153103,501,Open flowers,5/3/2019,123,1,50,95% or more,-9999,10566
+17550775,-9999,32607,235,IN,7,Cercis,canadensis,eastern redbud,Plantae,153103,501,Open flowers,7/28/2019,209,0,50,-9999,-9999,10566
+16684224,-9999,32607,235,IN,7,Cercis,canadensis,eastern redbud,Plantae,153103,501,Open flowers,4/30/2019,120,1,50,75-94%,-9999,10566
+17437116,-9999,32607,235,IN,7,Cercis,canadensis,eastern redbud,Plantae,153103,501,Open flowers,7/14/2019,195,0,50,-9999,-9999,10566
+16451470,-9999,32607,235,IN,7,Cercis,canadensis,eastern redbud,Plantae,153103,501,Open flowers,4/12/2019,102,0,-9999,-9999,-9999,10566
+17249646,-9999,32607,235,IN,7,Cercis,canadensis,eastern redbud,Plantae,153103,501,Open flowers,6/23/2019,174,0,50,-9999,-9999,10566
+16390106,-9999,32607,235,IN,7,Cercis,canadensis,eastern redbud,Plantae,153103,501,Open flowers,4/8/2019,98,0,-9999,-9999,-9999,10566
+17190942,-9999,32607,235,IN,7,Cercis,canadensis,eastern redbud,Plantae,153103,501,Open flowers,6/16/2019,167,0,50,-9999,-9999,10566
+16260319,-9999,32607,235,IN,7,Cercis,canadensis,eastern redbud,Plantae,153103,501,Open flowers,3/24/2019,83,0,-9999,-9999,-9999,10566
+17135384,-9999,32607,235,IN,7,Cercis,canadensis,eastern redbud,Plantae,153103,501,Open flowers,6/2/2019,153,0,50,-9999,-9999,10566
+21014722,-9999,32607,235,IN,7,Cercis,canadensis,eastern redbud,Plantae,153103,501,Open flowers,11/17/2019,321,0,50,-9999,-9999,10566
+16983991,-9999,32607,235,IN,7,Cercis,canadensis,eastern redbud,Plantae,153103,501,Open flowers,5/26/2019,146,0,50,-9999,-9999,10566
+18167926,-9999,32607,235,IN,7,Cercis,canadensis,eastern redbud,Plantae,153103,501,Open flowers,10/13/2019,286,0,50,-9999,-9999,10566
+16903064,-9999,32607,235,IN,7,Cercis,canadensis,eastern redbud,Plantae,153103,501,Open flowers,5/19/2019,139,0,-9999,-9999,-9999,10566
+17867278,-9999,32607,235,IN,7,Cercis,canadensis,eastern redbud,Plantae,153103,501,Open flowers,9/9/2019,252,0,50,-9999,-9999,10566
+15979363,2/26/2019 13:55,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,2/21/2019,52,0,50,-9999,-9999,12559
+16726013,5/3/2019 15:19,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,4/16/2019,106,1,50,Less than 5%,-9999,12559
+17234342,6/21/2019 14:58,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,5/31/2019,151,0,50,-9999,-9999,12559
+17619112,3/30/2020 12:59,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,8/6/2019,218,0,50,-9999,-9999,12559
+15979341,2/26/2019 13:55,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,2/13/2019,44,0,50,-9999,-9999,12559
+16725991,5/3/2019 15:13,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,4/11/2019,101,0,50,-9999,-9999,12559
+16980823,6/21/2019 14:52,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,5/24/2019,144,0,50,-9999,-9999,12559
+17619090,3/30/2020 12:59,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,7/30/2019,211,0,50,-9999,-9999,12559
+15979114,2/26/2019 13:52,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,2/8/2019,39,0,50,-9999,-9999,12559
+16725969,5/3/2019 15:13,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,4/5/2019,95,0,50,-9999,-9999,12559
+16980801,6/21/2019 14:52,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,5/21/2019,141,0,50,-9999,-9999,12559
+17404627,8/6/2019 17:07,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,7/7/2019,188,0,50,-9999,-9999,12559
+22113762,3/30/2020 13:08,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,12/19/2019,353,0,50,-9999,-9999,12559
+15979092,2/26/2019 13:52,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,1/25/2019,25,0,50,-9999,-9999,12559
+16725926,5/3/2019 15:10,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,3/28/2019,87,1,50,-9999,-9999,12559
+16980768,5/27/2019 14:54,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,5/17/2019,137,1,50,Less than 5%,-9999,12559
+17404605,8/6/2019 17:07,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,7/1/2019,182,0,50,-9999,-9999,12559
+22113740,3/30/2020 13:08,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,11/25/2019,329,0,50,-9999,-9999,12559
+15783947,2/26/2019 13:48,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,1/16/2019,16,0,50,-9999,-9999,12559
+16725904,5/3/2019 15:10,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,3/22/2019,81,1,50,-9999,-9999,12559
+16980747,5/27/2019 14:54,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,5/9/2019,129,1,50,25-49%,-9999,12559
+17278318,7/10/2019 10:53,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,6/26/2019,177,0,50,-9999,-9999,12559
+22113718,3/30/2020 13:05,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,11/8/2019,312,0,50,-9999,-9999,12559
+15783925,2/26/2019 13:48,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,1/10/2019,10,0,50,-9999,-9999,12559
+16112337,5/3/2019 15:06,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,3/11/2019,70,0,50,-9999,-9999,12559
+16726079,5/27/2019 14:52,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,5/3/2019,123,1,50,95% or more,-9999,12559
+17234408,6/26/2019 13:07,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,6/21/2019,172,0,50,-9999,-9999,12559
+22113696,3/30/2020 13:05,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,10/29/2019,302,0,50,-9999,-9999,12559
+15742157,1/17/2019 8:22,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,1/4/2019,4,0,50,-9999,-9999,12559
+16112315,5/3/2019 15:06,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,3/7/2019,66,0,50,-9999,-9999,12559
+16726057,5/27/2019 14:52,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,4/30/2019,120,1,50,75-94%,-9999,12559
+17234386,6/26/2019 13:07,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,6/14/2019,165,0,50,-9999,-9999,12559
+22113674,3/30/2020 13:03,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,9/27/2019,270,0,50,-9999,-9999,12559
+15979631,3/14/2019 12:46,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,2/25/2019,56,0,50,-9999,-9999,12559
+16726035,5/3/2019 15:19,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,4/18/2019,108,1,50,5-24%,-9999,12559
+17234364,6/21/2019 14:58,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,6/6/2019,157,0,50,-9999,-9999,12559
+22113652,3/30/2020 13:03,1624,19,NY,7,Cercis,canadensis,eastern redbud,Plantae,42681,501,Open flowers,9/6/2019,249,0,50,-9999,-9999,12559
+16247542,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,3/27/2019,86,0,-9999,-9999,-9999,12559
+16514284,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,4/17/2019,107,0,-9999,-9999,-9999,12559
+16860385,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,5/15/2019,135,1,50,95% or more,-9999,12559
+17078917,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,6/5/2019,156,0,-9999,-9999,-9999,12559
+17336893,7/3/2019 7:50,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,7/3/2019,184,0,-9999,-9999,-9999,12559
+17573928,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,7/31/2019,212,0,-9999,-9999,-9999,12559
+17884186,10/22/2019 11:19,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,9/10/2019,253,0,50,-9999,-9999,12559
+20804662,10/23/2019 8:55,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,10/5/2019,278,0,-9999,-9999,-9999,12559
+20879456,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,10/31/2019,304,0,50,-9999,-9999,12559
+21172914,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,11/19/2019,323,0,50,-9999,-9999,12559
+16223220,3/26/2019 8:49,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,3/26/2019,85,0,-9999,-9999,-9999,12559
+16492615,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,4/16/2019,106,0,-9999,-9999,-9999,12559
+16789243,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,5/9/2019,129,1,50,25-49%,-9999,12559
+17032214,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,6/1/2019,152,0,-9999,-9999,-9999,12559
+17403428,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,7/2/2019,183,0,-9999,-9999,-9999,12559
+17883912,10/22/2019 11:19,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,7/31/2019,212,0,50,-9999,-9999,12559
+17883922,10/22/2019 11:19,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,9/5/2019,248,0,50,-9999,-9999,12559
+18103921,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,10/4/2019,277,0,-9999,-9999,-9999,12559
+20818846,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,10/24/2019,297,0,-9999,-9999,-9999,12559
+21010665,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,11/15/2019,319,0,50,-9999,-9999,12559
+16038275,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,3/7/2019,66,0,-9999,-9999,-9999,12559
+16448853,4/12/2019 14:48,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,4/12/2019,102,0,-9999,-9999,-9999,12559
+16777911,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,5/8/2019,128,0,-9999,-9999,-9999,12559
+16994719,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,5/29/2019,149,0,-9999,-9999,-9999,12559
+17287233,6/27/2019 12:52,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,6/27/2019,178,0,-9999,-9999,-9999,12559
+17533472,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,7/25/2019,206,0,-9999,-9999,-9999,12559
+17820505,9/3/2019 14:21,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,9/3/2019,246,0,-9999,-9999,-9999,12559
+18193588,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,10/2/2019,275,0,50,-9999,-9999,12559
+20801530,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,10/22/2019,295,0,50,-9999,-9999,12559
+20986750,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,11/14/2019,318,0,50,-9999,-9999,12559
+15943575,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,2/21/2019,52,0,-9999,-9999,-9999,12559
+16406556,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,4/9/2019,99,0,-9999,-9999,-9999,12559
+16734978,5/4/2019 15:04,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,5/4/2019,124,1,50,95% or more,-9999,12559
+16945699,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,5/23/2019,143,0,-9999,-9999,-9999,12559
+17275067,6/26/2019 9:18,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,6/26/2019,177,0,-9999,-9999,-9999,12559
+17463513,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,7/17/2019,198,0,-9999,-9999,-9999,12559
+17819482,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,9/3/2019,246,0,-9999,-9999,-9999,12559
+20804681,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,9/27/2019,270,0,-9999,-9999,-9999,12559
+20804584,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,10/19/2019,292,0,-9999,-9999,-9999,12559
+20941054,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,11/9/2019,313,0,-9999,-9999,-9999,12559
+16344429,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,4/4/2019,94,0,-9999,-9999,-9999,12559
+16700770,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,5/1/2019,121,1,50,95% or more,-9999,12559
+16874305,5/16/2019 12:57,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,5/16/2019,136,1,50,Less than 5%,-9999,12559
+17181301,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,6/15/2019,166,0,-9999,-9999,-9999,12559
+17454861,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,7/16/2019,197,0,-9999,-9999,-9999,12559
+20804926,10/23/2019 8:56,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,8/27/2019,239,0,-9999,-9999,-9999,12559
+18193364,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,9/25/2019,268,0,50,-9999,-9999,12559
+18171535,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,10/14/2019,287,0,50,-9999,-9999,12559
+20944059,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,11/9/2019,313,0,50,-9999,-9999,12559
+16344193,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,4/4/2019,94,0,-9999,-9999,-9999,12559
+16683712,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,4/30/2019,120,1,50,75-94%,-9999,12559
+16872413,5/16/2019 10:27,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,5/16/2019,136,1,-9999,-9999,-9999,12559
+17153914,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,6/12/2019,163,0,-9999,-9999,-9999,12559
+17403590,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,7/10/2019,191,0,-9999,-9999,-9999,12559
+17713741,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,8/21/2019,233,0,-9999,-9999,-9999,12559
+17960040,9/19/2019 11:25,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,9/19/2019,262,0,-9999,-9999,-9999,12559
+18171525,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,10/14/2019,287,0,50,-9999,-9999,12559
+20925525,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,11/6/2019,310,0,50,-9999,-9999,12559
+21173055,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,12/5/2019,339,0,50,-9999,-9999,12559
+16344207,4/25/2019 11:36,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,4/4/2019,94,0,-9999,-9999,-9999,12559
+16602847,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,4/24/2019,114,0,-9999,-9999,-9999,12559
+16872423,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,5/16/2019,136,1,-9999,-9999,-9999,12559
+17142881,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,6/11/2019,162,0,-9999,-9999,-9999,12559
+17394586,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,7/9/2019,190,0,-9999,-9999,-9999,12559
+17683564,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,8/16/2019,228,0,-9999,-9999,-9999,12559
+17955991,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,9/17/2019,260,0,50,-9999,-9999,12559
+18162283,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,10/12/2019,285,0,-9999,-9999,-9999,12559
+20916706,11/5/2019 18:41,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,11/5/2019,309,0,-9999,-9999,-9999,12559
+21692285,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,11/25/2019,329,0,50,-9999,-9999,12559
+16320224,4/2/2019 9:23,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,4/2/2019,92,0,-9999,-9999,-9999,12559
+16580836,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,4/22/2019,112,0,-9999,-9999,-9999,12559
+16872476,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,5/16/2019,136,1,50,95% or more,-9999,12559
+17105192,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,6/7/2019,158,0,-9999,-9999,-9999,12559
+17394579,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,7/9/2019,190,0,-9999,-9999,-9999,12559
+17637984,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,8/8/2019,220,0,-9999,-9999,-9999,12559
+20804506,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,9/11/2019,254,0,-9999,-9999,-9999,12559
+18193724,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,10/11/2019,284,0,50,-9999,-9999,12559
+20878884,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,11/1/2019,305,0,-9999,-9999,-9999,12559
+21042147,-9999,18537,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,73401,501,Open flowers,11/21/2019,325,0,50,-9999,-9999,12559
+16107822,-9999,24164,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,114543,501,Open flowers,3/14/2019,73,0,-9999,-9999,-9999,12559
+16871738,-9999,24164,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,114543,501,Open flowers,5/16/2019,136,0,-9999,-9999,-9999,12559
+17677729,-9999,24164,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,114543,501,Open flowers,7/8/2019,189,0,50,-9999,-9999,12559
+15978108,-9999,24164,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,114543,501,Open flowers,2/26/2019,57,0,-9999,-9999,-9999,12559
+16770447,-9999,24164,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,114543,501,Open flowers,5/7/2019,127,1,-9999,-9999,-9999,12559
+17677509,-9999,24164,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,114543,501,Open flowers,7/2/2019,183,0,50,-9999,-9999,12559
+16710012,-9999,24164,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,114543,501,Open flowers,5/2/2019,122,1,-9999,-9999,-9999,12559
+17276065,-9999,24164,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,114543,501,Open flowers,6/26/2019,177,0,-9999,-9999,-9999,12559
+16665137,4/29/2019 12:42,24164,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,114543,501,Open flowers,4/29/2019,119,-1,-9999,-9999,-9999,12559
+17276039,-9999,24164,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,114543,501,Open flowers,6/18/2019,169,0,-9999,-9999,-9999,12559
+16593375,4/23/2019 9:08,24164,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,114543,501,Open flowers,4/23/2019,113,-1,50,-9999,-9999,12559
+17145207,-9999,24164,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,114543,501,Open flowers,6/11/2019,162,0,-9999,-9999,-9999,12559
+16492743,4/23/2019 9:07,24164,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,114543,501,Open flowers,4/16/2019,106,-1,50,-9999,-9999,12559
+17066793,-9999,24164,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,114543,501,Open flowers,6/4/2019,155,0,-9999,-9999,-9999,12559
+17774649,8/29/2019 13:39,24164,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,114543,501,Open flowers,8/29/2019,241,0,50,-9999,-9999,12559
+16418806,-9999,24164,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,114543,501,Open flowers,4/10/2019,100,0,-9999,-9999,-9999,12559
+16995009,-9999,24164,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,114543,501,Open flowers,5/29/2019,149,0,-9999,-9999,-9999,12559
+17677928,-9999,24164,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,114543,501,Open flowers,8/15/2019,227,0,50,-9999,-9999,12559
+16161426,-9999,24164,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,114543,501,Open flowers,3/20/2019,79,0,-9999,-9999,-9999,12559
+16934224,-9999,24164,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,114543,501,Open flowers,5/22/2019,142,0,-9999,-9999,-9999,12559
+17455127,-9999,24164,28,NY,7,Cercis,canadensis,eastern redbud,Plantae,114543,501,Open flowers,7/16/2019,197,0,-9999,-9999,-9999,12559
+16306101,-9999,28483,10,NY,7,Cercis,canadensis,eastern redbud,Plantae,148159,501,Open flowers,4/1/2019,91,0,-9999,-9999,-9999,12559
+16656268,-9999,28483,10,NY,7,Cercis,canadensis,eastern redbud,Plantae,148159,501,Open flowers,4/29/2019,119,1,50,75-94%,-9999,12559
+16306080,-9999,28483,10,NY,7,Cercis,canadensis,eastern redbud,Plantae,148159,501,Open flowers,3/28/2019,87,0,-9999,-9999,-9999,12559
+16656185,-9999,28483,10,NY,7,Cercis,canadensis,eastern redbud,Plantae,148159,501,Open flowers,4/25/2019,115,1,50,95% or more,-9999,12559
+16239021,-9999,28483,10,NY,7,Cercis,canadensis,eastern redbud,Plantae,148159,501,Open flowers,3/27/2019,86,0,-9999,-9999,-9999,12559
+16656175,-9999,28483,10,NY,7,Cercis,canadensis,eastern redbud,Plantae,148159,501,Open flowers,4/22/2019,112,1,50,75-94%,-9999,12559
+16157689,-9999,28483,10,NY,7,Cercis,canadensis,eastern redbud,Plantae,148159,501,Open flowers,3/20/2019,79,0,-9999,-9999,-9999,12559
+16511667,-9999,28483,10,NY,7,Cercis,canadensis,eastern redbud,Plantae,148159,501,Open flowers,4/17/2019,107,0,-9999,-9999,-9999,12559
+16479484,-9999,28483,10,NY,7,Cercis,canadensis,eastern redbud,Plantae,148159,501,Open flowers,4/15/2019,105,1,50,Less than 5%,-9999,12559
+16476152,-9999,28483,10,NY,7,Cercis,canadensis,eastern redbud,Plantae,148159,501,Open flowers,4/10/2019,100,0,-9999,-9999,-9999,12559
+17052620,-9999,28483,10,NY,7,Cercis,canadensis,eastern redbud,Plantae,148159,501,Open flowers,6/3/2019,154,0,-9999,-9999,-9999,12559
+16390147,-9999,28483,10,NY,7,Cercis,canadensis,eastern redbud,Plantae,148159,501,Open flowers,4/8/2019,98,0,-9999,-9999,-9999,12559
+16906240,-9999,28483,10,NY,7,Cercis,canadensis,eastern redbud,Plantae,148159,501,Open flowers,5/8/2019,128,0,-9999,-9999,-9999,12559
+16360925,-9999,28483,10,NY,7,Cercis,canadensis,eastern redbud,Plantae,148159,501,Open flowers,4/5/2019,95,0,-9999,-9999,-9999,12559
+16753107,-9999,28483,10,NY,7,Cercis,canadensis,eastern redbud,Plantae,148159,501,Open flowers,5/6/2019,126,1,50,Less than 5%,-9999,12559
