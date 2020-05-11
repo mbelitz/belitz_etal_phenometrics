@@ -84,105 +84,112 @@ cdf_origpts <- 1 - exp(-(testobs/weib$estimate['scale'])^weib$estimate['shape'])
 # Step 1 Plot CDF
 
 step1 <- ggplot() + 
-  geom_line(cdf_df, mapping = aes(x = x, y = y)) +
-  geom_point(mapping = aes(x = testobs, y = cdf_origpts)) + 
-  labs(x = "Observation Dates", y = "Percent") + 
-  scale_y_continuous(expand = c(0,0), breaks = c(0,0.25,0.5,0.75,1)) +
+  geom_line(cdf_df, mapping = aes(x = x, y = y * 100)) +
+  geom_point(mapping = aes(x = testobs, y = cdf_origpts * 100)) + 
+  labs(x = "Observation Dates", y = "Percentile") + 
+  scale_y_continuous(expand = c(0,0), breaks = c(0,25,50,75,100)) +
   theme(axis.title.y = element_text(size = 12)) +
   theme(axis.title.x = element_text(size = 12)) +
   theme_classic()
 
-# Step 2 Estimate theta.hat orig for 90 percentile
+# Step 2 Estimate theta.hat orig for 90 Percentileile
 
 nintydf <- data.frame(x = cdf_df$x, y = 0.9)
 curve_intersect(nintydf, cdf_df) # intersects at x = 181.9951, y = 0.9
 
 step2 <- ggplot() + 
-  geom_line(cdf_df, mapping = aes(x = x, y = y)) +
-  geom_point(mapping = aes(x = testobs, y = cdf_origpts)) + 
-  geom_segment(aes(x = 130, xend=181.9951,y=0.9,yend=0.9), linetype = 2) +
-  geom_segment(aes(x = 181.9951, xend=181.9951,y=0,yend=0.9), linetype = 2) +
-  annotate("text", x = 176.2, y = 0.08, size = 4, label = TeX("$\\hat{\\Theta}_{original}$")) +
-  labs(x = "Observation Dates", y = "Percent") + 
+  geom_line(cdf_df, mapping = aes(x = x, y = y * 100)) +
+  geom_point(mapping = aes(x = testobs, y = cdf_origpts * 100)) + 
+  geom_segment(aes(x = 130, xend=181.9951,y=0.9 * 100,yend=0.9 * 100), linetype = 2) +
+  geom_segment(aes(x = 181.9951, xend=181.9951,y=0,yend=0.9 * 100), linetype = 2) +
+  annotate("text", x = 175, y = 0.08 * 100, size = 4, label = TeX("$\\hat{\\Theta}_{original}$")) +
+  labs(x = "Observation Dates", y = "Percentile") + 
   scale_x_continuous(expand = c(0,0)) +
-  scale_y_continuous(expand = c(0,0), breaks = c(0,0.25,0.5,0.75,0.9,1)) +
+  scale_y_continuous(expand = c(0,0), breaks = c(0,25,50,75,90,100)) +
   theme(axis.title.y = element_text(size = 12)) +
   theme(axis.title.x = element_text(size = 12)) +
   theme_classic()
 
 # Step 3 create new observation dates
-set.seed(33)
+set.seed(6)
 sim_vector <- runif(n = length(testobs),min = 0, max = 1)
 
-# new sim vector dates are 0.44594048 0.39465031 0.48372887 0.91887596 0.84388144 
-# 0.51734962 0.43712500 0.34319822 0.01551696 0.11799
-
-curve_intersect(data.frame(x = cdf_df$x, y = 0.44594), cdf_df)# 168.4662
-curve_intersect(data.frame(x = cdf_df$x, y = 0.3946), cdf_df) # 166.9187
-curve_intersect(data.frame(x = cdf_df$x, y = 0.4837), cdf_df) #169.5494
-curve_intersect(data.frame(x = cdf_df$x, y = 0.9189), cdf_df) # 182.897
-curve_intersect(data.frame(x = cdf_df$x, y = 0.8439), cdf_df) # 179.7867
-curve_intersect(data.frame(x = cdf_df$x, y = 0.5173), cdf_df) # 170.4846
-curve_intersect(data.frame(x = cdf_df$x, y = 0.4371), cdf_df) # 168.2077
-curve_intersect(data.frame(x = cdf_df$x, y = 0.3432), cdf_df) # 165.2498
-curve_intersect(data.frame(x = cdf_df$x, y = 0.01552), cdf_df) # 137.0981
-curve_intersect(data.frame(x = cdf_df$x, y = 0.11799), cdf_df) # 154.2974
+# new sim vector dates are 
+a <- curve_intersect(data.frame(x = cdf_df$x, y = sim_vector[1]), cdf_df)
+b <- curve_intersect(data.frame(x = cdf_df$x, y = sim_vector[2]), cdf_df) 
+c <- curve_intersect(data.frame(x = cdf_df$x, y = sim_vector[3]), cdf_df) 
+d <- curve_intersect(data.frame(x = cdf_df$x, y = sim_vector[4]), cdf_df) 
+e <- curve_intersect(data.frame(x = cdf_df$x, y = sim_vector[5]), cdf_df)
+f <- curve_intersect(data.frame(x = cdf_df$x, y = 0.18), cdf_df) 
+g <- curve_intersect(data.frame(x = cdf_df$x, y = sim_vector[7]), cdf_df) 
+h <- curve_intersect(data.frame(x = cdf_df$x, y = sim_vector[8]), cdf_df) 
+i <- curve_intersect(data.frame(x = cdf_df$x, y = sim_vector[9]), cdf_df) 
+j <- curve_intersect(data.frame(x = cdf_df$x, y = sim_vector[10]), cdf_df) 
 
 newpts <- data.frame(
-  x = c(168.466,166.91,169.54,182.89,179.78,170.48,168.20,165.24,137.098,154.297),
-  y = c(0.44594,0.3946,0.4837,0.9189,0.8439,0.5173,0.4371,0.3432,0.01552,0.11799))
+  x = c(a$x,b$x,c$x,d$x,e$x,f$x,g$x,h$x,i$x,j$x),
+  y = c(a$y,b$y,c$y,d$y,e$y,f$y,g$y,h$y,i$y,j$y))
 
 step3 <- ggplot() + 
-  geom_line(cdf_df, mapping = aes(x = x, y = y)) +
-  geom_point(mapping = aes(x = testobs, y = cdf_origpts), alpha = 0.75) +
+  geom_line(cdf_df, mapping = aes(x = x, y = y * 100)) +
+  geom_point(mapping = aes(x = testobs, y = cdf_origpts * 100), alpha = 0.75) +
   
-  geom_segment(aes(x = 130, xend=154.2974, y=0.11799,yend=0.11799), linetype = 2, color = "blue") +
-  geom_segment(aes(x = 154.2974, xend=154.2974,y=0,yend=0.11799), linetype = 2, color = "blue") +
-  geom_segment(aes(x = 130, xend=137.0981, y=0.01552,yend=0.01552), linetype = 2, color = "blue") +
-  geom_segment(aes(x = 137.0981, xend=137.0981,y=0,yend=0.01552), linetype = 2, color = "blue") +
-  geom_segment(aes(x = 130, xend=165.2498, y=0.3432,yend=0.3432), linetype = 2, color = "blue") +
-  geom_segment(aes(x = 165.2498, xend=165.2498,y=0,yend=0.3432), linetype = 2, color = "blue") +
-  geom_segment(aes(x = 130, xend=168.2077, y=0.4371,yend=0.4371), linetype = 2, color = "blue") +
-  geom_segment(aes(x = 168.2077, xend=168.2077,y=0,yend=0.4371), linetype = 2, color = "blue") +
-  geom_segment(aes(x = 130, xend=170.4846, y=0.5173,yend=0.5173), linetype = 2, color = "blue") +
-  geom_segment(aes(x = 170.4846, xend=170.4846,y=0,yend=0.5173), linetype = 2, color = "blue") +
-  geom_segment(aes(x = 130, xend=179.7867, y=0.8439,yend=0.8439), linetype = 2, color = "blue") +
-  geom_segment(aes(x = 179.7867, xend=179.7867,y=0,yend=0.8439), linetype = 2, color = "blue") +
-  geom_segment(aes(x = 130, xend=168.4662, y=0.44594,yend=0.44594), linetype = 2, color = "blue") +
-  geom_segment(aes(x = 168.4662, xend=168.4662,y=0,yend=0.44594), linetype = 2, color = "blue") +
-  geom_segment(aes(x = 130, xend=166.9187, y=0.3946,yend=0.3946), linetype = 2, color = "blue") +
-  geom_segment(aes(x = 166.9187, xend=166.9187,y=0,yend=0.3946), linetype = 2, color = "blue") +
-  geom_segment(aes(x = 130, xend=169.5494, y=0.4837,yend=0.4837), linetype = 2, color = "blue") +
-  geom_segment(aes(x = 169.5494, xend=169.5494,y=0,yend=0.4837), linetype = 2, color = "blue") +
-  geom_segment(aes(x = 130, xend=182.897, y=.9189,yend=.9189), linetype = 2, color = "blue") +
-  geom_segment(aes(x = 182.897, xend=182.897,y=0,yend=.9189), linetype = 2, color = "blue") +
+  geom_segment(aes(x = 130, xend=a$x, y=a$y * 100,yend=a$y * 100), linetype = 2, color = "blue") +
+  geom_segment(aes(x = a$x, xend=a$x,y=0,yend=a$y * 100), linetype = 2, color = "blue") +
   
-  geom_point(data = newpts, mapping = aes(x = x, y = y), color = "blue", alpha = 0.75) +
+  geom_segment(aes(x = 130, xend=b$x, y=b$y * 100,yend=b$y * 100), linetype = 2, color = "blue") +
+  geom_segment(aes(x = b$x, xend=b$x,y=0,yend=b$y * 100), linetype = 2, color = "blue") +
   
-  labs(x = "Observation Dates", y = "Percent") + 
+  geom_segment(aes(x = 130, xend=c$x, y=c$y * 100,yend=c$y * 100), linetype = 2, color = "blue") +
+  geom_segment(aes(x = c$x, xend=c$x,y=0,yend=c$y * 100), linetype = 2, color = "blue") +
+  
+  geom_segment(aes(x = 130, xend=d$x, y=d$y * 100,yend=d$y * 100), linetype = 2, color = "blue") +
+  geom_segment(aes(x = d$x, xend=d$x,y=0,yend=d$y * 100), linetype = 2, color = "blue") +
+  
+  geom_segment(aes(x = 130, xend=e$x, y=e$y * 100,yend=e$y * 100), linetype = 2, color = "blue") +
+  geom_segment(aes(x = e$x, xend=e$x,y=0,yend=e$y * 100), linetype = 2, color = "blue") +
+  
+  geom_segment(aes(x = 130, xend=f$x, y=f$y * 100,yend=f$y * 100), linetype = 2, color = "blue") +
+  geom_segment(aes(x = f$x, xend=f$x,y=0,yend=f$y * 100), linetype = 2, color = "blue") +
+  
+  geom_segment(aes(x = 130, xend=g$x, y=g$y * 100,yend=g$y * 100), linetype = 2, color = "blue") +
+  geom_segment(aes(x = g$x, xend=g$x,y=0,yend=g$y * 100), linetype = 2, color = "blue") +
+  
+  geom_segment(aes(x = 130, xend=h$x, y=h$y * 100,yend=h$y * 100), linetype = 2, color = "blue") +
+  geom_segment(aes(x = h$x, xend=h$x,y=0,yend=h$y * 100), linetype = 2, color = "blue") +
+  
+  geom_segment(aes(x = 130, xend=i$x, y=i$y * 100,yend=i$y * 100), linetype = 2, color = "blue") +
+  geom_segment(aes(x = i$x, xend=i$x,y=0,yend=i$y * 100), linetype = 2, color = "blue") +
+  
+  geom_segment(aes(x = 130, xend=j$x, y=j$y * 100,yend=j$y * 100), linetype = 2, color = "blue") +
+  geom_segment(aes(x = j$x, xend=j$x,y=0,yend=j$y * 100), linetype = 2, color = "blue") +
+  
+  geom_point(data = newpts, mapping = aes(x = x, y = y * 100), color = "blue", alpha = 0.75) +
+  
+  labs(x = "Observation Dates", y = "Percentile") + 
   scale_x_continuous(expand = c(0,0)) +
-  scale_y_continuous(expand = c(0,0), breaks = c(0,0.25,0.5,0.75,1)) +
+  scale_y_continuous(expand = c(0,0), breaks = c(0,25,50,75,100)) +
   theme(axis.title.y = element_text(size = 12)) +
   theme(axis.title.x = element_text(size = 12)) +
   theme_classic()
 
 # Step 4 create new cdf
-newpts <- c(168.466,166.91,169.54,182.89,179.78,170.48,168.20,165.24,137.098,154.297)
+newpts <- c(a$x, b$x, c$x, d$x, e$x, f$x, g$x, h$x, i$x, j$x)
 newcdf <-  create_predict_df(newpts)
 weib <- fitdistrplus::fitdist(newpts, distr = "weibull", method = "mle")
 cdf_newpts <- 1 - exp(-(newpts/weib$estimate['scale'])^weib$estimate['shape'])
 
 nintydf2 <- data.frame(x = newcdf$x, y = 0.9)
-curve_intersect(nintydf2, newcdf) # intersects at x = 179.5915, y = 0.9
+curve_intersect(nintydf2, newcdf) # intersects at x = 183.3495, y = 0.9
 
 step4 <- ggplot() + 
-  geom_line(newcdf, mapping = aes(x = x, y = y), color = "blue") +
-  geom_point(mapping = aes(x = newpts, y = cdf_newpts), color = "blue") + 
-  geom_segment(aes(x = 130, xend=179.5915,y=0.9,yend=0.9), linetype = 2, color = "blue") +
-  geom_segment(aes(x = 179.5915, xend=179.5915,y=0,yend=0.9), linetype = 2, color = "blue") +
-  labs(x = "Observation Dates", y = "Percent") + 
-  annotate("text", x = 177.4, y = 0.08, size = 4, label = TeX("$\\hat{\\Theta}_{i}$")) +
-  scale_y_continuous(expand = c(0,0), breaks = c(0,0.25,0.5,0.75,0.9,1)) +
+  geom_line(newcdf, mapping = aes(x = x, y = y * 100), color = "blue") +
+  geom_point(mapping = aes(x = newpts, y = cdf_newpts * 100), color = "blue") + 
+  geom_segment(aes(x = 130, xend=183.3495,y=0.9 * 100,yend=0.9 * 100), linetype = 2, color = "blue") +
+  geom_segment(aes(x = 183.3495, xend=183.3495,y=0,yend=0.9 * 100), linetype = 2, color = "blue") +
+  labs(x = "Observation Dates", y = "Percentile") + 
+  annotate("text", x = 180.5, y = 0.08 * 100, size = 4, label = TeX("$\\hat{\\Theta}_{i}$")) +
+  scale_y_continuous(expand = c(0,0), breaks = c(0,25,50,75,90,100)) +
   scale_x_continuous(expand = c(0,0)) +
   theme(axis.title.y = element_text(size = 12)) +
   theme(axis.title.x = element_text(size = 12)) +
@@ -194,9 +201,9 @@ step4 <- ggplot() +
 step5 <- ggplot() + 
   annotate("text", x = 4, y = 35.5, size = 6, label = TeX("$\\bar{\\Theta } = 
                                                           \\hat{\\Theta} _{original} - 
-                                                          \\hat{Bias}$, where")) +
+                                                          \\hat{Bias}$")) +
   annotate("text", x = 4, y = 33, size = 6, label = TeX("$\\hat{Bias} = (\\frac{1}{B}\\sum_{i = 1}^{B}\\hat{\\Theta }_{i}) 
-                                                        - \\hat{\\Theta }_{original}$, so")) + 
+                                                        - \\hat{\\Theta }_{original}$")) + 
   annotate("text", x = 4, y = 30.5, size = 6, label = TeX("$\\bar{\\Theta } = 2 \\hat{\\Theta}_{original} - \\frac{1}{B}
                                                           \\sum_{i = 1}^{B}\\hat{\\Theta}_{i}$")) + 
   scale_y_continuous(limits = c(29,37)) + 
@@ -208,6 +215,6 @@ step5 <- ggplot() +
 
 cp <- plot_grid(step1, step2, step5, step3, step4,
                 labels = c("Step 1", "Step 2", "Equation", "Step 3", "Step 4"
-                ), vjust = 1.5, hjust = -1.25)
+                ), vjust = 1, hjust = -1.25)
 
-ggsave("figures_outputs/Fig1.png", cp, dpi = 300, width = 9, height = 6)
+ggsave("figures_outputs/Fig1.png", cp, dpi = 300, width = 13, height = 9)
