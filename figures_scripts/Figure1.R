@@ -217,4 +217,4 @@ cp <- plot_grid(step1, step2, step5, step3, step4,
                 labels = c("Step 1", "Step 2", "Equation", "Step 3", "Step 4"
                 ), vjust = 1, hjust = -1.25)
 
-ggsave("figures_outputs/Fig1.png", cp, dpi = 300, width = 13, height = 9)
+ggsave("figures_outputs/Fig1.png", cp, dpi = 450, width = 10, height = 8)
