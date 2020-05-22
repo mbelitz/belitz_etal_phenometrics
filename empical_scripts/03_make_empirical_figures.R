@@ -175,7 +175,7 @@ mon_bias <- ggplot(rmse_bias2) +
 
 
 cp <- cowplot::plot_grid(flower_rmse, flower_bias, mon_rmse, mon_bias, ncol = 2, 
-                   labels = c("A", "B", "C", "D"))
+                         labels = c("A", "B", "C", "D"))
 
 ggsave(filename = "figures_outputs/empirical_outputs/empirical_results.png", plot = cp,
        width = 11, height = 8)
